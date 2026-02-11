@@ -1,0 +1,2352 @@
+[
+  {
+    "Eminent Repute": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Eminent_Repute",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "144",
+        "Level 40": "243",
+        "Level 60": "342",
+        "Level 80": "441",
+        "Level 90": "490"
+      },
+      "weapon_skills": {
+        "Main Attribute Boost [L]": {
+          "Rank 1": "Main attribute +17",
+          "Rank 2": "Main attribute +30",
+          "Rank 3": "Main attribute +44",
+          "Rank 4": "Main attribute +57",
+          "Rank 5": "Main attribute +71",
+          "Rank 6": "Main attribute +85",
+          "Rank 7": "Main attribute +98",
+          "Rank 8": "Main attribute +112",
+          "Rank 9": "Main attribute +132"
+        },
+        "Physical DMG Boost [L]": {
+          "Rank 1": "Physical DMG Dealt +5.56%",
+          "Rank 2": "Physical DMG Dealt +10%",
+          "Rank 3": "Physical DMG Dealt +14.44%",
+          "Rank 4": "Physical DMG Dealt +18.89%",
+          "Rank 5": "Physical DMG Dealt +23.33%",
+          "Rank 6": "Physical DMG Dealt +27.78%",
+          "Rank 7": "Physical DMG Dealt +32.22%",
+          "Rank 8": "Physical DMG Dealt +36.67%",
+          "Rank 9": "Physical DMG Dealt +43.33%"
+        },
+        "Brutality: Disciplinarian": {
+          "Rank 1": "ATK +10% . After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[5% + 2.5%× Stacks Consumed ] while other operators in the team gain half of this buff for 20.00s. Effects of the same name cannot stack.",
+          "Rank 2": "ATK +12% . After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[6% + 3%× Stacks Consumed ] while other operators in the team gain half of this buff for 20.00s. Effects of the same name cannot stack.",
+          "Rank 3": "ATK +14% . After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[7% + 3.5%× Stacks Consumed ] while other operators in the team gain half of this buff for 20.00s. Effects of the same name cannot stack.",
+          "Rank 4": "ATK +16% . After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[8% + 4%× Stacks Consumed ] while other operators in the team gain half of this buff for 20.00s. Effects of the same name cannot stack.",
+          "Rank 5": "ATK +18% . After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[9% + 4.5%× Stacks Consumed ] while other operators in the team gain half of this buff for 20.00s. Effects of the same name cannot stack.",
+          "Rank 6": "ATK +20% . After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[10% + 5%× Stacks Consumed ] while other operators in the team gain half of this buff for 20.00s. Effects of the same name cannot stack.",
+          "Rank 7": "ATK +22% . After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[11% + 5.5%× Stacks Consumed ] while other operators in the team gain half of this buff for 20.00s. Effects of the same name cannot stack.",
+          "Rank 8": "ATK +24% . After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[12% + 6%× Stacks Consumed ] while other operators in the team gain half of this buff for 20.00s. Effects of the same name cannot stack.",
+          "Rank 9": "ATK +28% . After the wielder consumes Vulnerability stack(s), the wielder gains ATK +[14% + 7%× Stacks Consumed ] while other operators in the team gain half of this buff for 20.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Eminent Repute.png"
+    }
+  },
+  {
+    "Forgeborn Scathe": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Forgeborn_Scathe",
+      "stats": {
+        "Level 1": "52",
+        "Level 20": "149",
+        "Level 40": "252",
+        "Level 60": "355",
+        "Level 80": "458",
+        "Level 90": "510"
+      },
+      "weapon_skills": {
+        "Intellect Boost [L]": {
+          "Rank 1": "Intellect +20",
+          "Rank 2": "Intellect +36",
+          "Rank 3": "Intellect +52",
+          "Rank 4": "Intellect +68",
+          "Rank 5": "Intellect +84",
+          "Rank 6": "Intellect +100",
+          "Rank 7": "Intellect +116",
+          "Rank 8": "Intellect +132",
+          "Rank 9": "Intellect +156"
+        },
+        "Attack Boost [L]": {
+          "Rank 1": "Attack +5%",
+          "Rank 2": "Attack +9%",
+          "Rank 3": "Attack +13%",
+          "Rank 4": "Attack +17%",
+          "Rank 5": "Attack +21%",
+          "Rank 6": "Attack +25%",
+          "Rank 7": "Attack +29%",
+          "Rank 8": "Attack +33%",
+          "Rank 9": "Attack +39%"
+        },
+        "Twilight: Blazing Wail": {
+          "Rank 1": "Heat DMG Dealt +16% . When the wielder casts an ultimate, the wielder gains Basic Attack DMG Dealt +75% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 2": "Heat DMG Dealt +19.2% . When the wielder casts an ultimate, the wielder gains Basic Attack DMG Dealt +90% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 3": "Heat DMG Dealt +22.4% . When the wielder casts an ultimate, the wielder gains Basic Attack DMG Dealt +105% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 4": "Heat DMG Dealt +25.6% . When the wielder casts an ultimate, the wielder gains Basic Attack DMG Dealt +120% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 5": "Heat DMG Dealt +28.8% . When the wielder casts an ultimate, the wielder gains Basic Attack DMG Dealt +135% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 6": "Heat DMG Dealt +32% . When the wielder casts an ultimate, the wielder gains Basic Attack DMG Dealt +150% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 7": "Heat DMG Dealt +35.2% . When the wielder casts an ultimate, the wielder gains Basic Attack DMG Dealt +165% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 8": "Heat DMG Dealt +38.4% . When the wielder casts an ultimate, the wielder gains Basic Attack DMG Dealt +180% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 9": "Heat DMG Dealt +44.8% . When the wielder casts an ultimate, the wielder gains Basic Attack DMG Dealt +210% for 20.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Forgeborn Scathe.png"
+    }
+  },
+  {
+    "Rapid Ascent": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Rapid_Ascent",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "145",
+        "Level 40": "245",
+        "Level 60": "345",
+        "Level 80": "445",
+        "Level 90": "495"
+      },
+      "weapon_skills": {
+        "Main Attribute Boost [L]": {
+          "Rank 1": "Main attribute +17",
+          "Rank 2": "Main attribute +30",
+          "Rank 3": "Main attribute +44",
+          "Rank 4": "Main attribute +57",
+          "Rank 5": "Main attribute +71",
+          "Rank 6": "Main attribute +85",
+          "Rank 7": "Main attribute +98",
+          "Rank 8": "Main attribute +112",
+          "Rank 9": "Main attribute +132"
+        },
+        "Critical Rate Boost [L]": {
+          "Rank 1": "Critical Rate +2.5%",
+          "Rank 2": "Critical Rate +4.5%",
+          "Rank 3": "Critical Rate +6.5%",
+          "Rank 4": "Critical Rate +8.5%",
+          "Rank 5": "Critical Rate +10.5%",
+          "Rank 6": "Critical Rate +12.5%",
+          "Rank 7": "Critical Rate +14.5%",
+          "Rank 8": "Critical Rate +16.5%",
+          "Rank 9": "Critical Rate +19.5%"
+        },
+        "Twilight: Azure Clouds": {
+          "Rank 1": "Battle skills and ultimates gain Physical DMG Dealt +15% . Against Staggered enemies, battle skills and ultimates also gain DMG Dealt +35% .",
+          "Rank 2": "Battle skills and ultimates gain Physical DMG Dealt +18% . Against Staggered enemies, battle skills and ultimates also gain DMG Dealt +42% .",
+          "Rank 3": "Battle skills and ultimates gain Physical DMG Dealt +21% . Against Staggered enemies, battle skills and ultimates also gain DMG Dealt +49% .",
+          "Rank 4": "Battle skills and ultimates gain Physical DMG Dealt +24% . Against Staggered enemies, battle skills and ultimates also gain DMG Dealt +56% .",
+          "Rank 5": "Battle skills and ultimates gain Physical DMG Dealt +27% . Against Staggered enemies, battle skills and ultimates also gain DMG Dealt +63% .",
+          "Rank 6": "Battle skills and ultimates gain Physical DMG Dealt +30% . Against Staggered enemies, battle skills and ultimates also gain DMG Dealt +70% .",
+          "Rank 7": "Battle skills and ultimates gain Physical DMG Dealt +33% . Against Staggered enemies, battle skills and ultimates also gain DMG Dealt +77% .",
+          "Rank 8": "Battle skills and ultimates gain Physical DMG Dealt +36% . Against Staggered enemies, battle skills and ultimates also gain DMG Dealt +84% .",
+          "Rank 9": "Battle skills and ultimates gain Physical DMG Dealt +42% . Against Staggered enemies, battle skills and ultimates also gain DMG Dealt +98% ."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Rapid Ascent.png"
+    }
+  },
+  {
+    "White Night Nova": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/White_Night_Nova",
+      "stats": {
+        "Level 1": "51",
+        "Level 20": "148",
+        "Level 40": "250",
+        "Level 60": "352",
+        "Level 80": "454",
+        "Level 90": "505"
+      },
+      "weapon_skills": {
+        "Main Attribute Boost [L]": {
+          "Rank 1": "Main attribute +17",
+          "Rank 2": "Main attribute +30",
+          "Rank 3": "Main attribute +44",
+          "Rank 4": "Main attribute +57",
+          "Rank 5": "Main attribute +71",
+          "Rank 6": "Main attribute +85",
+          "Rank 7": "Main attribute +98",
+          "Rank 8": "Main attribute +112",
+          "Rank 9": "Main attribute +132"
+        },
+        "Arts Intensity Boost [L]": {
+          "Rank 1": "Arts Intensity +10",
+          "Rank 2": "Arts Intensity +18",
+          "Rank 3": "Arts Intensity +26",
+          "Rank 4": "Arts Intensity +34",
+          "Rank 5": "Arts Intensity +42",
+          "Rank 6": "Arts Intensity +50",
+          "Rank 7": "Arts Intensity +58",
+          "Rank 8": "Arts Intensity +66",
+          "Rank 9": "Arts Intensity +78"
+        },
+        "Infliction: White Night Nova": {
+          "Rank 1": "Arts DMG Dealt +12% . After the wielder applies Combustion or Electrification , the wielder gains Arts DMG Dealt +12% and Arts Intensity +25 for 15.00s. Effects of the same name cannot stack.",
+          "Rank 2": "Arts DMG Dealt +14.4% . After the wielder applies Combustion or Electrification , the wielder gains Arts DMG Dealt +14.4% and Arts Intensity +30 for 15.00s. Effects of the same name cannot stack.",
+          "Rank 3": "Arts DMG Dealt +16.8% . After the wielder applies Combustion or Electrification , the wielder gains Arts DMG Dealt +16.8% and Arts Intensity +35 for 15.00s. Effects of the same name cannot stack.",
+          "Rank 4": "Arts DMG Dealt +19.2% . After the wielder applies Combustion or Electrification , the wielder gains Arts DMG Dealt +19.2% and Arts Intensity +40 for 15.00s. Effects of the same name cannot stack.",
+          "Rank 5": "Arts DMG Dealt +21.6% . After the wielder applies Combustion or Electrification , the wielder gains Arts DMG Dealt +21.6% and Arts Intensity +45 for 15.00s. Effects of the same name cannot stack.",
+          "Rank 6": "Arts DMG Dealt +24% . After the wielder applies Combustion or Electrification , the wielder gains Arts DMG Dealt +24% and Arts Intensity +50 for 15.00s. Effects of the same name cannot stack.",
+          "Rank 7": "Arts DMG Dealt +26.4% . After the wielder applies Combustion or Electrification , the wielder gains Arts DMG Dealt +26.4% and Arts Intensity +55 for 15.00s. Effects of the same name cannot stack.",
+          "Rank 8": "Arts DMG Dealt +28.8% . After the wielder applies Combustion or Electrification , the wielder gains Arts DMG Dealt +28.8% and Arts Intensity +60 for 15.00s. Effects of the same name cannot stack.",
+          "Rank 9": "Arts DMG Dealt +33.6% . After the wielder applies Combustion or Electrification , the wielder gains Arts DMG Dealt +33.6% and Arts Intensity +70 for 15.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/White Night Nova.png"
+    }
+  },
+  {
+    "Never Rest": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Never_Rest",
+      "stats": {
+        "Level 1": "51",
+        "Level 20": "146",
+        "Level 40": "247",
+        "Level 60": "348",
+        "Level 80": "449",
+        "Level 90": "500"
+      },
+      "weapon_skills": {
+        "Will Boost [L]": {
+          "Rank 1": "Will +20",
+          "Rank 2": "Will +36",
+          "Rank 3": "Will +52",
+          "Rank 4": "Will +68",
+          "Rank 5": "Will +84",
+          "Rank 6": "Will +100",
+          "Rank 7": "Will +116",
+          "Rank 8": "Will +132",
+          "Rank 9": "Will +156"
+        },
+        "Attack Boost [L]": {
+          "Rank 1": "Attack +5%",
+          "Rank 2": "Attack +9%",
+          "Rank 3": "Attack +13%",
+          "Rank 4": "Attack +17%",
+          "Rank 5": "Attack +21%",
+          "Rank 6": "Attack +25%",
+          "Rank 7": "Attack +29%",
+          "Rank 8": "Attack +33%",
+          "Rank 9": "Attack +39%"
+        },
+        "Flow: Reincarnation": {
+          "Rank 1": "Physical DMG Dealt +16% . After the wielder's skill recovers SP, the wielder gains Physical DMG Dealt +5% while other operators in the team gain Physical DMG Dealt +2.5% for 30.00s. Max stacks for effects of the same name: 5.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 2": "Physical DMG Dealt +19.2% . After the wielder's skill recovers SP, the wielder gains Physical DMG Dealt +6% while other operators in the team gain Physical DMG Dealt +3% for 30.00s. Max stacks for effects of the same name: 5.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 3": "Physical DMG Dealt +22.4% . After the wielder's skill recovers SP, the wielder gains Physical DMG Dealt +7% while other operators in the team gain Physical DMG Dealt +3.5% for 30.00s. Max stacks for effects of the same name: 5.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 4": "Physical DMG Dealt +25.6% . After the wielder's skill recovers SP, the wielder gains Physical DMG Dealt +8% while other operators in the team gain Physical DMG Dealt +4% for 30.00s. Max stacks for effects of the same name: 5.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 5": "Physical DMG Dealt +28.8% . After the wielder's skill recovers SP, the wielder gains Physical DMG Dealt +9% while other operators in the team gain Physical DMG Dealt +4.5% for 30.00s. Max stacks for effects of the same name: 5.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 6": "Physical DMG Dealt +32% . After the wielder's skill recovers SP, the wielder gains Physical DMG Dealt +10% while other operators in the team gain Physical DMG Dealt +5% for 30.00s. Max stacks for effects of the same name: 5.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 7": "Physical DMG Dealt +35.2% . After the wielder's skill recovers SP, the wielder gains Physical DMG Dealt +11% while other operators in the team gain Physical DMG Dealt +5.5% for 30.00s. Max stacks for effects of the same name: 5.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 8": "Physical DMG Dealt +38.4% . After the wielder's skill recovers SP, the wielder gains Physical DMG Dealt +12% while other operators in the team gain Physical DMG Dealt +6% for 30.00s. Max stacks for effects of the same name: 5.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 9": "Physical DMG Dealt +44.8% . After the wielder's skill recovers SP, the wielder gains Physical DMG Dealt +14% while other operators in the team gain Physical DMG Dealt +7% for 30.00s. Max stacks for effects of the same name: 5.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Never Rest.png"
+    }
+  },
+  {
+    "Grand Vision": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Grand_Vision",
+      "stats": {
+        "Level 1": "51",
+        "Level 20": "146",
+        "Level 40": "247",
+        "Level 60": "348",
+        "Level 80": "449",
+        "Level 90": "500"
+      },
+      "weapon_skills": {
+        "Agility Boost [L]": {
+          "Rank 1": "Agility +20",
+          "Rank 2": "Agility +36",
+          "Rank 3": "Agility +52",
+          "Rank 4": "Agility +68",
+          "Rank 5": "Agility +84",
+          "Rank 6": "Agility +100",
+          "Rank 7": "Agility +116",
+          "Rank 8": "Agility +132",
+          "Rank 9": "Agility +156"
+        },
+        "Attack Boost [L]": {
+          "Rank 1": "Attack +5%",
+          "Rank 2": "Attack +9%",
+          "Rank 3": "Attack +13%",
+          "Rank 4": "Attack +17%",
+          "Rank 5": "Attack +21%",
+          "Rank 6": "Attack +25%",
+          "Rank 7": "Attack +29%",
+          "Rank 8": "Attack +33%",
+          "Rank 9": "Attack +39%"
+        },
+        "Infliction: Long Time Wish": {
+          "Rank 1": "Arts Intensity +30 . When the wielder applies Originium Crystals or Solidification , during the next battle skill or ultimate cast within 20.00s, the wielder gains Physical DMG Dealt +36% . Effects of the same name cannot stack.",
+          "Rank 2": "Arts Intensity +36 . When the wielder applies Originium Crystals or Solidification , during the next battle skill or ultimate cast within 20.00s, the wielder gains Physical DMG Dealt +43.2% . Effects of the same name cannot stack.",
+          "Rank 3": "Arts Intensity +42 . When the wielder applies Originium Crystals or Solidification , during the next battle skill or ultimate cast within 20.00s, the wielder gains Physical DMG Dealt +50.4% . Effects of the same name cannot stack.",
+          "Rank 4": "Arts Intensity +48 . When the wielder applies Originium Crystals or Solidification , during the next battle skill or ultimate cast within 20.00s, the wielder gains Physical DMG Dealt +57.6% . Effects of the same name cannot stack.",
+          "Rank 5": "Arts Intensity +54 . When the wielder applies Originium Crystals or Solidification , during the next battle skill or ultimate cast within 20.00s, the wielder gains Physical DMG Dealt +64.8% . Effects of the same name cannot stack.",
+          "Rank 6": "Arts Intensity +60 . When the wielder applies Originium Crystals or Solidification , during the next battle skill or ultimate cast within 20.00s, the wielder gains Physical DMG Dealt +72% . Effects of the same name cannot stack.",
+          "Rank 7": "Arts Intensity +66 . When the wielder applies Originium Crystals or Solidification , during the next battle skill or ultimate cast within 20.00s, the wielder gains Physical DMG Dealt +79.2% . Effects of the same name cannot stack.",
+          "Rank 8": "Arts Intensity +72 . When the wielder applies Originium Crystals or Solidification , during the next battle skill or ultimate cast within 20.00s, the wielder gains Physical DMG Dealt +86.4% . Effects of the same name cannot stack.",
+          "Rank 9": "Arts Intensity +84 . When the wielder applies Originium Crystals or Solidification , during the next battle skill or ultimate cast within 20.00s, the wielder gains Physical DMG Dealt +100.8% . Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Grand Vision.png"
+    }
+  },
+  {
+    "Thermite Cutter": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Thermite_Cutter",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "144",
+        "Level 40": "243",
+        "Level 60": "342",
+        "Level 80": "441",
+        "Level 90": "490"
+      },
+      "weapon_skills": {
+        "Will Boost [L]": {
+          "Rank 1": "Will +20",
+          "Rank 2": "Will +36",
+          "Rank 3": "Will +52",
+          "Rank 4": "Will +68",
+          "Rank 5": "Will +84",
+          "Rank 6": "Will +100",
+          "Rank 7": "Will +116",
+          "Rank 8": "Will +132",
+          "Rank 9": "Will +156"
+        },
+        "Attack Boost [L]": {
+          "Rank 1": "Attack +5%",
+          "Rank 2": "Attack +9%",
+          "Rank 3": "Attack +13%",
+          "Rank 4": "Attack +17%",
+          "Rank 5": "Attack +21%",
+          "Rank 6": "Attack +25%",
+          "Rank 7": "Attack +29%",
+          "Rank 8": "Attack +33%",
+          "Rank 9": "Attack +39%"
+        },
+        "Flow: Thermal Release": {
+          "Rank 1": "ATK +10% . After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 2": "ATK +12% . After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +6% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 3": "ATK +14% . After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +7% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 4": "ATK +16% . After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +8% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 5": "ATK +18% . After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +9% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 6": "ATK +20% . After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +10% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 7": "ATK +22% . After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +11% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 8": "ATK +24% . After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +12% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 9": "ATK +28% . After the wielder's skill recovers SP or grants a Link state, the entire team gains ATK +14% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Thermite Cutter.png"
+    }
+  },
+  {
+    "Umbral Torch": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Umbral_Torch",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "144",
+        "Level 40": "243",
+        "Level 60": "342",
+        "Level 80": "441",
+        "Level 90": "490"
+      },
+      "weapon_skills": {
+        "Intellect Boost [L]": {
+          "Rank 1": "Intellect +20",
+          "Rank 2": "Intellect +36",
+          "Rank 3": "Intellect +52",
+          "Rank 4": "Intellect +68",
+          "Rank 5": "Intellect +84",
+          "Rank 6": "Intellect +100",
+          "Rank 7": "Intellect +116",
+          "Rank 8": "Intellect +132",
+          "Rank 9": "Intellect +156"
+        },
+        "Heat DMG Boost [L]": {
+          "Rank 1": "Heat DMG Dealt +5.56%",
+          "Rank 2": "Heat DMG Dealt +10%",
+          "Rank 3": "Heat DMG Dealt +14.44%",
+          "Rank 4": "Heat DMG Dealt +18.89%",
+          "Rank 5": "Heat DMG Dealt +23.33%",
+          "Rank 6": "Heat DMG Dealt +27.78%",
+          "Rank 7": "Heat DMG Dealt +32.22%",
+          "Rank 8": "Heat DMG Dealt +36.67%",
+          "Rank 9": "Heat DMG Dealt +43.33%"
+        },
+        "Infliction: Covetous Buildup": {
+          "Rank 1": "ATK +7% . Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +8% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 2": "ATK +8.4% . Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +9.6% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 3": "ATK +9.8% . Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +11.2% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 4": "ATK +11.2% . Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +12.8% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 5": "ATK +12.6% . Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +14.4% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 6": "ATK +14% . Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +16% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 7": "ATK +15.4% . Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +17.6% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 8": "ATK +16.8% . Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +19.2% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 9": "ATK +19.6% . Whenever Combustion or Corrosion is applied to an enemy, the wielder gains Heat and Nature DMG Dealt +22.4% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Umbral Torch.png"
+    }
+  },
+  {
+    "Sundering Steel": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Sundering_Steel",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Agility Boost [M]": {
+          "Rank 1": "Agility +16",
+          "Rank 2": "Agility +28",
+          "Rank 3": "Agility +41",
+          "Rank 4": "Agility +54",
+          "Rank 5": "Agility +67",
+          "Rank 6": "Agility +80",
+          "Rank 7": "Agility +92",
+          "Rank 8": "Agility +105",
+          "Rank 9": "Agility +124"
+        },
+        "Physical DMG Boost [M]": {
+          "Rank 1": "Physical DMG Dealt +4.44%",
+          "Rank 2": "Physical DMG Dealt +8%",
+          "Rank 3": "Physical DMG Dealt +11.56%",
+          "Rank 4": "Physical DMG Dealt +15.11%",
+          "Rank 5": "Physical DMG Dealt +18.67%",
+          "Rank 6": "Physical DMG Dealt +22.22%",
+          "Rank 7": "Physical DMG Dealt +25.78%",
+          "Rank 8": "Physical DMG Dealt +29.33%",
+          "Rank 9": "Physical DMG Dealt +34.67%"
+        },
+        "Combative: Anthem of Cinder": {
+          "Rank 1": "ATK +5% . When the wielder deals a Physical Status , the wielder gains ATK +7.5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 2": "ATK +6% . When the wielder deals a Physical Status , the wielder gains ATK +9% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 3": "ATK +7% . When the wielder deals a Physical Status , the wielder gains ATK +10.5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 4": "ATK +8% . When the wielder deals a Physical Status , the wielder gains ATK +12% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 5": "ATK +9% . When the wielder deals a Physical Status , the wielder gains ATK +13.5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 6": "ATK +10% . When the wielder deals a Physical Status , the wielder gains ATK +15% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 7": "ATK +11% . When the wielder deals a Physical Status , the wielder gains ATK +16.5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 8": "ATK +12% . When the wielder deals a Physical Status , the wielder gains ATK +18% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 9": "ATK +14% . When the wielder deals a Physical Status , the wielder gains ATK +21% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Sundering Steel.png"
+    }
+  },
+  {
+    "Fortmaker": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Fortmaker",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Intellect Boost [M]": {
+          "Rank 1": "Intellect +16",
+          "Rank 2": "Intellect +28",
+          "Rank 3": "Intellect +41",
+          "Rank 4": "Intellect +54",
+          "Rank 5": "Intellect +67",
+          "Rank 6": "Intellect +80",
+          "Rank 7": "Intellect +92",
+          "Rank 8": "Intellect +105",
+          "Rank 9": "Intellect +124"
+        },
+        "Ultimate Gain Efficiency Boost [M]": {
+          "Rank 1": "Ultimate Gain Efficiency +4.76%",
+          "Rank 2": "Ultimate Gain Efficiency +8.57%",
+          "Rank 3": "Ultimate Gain Efficiency +12.38%",
+          "Rank 4": "Ultimate Gain Efficiency +16.19%",
+          "Rank 5": "Ultimate Gain Efficiency +20%",
+          "Rank 6": "Ultimate Gain Efficiency +23.81%",
+          "Rank 7": "Ultimate Gain Efficiency +27.62%",
+          "Rank 8": "Ultimate Gain Efficiency +31.43%",
+          "Rank 9": "Ultimate Gain Efficiency +37.14%"
+        },
+        "Inspiring: Back to the Broken City": {
+          "Rank 1": "ATK +5% . Arts Intensity +25 .",
+          "Rank 2": "ATK +6% . Arts Intensity +30 .",
+          "Rank 3": "ATK +7% . Arts Intensity +35 .",
+          "Rank 4": "ATK +8% . Arts Intensity +40 .",
+          "Rank 5": "ATK +9% . Arts Intensity +45 .",
+          "Rank 6": "ATK +10% . Arts Intensity +50 .",
+          "Rank 7": "ATK +11% . Arts Intensity +55 .",
+          "Rank 8": "ATK +12% . Arts Intensity +60 .",
+          "Rank 9": "ATK +14% . Arts Intensity +70 ."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Fortmaker.png"
+    }
+  },
+  {
+    "Aspirant": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Aspirant",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Agility Boost [M]": {
+          "Rank 1": "Agility +16",
+          "Rank 2": "Agility +28",
+          "Rank 3": "Agility +41",
+          "Rank 4": "Agility +54",
+          "Rank 5": "Agility +67",
+          "Rank 6": "Agility +80",
+          "Rank 7": "Agility +92",
+          "Rank 8": "Agility +105",
+          "Rank 9": "Agility +124"
+        },
+        "Physical DMG Boost [M]": {
+          "Rank 1": "Physical DMG Dealt +4.44%",
+          "Rank 2": "Physical DMG Dealt +8%",
+          "Rank 3": "Physical DMG Dealt +11.56%",
+          "Rank 4": "Physical DMG Dealt +15.11%",
+          "Rank 5": "Physical DMG Dealt +18.67%",
+          "Rank 6": "Physical DMG Dealt +22.22%",
+          "Rank 7": "Physical DMG Dealt +25.78%",
+          "Rank 8": "Physical DMG Dealt +29.33%",
+          "Rank 9": "Physical DMG Dealt +34.67%"
+        },
+        "Twilight: Imposing Peak": {
+          "Rank 1": "Ultimate DMG Dealt +16% . After the wielder applies Lifted , during the next ultimate cast within 30.00s, the wielder gains Physical DMG Dealt +12% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+          "Rank 2": "Ultimate DMG Dealt +19.2% . After the wielder applies Lifted , during the next ultimate cast within 30.00s, the wielder gains Physical DMG Dealt +14.4% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+          "Rank 3": "Ultimate DMG Dealt +22.4% . After the wielder applies Lifted , during the next ultimate cast within 30.00s, the wielder gains Physical DMG Dealt +16.8% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+          "Rank 4": "Ultimate DMG Dealt +25.6% . After the wielder applies Lifted , during the next ultimate cast within 30.00s, the wielder gains Physical DMG Dealt +19.2% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+          "Rank 5": "Ultimate DMG Dealt +28.8% . After the wielder applies Lifted , during the next ultimate cast within 30.00s, the wielder gains Physical DMG Dealt +21.6% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+          "Rank 6": "Ultimate DMG Dealt +32% . After the wielder applies Lifted , during the next ultimate cast within 30.00s, the wielder gains Physical DMG Dealt +24% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+          "Rank 7": "Ultimate DMG Dealt +35.2% . After the wielder applies Lifted , during the next ultimate cast within 30.00s, the wielder gains Physical DMG Dealt +26.4% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+          "Rank 8": "Ultimate DMG Dealt +38.4% . After the wielder applies Lifted , during the next ultimate cast within 30.00s, the wielder gains Physical DMG Dealt +28.8% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s.",
+          "Rank 9": "Ultimate DMG Dealt +44.8% . After the wielder applies Lifted , during the next ultimate cast within 30.00s, the wielder gains Physical DMG Dealt +33.6% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.5s."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Aspirant.png"
+    }
+  },
+  {
+    "OBJ Edge of Lightness": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/OBJ_Edge_of_Lightness",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Agility Boost [M]": {
+          "Rank 1": "Agility +16",
+          "Rank 2": "Agility +28",
+          "Rank 3": "Agility +41",
+          "Rank 4": "Agility +54",
+          "Rank 5": "Agility +67",
+          "Rank 6": "Agility +80",
+          "Rank 7": "Agility +92",
+          "Rank 8": "Agility +105",
+          "Rank 9": "Agility +124"
+        },
+        "ATK Boost [M]": {
+          "Rank 1": "Attack +4%",
+          "Rank 2": "Attack +7.2%",
+          "Rank 3": "Attack +10.4%",
+          "Rank 4": "Attack +13.6%",
+          "Rank 5": "Attack +16.8%",
+          "Rank 6": "Attack +20%",
+          "Rank 7": "Attack +23.2%",
+          "Rank 8": "Attack +26.4%",
+          "Rank 9": "Attack +31.2%"
+        },
+        "Flow: Unbridled Edge": {
+          "Rank 1": "Secondary Attribute +5% . After the wielder's skill recovers SP, the entire team gains Heat DMG Dealt and Electric DMG Dealt +3% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 2": "Secondary Attribute +6% . After the wielder's skill recovers SP, the entire team gains Heat DMG Dealt and Electric DMG Dealt +3.6% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 3": "Secondary Attribute +7% . After the wielder's skill recovers SP, the entire team gains Heat DMG Dealt and Electric DMG Dealt +4.2% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 4": "Secondary Attribute +8% . After the wielder's skill recovers SP, the entire team gains Heat DMG Dealt and Electric DMG Dealt +4.8% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 5": "Secondary Attribute +9% . After the wielder's skill recovers SP, the entire team gains Heat DMG Dealt and Electric DMG Dealt +5.4% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 6": "Secondary Attribute +10% . After the wielder's skill recovers SP, the entire team gains Heat DMG Dealt and Electric DMG Dealt +6% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 7": "Secondary Attribute +11% . After the wielder's skill recovers SP, the entire team gains Heat DMG Dealt and Electric DMG Dealt +6.6% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 8": "Secondary Attribute +12% . After the wielder's skill recovers SP, the entire team gains Heat DMG Dealt and Electric DMG Dealt +7.2% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 9": "Secondary Attribute +14% . After the wielder's skill recovers SP, the entire team gains Heat DMG Dealt and Electric DMG Dealt +8.4% for 20.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/OBJ Edge of Lightness.png"
+    }
+  },
+  {
+    "Twelve Questions": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Twelve_Questions",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Agility Boost [M]": {
+          "Rank 1": "Agility +16",
+          "Rank 2": "Agility +28",
+          "Rank 3": "Agility +41",
+          "Rank 4": "Agility +54",
+          "Rank 5": "Agility +67",
+          "Rank 6": "Agility +80",
+          "Rank 7": "Agility +92",
+          "Rank 8": "Agility +105",
+          "Rank 9": "Agility +124"
+        },
+        "ATK Boost [M]": {
+          "Rank 1": "Attack +4%",
+          "Rank 2": "Attack +7.2%",
+          "Rank 3": "Attack +10.4%",
+          "Rank 4": "Attack +13.6%",
+          "Rank 5": "Attack +16.8%",
+          "Rank 6": "Attack +20%",
+          "Rank 7": "Attack +23.2%",
+          "Rank 8": "Attack +26.4%",
+          "Rank 9": "Attack +31.2%"
+        },
+        "Infliction: Sincere Interrogation": {
+          "Rank 1": "Secondary Attribute +5% . After the wielder consumes an Arts Reaction , ATK +7.5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 2": "Secondary Attribute +6% . After the wielder consumes an Arts Reaction , ATK +9% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 3": "Secondary Attribute +7% . After the wielder consumes an Arts Reaction , ATK +10.5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 4": "Secondary Attribute +8% . After the wielder consumes an Arts Reaction , ATK +12% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 5": "Secondary Attribute +9% . After the wielder consumes an Arts Reaction , ATK +13.5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 6": "Secondary Attribute +10% . After the wielder consumes an Arts Reaction , ATK +15% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 7": "Secondary Attribute +11% . After the wielder consumes an Arts Reaction , ATK +16.5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 8": "Secondary Attribute +12% . After the wielder consumes an Arts Reaction , ATK +18% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately.",
+          "Rank 9": "Secondary Attribute +14% . After the wielder consumes an Arts Reaction , ATK +21% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Twelve Questions.png"
+    }
+  },
+  {
+    "Finchaser 3.0": {
+      "type": "Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Finchaser_3.0",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Strength Boost [M]": {
+          "Rank 1": "Strength +16",
+          "Rank 2": "Strength +28",
+          "Rank 3": "Strength +41",
+          "Rank 4": "Strength +54",
+          "Rank 5": "Strength +67",
+          "Rank 6": "Strength +80",
+          "Rank 7": "Strength +92",
+          "Rank 8": "Strength +105",
+          "Rank 9": "Strength +124"
+        },
+        "Cryo DMG Boost [M]": {
+          "Rank 1": "Cryo DMG Dealt +4.44%",
+          "Rank 2": "Cryo DMG Dealt +8%",
+          "Rank 3": "Cryo DMG Dealt +11.56%",
+          "Rank 4": "Cryo DMG Dealt +15.11%",
+          "Rank 5": "Cryo DMG Dealt +18.67%",
+          "Rank 6": "Cryo DMG Dealt +22.22%",
+          "Rank 7": "Cryo DMG Dealt +25.78%",
+          "Rank 8": "Cryo DMG Dealt +29.33%",
+          "Rank 9": "Cryo DMG Dealt +34.67%"
+        },
+        "Suppression: Fin Chaser's Intent": {
+          "Rank 1": "ATK +5% . When the wielder's battle skill applies Solidification , target enemy suffers Cryo DMG Taken +7% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 2": "ATK +6% . When the wielder's battle skill applies Solidification , target enemy suffers Cryo DMG Taken +8.4% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 3": "ATK +7% . When the wielder's battle skill applies Solidification , target enemy suffers Cryo DMG Taken +9.8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 4": "ATK +8% . When the wielder's battle skill applies Solidification , target enemy suffers Cryo DMG Taken +11.2% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 5": "ATK +9% . When the wielder's battle skill applies Solidification , target enemy suffers Cryo DMG Taken +12.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 6": "ATK +10% . When the wielder's battle skill applies Solidification , target enemy suffers Cryo DMG Taken +14% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 7": "ATK +11% . When the wielder's battle skill applies Solidification , target enemy suffers Cryo DMG Taken +15.4% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 8": "ATK +12% . When the wielder's battle skill applies Solidification , target enemy suffers Cryo DMG Taken +16.8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 9": "ATK +14% . When the wielder's battle skill applies Solidification , target enemy suffers Cryo DMG Taken +19.6% for 15.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Finchaser 3.0.png"
+    }
+  },
+  {
+    "Former Finery": {
+      "type": "Great Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Former_Finery",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "145",
+        "Level 40": "245",
+        "Level 60": "345",
+        "Level 80": "445",
+        "Level 90": "495"
+      },
+      "weapon_skills": {
+        "Will Boost [L]": {
+          "Rank 1": "Will +20",
+          "Rank 2": "Will +36",
+          "Rank 3": "Will +52",
+          "Rank 4": "Will +68",
+          "Rank 5": "Will +84",
+          "Rank 6": "Will +100",
+          "Rank 7": "Will +116",
+          "Rank 8": "Will +132",
+          "Rank 9": "Will +156"
+        },
+        "HP Boost [L]": {
+          "Rank 1": "Max HP +10%",
+          "Rank 2": "Max HP +18%",
+          "Rank 3": "Max HP +26%",
+          "Rank 4": "Max HP +34%",
+          "Rank 5": "Max HP +42%",
+          "Rank 6": "Max HP +50%",
+          "Rank 7": "Max HP +58%",
+          "Rank 8": "Max HP +66%",
+          "Rank 9": "Max HP +78%"
+        },
+        "Efficacy: Mincing Therapy": {
+          "Rank 1": "Treatment Efficiency +10% . After a Protected operator takes DMG, the wielder restores the said operator's HP by [84 + Will×0.7] . Effect only triggers once every 15.00s.",
+          "Rank 2": "Treatment Efficiency +12% . After a Protected operator takes DMG, the wielder restores the said operator's HP by [100.8 + Will×0.84] . Effect only triggers once every 15.00s.",
+          "Rank 3": "Treatment Efficiency +14% . After a Protected operator takes DMG, the wielder restores the said operator's HP by [117.6 + Will×0.98] . Effect only triggers once every 15.00s.",
+          "Rank 4": "Treatment Efficiency +16% . After a Protected operator takes DMG, the wielder restores the said operator's HP by [134.4 + Will×1.12] . Effect only triggers once every 15.00s.",
+          "Rank 5": "Treatment Efficiency +18% . After a Protected operator takes DMG, the wielder restores the said operator's HP by [151.2 + Will×1.26] . Effect only triggers once every 15.00s.",
+          "Rank 6": "Treatment Efficiency +20% . After a Protected operator takes DMG, the wielder restores the said operator's HP by [168 + Will×1.4] . Effect only triggers once every 15.00s.",
+          "Rank 7": "Treatment Efficiency +22% . After a Protected operator takes DMG, the wielder restores the said operator's HP by [184.8 + Will×1.54] . Effect only triggers once every 15.00s.",
+          "Rank 8": "Treatment Efficiency +24% . After a Protected operator takes DMG, the wielder restores the said operator's HP by [201.6 + Will×1.68] . Effect only triggers once every 15.00s.",
+          "Rank 9": "Treatment Efficiency +28% . After a Protected operator takes DMG, the wielder restores the said operator's HP by [235.2 + Will×1.96] . Effect only triggers once every 15.00s."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Former Finery.png"
+    }
+  },
+  {
+    "Sundered Prince": {
+      "type": "Great Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Sundered_Prince",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "144",
+        "Level 40": "243",
+        "Level 60": "342",
+        "Level 80": "441",
+        "Level 90": "490"
+      },
+      "weapon_skills": {
+        "Strength Boost [L]": {
+          "Rank 1": "Strength +20",
+          "Rank 2": "Strength +36",
+          "Rank 3": "Strength +52",
+          "Rank 4": "Strength +68",
+          "Rank 5": "Strength +84",
+          "Rank 6": "Strength +100",
+          "Rank 7": "Strength +116",
+          "Rank 8": "Strength +132",
+          "Rank 9": "Strength +156"
+        },
+        "Critical Rate Boost [L]": {
+          "Rank 1": "Critical Rate +2.5%",
+          "Rank 2": "Critical Rate +4.5%",
+          "Rank 3": "Critical Rate +6.5%",
+          "Rank 4": "Critical Rate +8.5%",
+          "Rank 5": "Critical Rate +10.5%",
+          "Rank 6": "Critical Rate +12.5%",
+          "Rank 7": "Critical Rate +14.5%",
+          "Rank 8": "Critical Rate +16.5%",
+          "Rank 9": "Critical Rate +19.5%"
+        },
+        "Crusher: Princely Deterrence": {
+          "Rank 1": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +10% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +12% to the enemy. Effects of the same name cannot stack.",
+          "Rank 2": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +12% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +14.4% to the enemy. Effects of the same name cannot stack.",
+          "Rank 3": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +14% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +16.8% to the enemy. Effects of the same name cannot stack.",
+          "Rank 4": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +16% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +19.2% to the enemy. Effects of the same name cannot stack.",
+          "Rank 5": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +18% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +21.6% to the enemy. Effects of the same name cannot stack.",
+          "Rank 6": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +20% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +24% to the enemy. Effects of the same name cannot stack.",
+          "Rank 7": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +22% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +26.4% to the enemy. Effects of the same name cannot stack.",
+          "Rank 8": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +24% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +28.8% to the enemy. Effects of the same name cannot stack.",
+          "Rank 9": "When the wielder performs a Final Strike on the enemy, the wielder gains ATK +28% for 8.00s. If the wielder is also the controlled operator, double the ATK increase gained and buff the Final Strike so that it deals Stagger +33.6% to the enemy. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Sundered Prince.png"
+    }
+  },
+  {
+    "Thunderberge": {
+      "type": "Great Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Thunderberge",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "145",
+        "Level 40": "245",
+        "Level 60": "345",
+        "Level 80": "445",
+        "Level 90": "495"
+      },
+      "weapon_skills": {
+        "Strength Boost [L]": {
+          "Rank 1": "Strength +20",
+          "Rank 2": "Strength +36",
+          "Rank 3": "Strength +52",
+          "Rank 4": "Strength +68",
+          "Rank 5": "Strength +84",
+          "Rank 6": "Strength +100",
+          "Rank 7": "Strength +116",
+          "Rank 8": "Strength +132",
+          "Rank 9": "Strength +156"
+        },
+        "HP Boost [L]": {
+          "Rank 1": "Max HP +10%",
+          "Rank 2": "Max HP +18%",
+          "Rank 3": "Max HP +26%",
+          "Rank 4": "Max HP +34%",
+          "Rank 5": "Max HP +42%",
+          "Rank 6": "Max HP +50%",
+          "Rank 7": "Max HP +58%",
+          "Rank 8": "Max HP +66%",
+          "Rank 9": "Max HP +78%"
+        },
+        "Medicant: Eye of Talos": {
+          "Rank 1": "Shield applied +24% . After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [7%×Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s.",
+          "Rank 2": "Shield applied +28.8% . After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [8.4%×Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s.",
+          "Rank 3": "Shield applied +33.6% . After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [9.8%×Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s.",
+          "Rank 4": "Shield applied +38.4% . After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [11.2%×Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s.",
+          "Rank 5": "Shield applied +43.2% . After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [12.6%×Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s.",
+          "Rank 6": "Shield applied +48% . After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [14%×Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s.",
+          "Rank 7": "Shield applied +52.8% . After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [15.4%×Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s.",
+          "Rank 8": "Shield applied +57.6% . After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [16.8%×Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s.",
+          "Rank 9": "Shield applied +67.2% . After the wielder's combo skill provides HP treatment, the controlled operator gains an additional [19.6%×Wielder's Max HP] Shield for 15.00s. Effect only triggers once every 15.00s."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Thunderberge.png"
+    }
+  },
+  {
+    "Exemplar": {
+      "type": "Great Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Exemplar",
+      "stats": {
+        "Level 1": "51",
+        "Level 20": "146",
+        "Level 40": "247",
+        "Level 60": "348",
+        "Level 80": "449",
+        "Level 90": "500"
+      },
+      "weapon_skills": {
+        "Main Attribute Boost [L]": {
+          "Rank 1": "Main attribute +17",
+          "Rank 2": "Main attribute +30",
+          "Rank 3": "Main attribute +44",
+          "Rank 4": "Main attribute +57",
+          "Rank 5": "Main attribute +71",
+          "Rank 6": "Main attribute +85",
+          "Rank 7": "Main attribute +98",
+          "Rank 8": "Main attribute +112",
+          "Rank 9": "Main attribute +132"
+        },
+        "Attack Boost [L]": {
+          "Rank 1": "Attack +5%",
+          "Rank 2": "Attack +9%",
+          "Rank 3": "Attack +13%",
+          "Rank 4": "Attack +17%",
+          "Rank 5": "Attack +21%",
+          "Rank 6": "Attack +25%",
+          "Rank 7": "Attack +29%",
+          "Rank 8": "Attack +33%",
+          "Rank 9": "Attack +39%"
+        },
+        "Suppression: Stacked Hew": {
+          "Rank 1": "Physical DMG Dealt +10% . When the wielder's battle skill or ultimate hits the enemy, the wielder gains Physical DMG Dealt +10% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 2": "Physical DMG Dealt +12% . When the wielder's battle skill or ultimate hits the enemy, the wielder gains Physical DMG Dealt +12% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 3": "Physical DMG Dealt +14% . When the wielder's battle skill or ultimate hits the enemy, the wielder gains Physical DMG Dealt +14% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 4": "Physical DMG Dealt +16% . When the wielder's battle skill or ultimate hits the enemy, the wielder gains Physical DMG Dealt +16% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 5": "Physical DMG Dealt +18% . When the wielder's battle skill or ultimate hits the enemy, the wielder gains Physical DMG Dealt +18% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 6": "Physical DMG Dealt +20% . When the wielder's battle skill or ultimate hits the enemy, the wielder gains Physical DMG Dealt +20% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 7": "Physical DMG Dealt +22% . When the wielder's battle skill or ultimate hits the enemy, the wielder gains Physical DMG Dealt +22% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 8": "Physical DMG Dealt +24% . When the wielder's battle skill or ultimate hits the enemy, the wielder gains Physical DMG Dealt +24% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 9": "Physical DMG Dealt +28% . When the wielder's battle skill or ultimate hits the enemy, the wielder gains Physical DMG Dealt +28% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Exemplar.png"
+    }
+  },
+  {
+    "Khravengger": {
+      "type": "Great Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Khravengger",
+      "stats": {
+        "Level 1": "51",
+        "Level 20": "148",
+        "Level 40": "250",
+        "Level 60": "352",
+        "Level 80": "454",
+        "Level 90": "505"
+      },
+      "weapon_skills": {
+        "Strength Boost [L]": {
+          "Rank 1": "Strength +20",
+          "Rank 2": "Strength +36",
+          "Rank 3": "Strength +52",
+          "Rank 4": "Strength +68",
+          "Rank 5": "Strength +84",
+          "Rank 6": "Strength +100",
+          "Rank 7": "Strength +116",
+          "Rank 8": "Strength +132",
+          "Rank 9": "Strength +156"
+        },
+        "Attack Boost [L]": {
+          "Rank 1": "Attack +5%",
+          "Rank 2": "Attack +9%",
+          "Rank 3": "Attack +13%",
+          "Rank 4": "Attack +17%",
+          "Rank 5": "Attack +21%",
+          "Rank 6": "Attack +25%",
+          "Rank 7": "Attack +29%",
+          "Rank 8": "Attack +33%",
+          "Rank 9": "Attack +39%"
+        },
+        "Detonate: Bonechilling": {
+          "Rank 1": "Skill DMG Dealt +20% (for every skill). When the wielder's battle skill applies Cryo Infliction , the wielder gains Cryo DMG Dealt +10% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG Dealt +20% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 2": "Skill DMG Dealt +24% (for every skill). When the wielder's battle skill applies Cryo Infliction , the wielder gains Cryo DMG Dealt +12% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG Dealt +24% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 3": "Skill DMG Dealt +28% (for every skill). When the wielder's battle skill applies Cryo Infliction , the wielder gains Cryo DMG Dealt +14% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG Dealt +28% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 4": "Skill DMG Dealt +32% (for every skill). When the wielder's battle skill applies Cryo Infliction , the wielder gains Cryo DMG Dealt +16% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG Dealt +32% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 5": "Skill DMG Dealt +36% (for every skill). When the wielder's battle skill applies Cryo Infliction , the wielder gains Cryo DMG Dealt +18% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG Dealt +36% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 6": "Skill DMG Dealt +40% (for every skill). When the wielder's battle skill applies Cryo Infliction , the wielder gains Cryo DMG Dealt +20% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG Dealt +40% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 7": "Skill DMG Dealt +44% (for every skill). When the wielder's battle skill applies Cryo Infliction , the wielder gains Cryo DMG Dealt +22% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG Dealt +44% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 8": "Skill DMG Dealt +48% (for every skill). When the wielder's battle skill applies Cryo Infliction , the wielder gains Cryo DMG Dealt +24% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG Dealt +48% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 9": "Skill DMG Dealt +56% (for every skill). When the wielder's battle skill applies Cryo Infliction , the wielder gains Cryo DMG Dealt +28% for 15.00s. When the wielder deals combo skill DMG to an enemy with Cryo Infliction , the wielder gains Cryo DMG Dealt +56% for 15.00s. The two effects apply separately and do not stack with themselves."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Khravengger.png"
+    }
+  },
+  {
+    "OBJ Heavy Burden": {
+      "type": "Great Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/OBJ_Heavy_Burden",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Strength Boost [M]": {
+          "Rank 1": "Strength +16",
+          "Rank 2": "Strength +28",
+          "Rank 3": "Strength +41",
+          "Rank 4": "Strength +54",
+          "Rank 5": "Strength +67",
+          "Rank 6": "Strength +80",
+          "Rank 7": "Strength +92",
+          "Rank 8": "Strength +105",
+          "Rank 9": "Strength +124"
+        },
+        "HP Boost [M]": {
+          "Rank 1": "Max HP +8%",
+          "Rank 2": "Max HP +14.4%",
+          "Rank 3": "Max HP +20.8%",
+          "Rank 4": "Max HP +27.2%",
+          "Rank 5": "Max HP +33.6%",
+          "Rank 6": "Max HP +40%",
+          "Rank 7": "Max HP +46.4%",
+          "Rank 8": "Max HP +52.8%",
+          "Rank 9": "Max HP +62.4%"
+        },
+        "Efficacy: Tenacious Will": {
+          "Rank 1": "Secondary Attribute +5% . When the wielder applies Knocked Down or Weakened , the wielder gains DEF +18% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 2": "Secondary Attribute +6% . When the wielder applies Knocked Down or Weakened , the wielder gains DEF +21.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 3": "Secondary Attribute +7% . When the wielder applies Knocked Down or Weakened , the wielder gains DEF +25.2% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 4": "Secondary Attribute +8% . When the wielder applies Knocked Down or Weakened , the wielder gains DEF +28.8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 5": "Secondary Attribute +9% . When the wielder applies Knocked Down or Weakened , the wielder gains DEF +32.4% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 6": "Secondary Attribute +10% . When the wielder applies Knocked Down or Weakened , the wielder gains DEF +36% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 7": "Secondary Attribute +11% . When the wielder applies Knocked Down or Weakened , the wielder gains DEF +39.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 8": "Secondary Attribute +12% . When the wielder applies Knocked Down or Weakened , the wielder gains DEF +43.2% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 9": "Secondary Attribute +14% . When the wielder applies Knocked Down or Weakened , the wielder gains DEF +50.4% for 15.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/OBJ Heavy Burden.png"
+    }
+  },
+  {
+    "Finishing Call": {
+      "type": "Great Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Finishing_Call",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Strength Boost [M]": {
+          "Rank 1": "Strength +16",
+          "Rank 2": "Strength +28",
+          "Rank 3": "Strength +41",
+          "Rank 4": "Strength +54",
+          "Rank 5": "Strength +67",
+          "Rank 6": "Strength +80",
+          "Rank 7": "Strength +92",
+          "Rank 8": "Strength +105",
+          "Rank 9": "Strength +124"
+        },
+        "HP Boost [M]": {
+          "Rank 1": "Max HP +8%",
+          "Rank 2": "Max HP +14.4%",
+          "Rank 3": "Max HP +20.8%",
+          "Rank 4": "Max HP +27.2%",
+          "Rank 5": "Max HP +33.6%",
+          "Rank 6": "Max HP +40%",
+          "Rank 7": "Max HP +46.4%",
+          "Rank 8": "Max HP +52.8%",
+          "Rank 9": "Max HP +62.4%"
+        },
+        "Medicant: Glory of Knighthood": {
+          "Rank 1": "Secondary Attribute +5% . Combo skill HP treatment effect +20% .",
+          "Rank 2": "Secondary Attribute +6% . Combo skill HP treatment effect +24% .",
+          "Rank 3": "Secondary Attribute +7% . Combo skill HP treatment effect +28% .",
+          "Rank 4": "Secondary Attribute +8% . Combo skill HP treatment effect +32% .",
+          "Rank 5": "Secondary Attribute +9% . Combo skill HP treatment effect +36% .",
+          "Rank 6": "Secondary Attribute +10% . Combo skill HP treatment effect +40% .",
+          "Rank 7": "Secondary Attribute +11% . Combo skill HP treatment effect +44% .",
+          "Rank 8": "Secondary Attribute +12% . Combo skill HP treatment effect +48% .",
+          "Rank 9": "Secondary Attribute +14% . Combo skill HP treatment effect +56% ."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Finishing Call.png"
+    }
+  },
+  {
+    "Ancient Canal": {
+      "type": "Great Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Ancient_Canal",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Strength Boost [M]": {
+          "Rank 1": "Strength +16",
+          "Rank 2": "Strength +28",
+          "Rank 3": "Strength +41",
+          "Rank 4": "Strength +54",
+          "Rank 5": "Strength +67",
+          "Rank 6": "Strength +80",
+          "Rank 7": "Strength +92",
+          "Rank 8": "Strength +105",
+          "Rank 9": "Strength +124"
+        },
+        "Arts Intensity Boost [M]": {
+          "Rank 1": "Arts Intensity +8",
+          "Rank 2": "Arts Intensity +14",
+          "Rank 3": "Arts Intensity +20",
+          "Rank 4": "Arts Intensity +27",
+          "Rank 5": "Arts Intensity +33",
+          "Rank 6": "Arts Intensity +40",
+          "Rank 7": "Arts Intensity +46",
+          "Rank 8": "Arts Intensity +52",
+          "Rank 9": "Arts Intensity +62"
+        },
+        "Brutality: Lands of Yore": {
+          "Rank 1": "Arts Intensity +10 . After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG Dealt +[5%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 2": "Arts Intensity +12 . After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG Dealt +[6%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 3": "Arts Intensity +14 . After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG Dealt +[7%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 4": "Arts Intensity +16 . After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG Dealt +[8%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 5": "Arts Intensity +18 . After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG Dealt +[9%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 6": "Arts Intensity +20 . After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG Dealt +[10%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 7": "Arts Intensity +22 . After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG Dealt +[11%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 8": "Arts Intensity +24 . After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG Dealt +[12%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 9": "Arts Intensity +28 . After the wielder consumes Vulnerability stack(s), the wielder gains Physical DMG Dealt +[14%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Ancient Canal.png"
+    }
+  },
+  {
+    "Seeker of Dark Lung": {
+      "type": "Great Sword",
+      "detail_page": "https://endfield.wiki.gg/wiki/Seeker_of_Dark_Lung",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Strength Boost [M]": {
+          "Rank 1": "Strength +16",
+          "Rank 2": "Strength +28",
+          "Rank 3": "Strength +41",
+          "Rank 4": "Strength +54",
+          "Rank 5": "Strength +67",
+          "Rank 6": "Strength +80",
+          "Rank 7": "Strength +92",
+          "Rank 8": "Strength +105",
+          "Rank 9": "Strength +124"
+        },
+        "Ultimate Gain Efficiency Boost [M]": {
+          "Rank 1": "Ultimate Gain Efficiency +4.76%",
+          "Rank 2": "Ultimate Gain Efficiency +8.57%",
+          "Rank 3": "Ultimate Gain Efficiency +12.38%",
+          "Rank 4": "Ultimate Gain Efficiency +16.19%",
+          "Rank 5": "Ultimate Gain Efficiency +20%",
+          "Rank 6": "Ultimate Gain Efficiency +23.81%",
+          "Rank 7": "Ultimate Gain Efficiency +27.62%",
+          "Rank 8": "Ultimate Gain Efficiency +31.43%",
+          "Rank 9": "Ultimate Gain Efficiency +37.14%"
+        },
+        "Detonate: Seeker of the Esoteric": {
+          "Rank 1": "Main Attribute +5% . When the wielder applies an Arts Burst , the wielder gains ATK +6% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 2": "Main Attribute +6% . When the wielder applies an Arts Burst , the wielder gains ATK +7.2% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 3": "Main Attribute +7% . When the wielder applies an Arts Burst , the wielder gains ATK +8.4% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 4": "Main Attribute +8% . When the wielder applies an Arts Burst , the wielder gains ATK +9.6% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 5": "Main Attribute +9% . When the wielder applies an Arts Burst , the wielder gains ATK +10.8% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 6": "Main Attribute +10% . When the wielder applies an Arts Burst , the wielder gains ATK +12% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 7": "Main Attribute +11% . When the wielder applies an Arts Burst , the wielder gains ATK +13.2% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 8": "Main Attribute +12% . When the wielder applies an Arts Burst , the wielder gains ATK +14.4% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 9": "Main Attribute +14% . When the wielder applies an Arts Burst , the wielder gains ATK +16.8% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Seeker of Dark Lung.png"
+    }
+  },
+  {
+    "JET": {
+      "type": "Polearm",
+      "detail_page": "https://endfield.wiki.gg/wiki/JET",
+      "stats": {
+        "Level 1": "51",
+        "Level 20": "146",
+        "Level 40": "247",
+        "Level 60": "348",
+        "Level 80": "449",
+        "Level 90": "500"
+      },
+      "weapon_skills": {
+        "Main Attribute Boost [L]": {
+          "Rank 1": "Main attribute +17",
+          "Rank 2": "Main attribute +30",
+          "Rank 3": "Main attribute +44",
+          "Rank 4": "Main attribute +57",
+          "Rank 5": "Main attribute +71",
+          "Rank 6": "Main attribute +85",
+          "Rank 7": "Main attribute +98",
+          "Rank 8": "Main attribute +112",
+          "Rank 9": "Main attribute +132"
+        },
+        "Attack Boost [L]": {
+          "Rank 1": "Attack +5%",
+          "Rank 2": "Attack +9%",
+          "Rank 3": "Attack +13%",
+          "Rank 4": "Attack +17%",
+          "Rank 5": "Attack +21%",
+          "Rank 6": "Attack +25%",
+          "Rank 7": "Attack +29%",
+          "Rank 8": "Attack +33%",
+          "Rank 9": "Attack +39%"
+        },
+        "Suppression: Astrophysics": {
+          "Rank 1": "Arts DMG Dealt +12% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +12% for 15.00s. When the wielder casts a combo skill, Arts DMG Dealt +12% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 2": "Arts DMG Dealt +14.4% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +14.4% for 15.00s. When the wielder casts a combo skill, Arts DMG Dealt +14.4% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 3": "Arts DMG Dealt +16.8% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +16.8% for 15.00s. When the wielder casts a combo skill, Arts DMG Dealt +16.8% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 4": "Arts DMG Dealt +19.2% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +19.2% for 15.00s. When the wielder casts a combo skill, Arts DMG Dealt +19.2% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 5": "Arts DMG Dealt +21.6% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +21.6% for 15.00s. When the wielder casts a combo skill, Arts DMG Dealt +21.6% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 6": "Arts DMG Dealt +24% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +24% for 15.00s. When the wielder casts a combo skill, Arts DMG Dealt +24% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 7": "Arts DMG Dealt +26.4% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +26.4% for 15.00s. When the wielder casts a combo skill, Arts DMG Dealt +26.4% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 8": "Arts DMG Dealt +28.8% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +28.8% for 15.00s. When the wielder casts a combo skill, Arts DMG Dealt +28.8% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 9": "Arts DMG Dealt +33.6% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +33.6% for 15.00s. When the wielder casts a combo skill, Arts DMG Dealt +33.6% for 15.00s. The two effects apply separately and do not stack with themselves."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/JET.png"
+    }
+  },
+  {
+    "Mountain Bearer": {
+      "type": "Polearm",
+      "detail_page": "https://endfield.wiki.gg/wiki/Mountain_Bearer",
+      "stats": {
+        "Level 1": "51",
+        "Level 20": "146",
+        "Level 40": "247",
+        "Level 60": "348",
+        "Level 80": "449",
+        "Level 90": "500"
+      },
+      "weapon_skills": {
+        "Agility Boost [L]": {
+          "Rank 1": "Agility +20",
+          "Rank 2": "Agility +36",
+          "Rank 3": "Agility +52",
+          "Rank 4": "Agility +68",
+          "Rank 5": "Agility +84",
+          "Rank 6": "Agility +100",
+          "Rank 7": "Agility +116",
+          "Rank 8": "Agility +132",
+          "Rank 9": "Agility +156"
+        },
+        "Physical DMG Boost [L]": {
+          "Rank 1": "Physical DMG Dealt +5.56%",
+          "Rank 2": "Physical DMG Dealt +10%",
+          "Rank 3": "Physical DMG Dealt +14.44%",
+          "Rank 4": "Physical DMG Dealt +18.89%",
+          "Rank 5": "Physical DMG Dealt +23.33%",
+          "Rank 6": "Physical DMG Dealt +27.78%",
+          "Rank 7": "Physical DMG Dealt +32.22%",
+          "Rank 8": "Physical DMG Dealt +36.67%",
+          "Rank 9": "Physical DMG Dealt +43.33%"
+        },
+        "Efficacy: Weight of Mountain": {
+          "Rank 1": "Against Vulnerable enemies, the wielder gains DMG Dealt +20% . When the wielder's battle skill applies Vulnerability , the wielder gains All Attributes +8% for 15.00s. When the wielder's battle skill applies Physical Susceptibility , the wielder gains All Attributes +8% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 2": "Against Vulnerable enemies, the wielder gains DMG Dealt +24% . When the wielder's battle skill applies Vulnerability , the wielder gains All Attributes +9.6% for 15.00s. When the wielder's battle skill applies Physical Susceptibility , the wielder gains All Attributes +9.6% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 3": "Against Vulnerable enemies, the wielder gains DMG Dealt +28% . When the wielder's battle skill applies Vulnerability , the wielder gains All Attributes +11.2% for 15.00s. When the wielder's battle skill applies Physical Susceptibility , the wielder gains All Attributes +11.2% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 4": "Against Vulnerable enemies, the wielder gains DMG Dealt +32% . When the wielder's battle skill applies Vulnerability , the wielder gains All Attributes +12.8% for 15.00s. When the wielder's battle skill applies Physical Susceptibility , the wielder gains All Attributes +12.8% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 5": "Against Vulnerable enemies, the wielder gains DMG Dealt +36% . When the wielder's battle skill applies Vulnerability , the wielder gains All Attributes +14.4% for 15.00s. When the wielder's battle skill applies Physical Susceptibility , the wielder gains All Attributes +14.4% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 6": "Against Vulnerable enemies, the wielder gains DMG Dealt +40% . When the wielder's battle skill applies Vulnerability , the wielder gains All Attributes +16% for 15.00s. When the wielder's battle skill applies Physical Susceptibility , the wielder gains All Attributes +16% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 7": "Against Vulnerable enemies, the wielder gains DMG Dealt +44% . When the wielder's battle skill applies Vulnerability , the wielder gains All Attributes +17.6% for 15.00s. When the wielder's battle skill applies Physical Susceptibility , the wielder gains All Attributes +17.6% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 8": "Against Vulnerable enemies, the wielder gains DMG Dealt +48% . When the wielder's battle skill applies Vulnerability , the wielder gains All Attributes +19.2% for 15.00s. When the wielder's battle skill applies Physical Susceptibility , the wielder gains All Attributes +19.2% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 9": "Against Vulnerable enemies, the wielder gains DMG Dealt +56% . When the wielder's battle skill applies Vulnerability , the wielder gains All Attributes +22.4% for 15.00s. When the wielder's battle skill applies Physical Susceptibility , the wielder gains All Attributes +22.4% for 15.00s. The two effects apply separately and do not stack with themselves."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Mountain Bearer.png"
+    }
+  },
+  {
+    "Valiant": {
+      "type": "Polearm",
+      "detail_page": "https://endfield.wiki.gg/wiki/Valiant",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "145",
+        "Level 40": "245",
+        "Level 60": "345",
+        "Level 80": "445",
+        "Level 90": "495"
+      },
+      "weapon_skills": {
+        "Agility Boost [L]": {
+          "Rank 1": "Agility +20",
+          "Rank 2": "Agility +36",
+          "Rank 3": "Agility +52",
+          "Rank 4": "Agility +68",
+          "Rank 5": "Agility +84",
+          "Rank 6": "Agility +100",
+          "Rank 7": "Agility +116",
+          "Rank 8": "Agility +132",
+          "Rank 9": "Agility +156"
+        },
+        "Physical DMG Boost [L]": {
+          "Rank 1": "Physical DMG Dealt +5.56%",
+          "Rank 2": "Physical DMG Dealt +10%",
+          "Rank 3": "Physical DMG Dealt +14.44%",
+          "Rank 4": "Physical DMG Dealt +18.89%",
+          "Rank 5": "Physical DMG Dealt +23.33%",
+          "Rank 6": "Physical DMG Dealt +27.78%",
+          "Rank 7": "Physical DMG Dealt +32.22%",
+          "Rank 8": "Physical DMG Dealt +36.67%",
+          "Rank 9": "Physical DMG Dealt +43.33%"
+        },
+        "Combative: Virtuous Gain": {
+          "Rank 1": "ATK +10% . After the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 120% of the wielder's ATK.",
+          "Rank 2": "ATK +12% . After the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 144% of the wielder's ATK.",
+          "Rank 3": "ATK +14% . After the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 168% of the wielder's ATK.",
+          "Rank 4": "ATK +16% . After the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 192% of the wielder's ATK.",
+          "Rank 5": "ATK +18% . After the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 216% of the wielder's ATK.",
+          "Rank 6": "ATK +20% . After the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 240% of the wielder's ATK.",
+          "Rank 7": "ATK +22% . After the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 264% of the wielder's ATK.",
+          "Rank 8": "ATK +24% . After the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 288% of the wielder's ATK.",
+          "Rank 9": "ATK +28% . After the wielder applies Physical Statuses , the wielder also deals another hit of Physical DMG equal to 336% of the wielder's ATK."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Valiant.png"
+    }
+  },
+  {
+    "Cohesive Traction": {
+      "type": "Polearm",
+      "detail_page": "https://endfield.wiki.gg/wiki/Cohesive_Traction",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Will Boost [M]": {
+          "Rank 1": "Will +16",
+          "Rank 2": "Will +28",
+          "Rank 3": "Will +41",
+          "Rank 4": "Will +54",
+          "Rank 5": "Will +67",
+          "Rank 6": "Will +80",
+          "Rank 7": "Will +92",
+          "Rank 8": "Will +105",
+          "Rank 9": "Will +124"
+        },
+        "Electric DMG Boost [M]": {
+          "Rank 1": "Electric DMG Dealt +4.44%",
+          "Rank 2": "Electric DMG Dealt +8%",
+          "Rank 3": "Electric DMG Dealt +11.56%",
+          "Rank 4": "Electric DMG Dealt +15.11%",
+          "Rank 5": "Electric DMG Dealt +18.67%",
+          "Rank 6": "Electric DMG Dealt +22.22%",
+          "Rank 7": "Electric DMG Dealt +25.78%",
+          "Rank 8": "Electric DMG Dealt +29.33%",
+          "Rank 9": "Electric DMG Dealt +34.67%"
+        },
+        "Suppression: Concentric Circles": {
+          "Rank 1": "Combo Skill DMG Dealt +10% . When the wielder casts a combo skill, during the next battle skill cast within 30.00s, the wielder gains Electric DMG Dealt +10% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 2": "Combo Skill DMG Dealt +12% . When the wielder casts a combo skill, during the next battle skill cast within 30.00s, the wielder gains Electric DMG Dealt +12% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 3": "Combo Skill DMG Dealt +14% . When the wielder casts a combo skill, during the next battle skill cast within 30.00s, the wielder gains Electric DMG Dealt +14% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 4": "Combo Skill DMG Dealt +16% . When the wielder casts a combo skill, during the next battle skill cast within 30.00s, the wielder gains Electric DMG Dealt +16% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 5": "Combo Skill DMG Dealt +18% . When the wielder casts a combo skill, during the next battle skill cast within 30.00s, the wielder gains Electric DMG Dealt +18% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 6": "Combo Skill DMG Dealt +20% . When the wielder casts a combo skill, during the next battle skill cast within 30.00s, the wielder gains Electric DMG Dealt +20% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 7": "Combo Skill DMG Dealt +22% . When the wielder casts a combo skill, during the next battle skill cast within 30.00s, the wielder gains Electric DMG Dealt +22% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 8": "Combo Skill DMG Dealt +24% . When the wielder casts a combo skill, during the next battle skill cast within 30.00s, the wielder gains Electric DMG Dealt +24% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately.",
+          "Rank 9": "Combo Skill DMG Dealt +28% . When the wielder casts a combo skill, during the next battle skill cast within 30.00s, the wielder gains Electric DMG Dealt +28% . Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Cohesive Traction.png"
+    }
+  },
+  {
+    "Chimeric Justice": {
+      "type": "Polearm",
+      "detail_page": "https://endfield.wiki.gg/wiki/Chimeric_Justice",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Strength Boost [M]": {
+          "Rank 1": "Strength +16",
+          "Rank 2": "Strength +28",
+          "Rank 3": "Strength +41",
+          "Rank 4": "Strength +54",
+          "Rank 5": "Strength +67",
+          "Rank 6": "Strength +80",
+          "Rank 7": "Strength +92",
+          "Rank 8": "Strength +105",
+          "Rank 9": "Strength +124"
+        },
+        "Ultimate Gain Efficiency Boost [M]": {
+          "Rank 1": "Ultimate Gain Efficiency +4.76%",
+          "Rank 2": "Ultimate Gain Efficiency +8.57%",
+          "Rank 3": "Ultimate Gain Efficiency +12.38%",
+          "Rank 4": "Ultimate Gain Efficiency +16.19%",
+          "Rank 5": "Ultimate Gain Efficiency +20%",
+          "Rank 6": "Ultimate Gain Efficiency +23.81%",
+          "Rank 7": "Ultimate Gain Efficiency +27.62%",
+          "Rank 8": "Ultimate Gain Efficiency +31.43%",
+          "Rank 9": "Ultimate Gain Efficiency +37.14%"
+        },
+        "Brutality: Cemented Fury": {
+          "Rank 1": "Critical Rate +3% . When the wielder applies Vulnerability to an enemy with no Vulnerability stacks, the wielder gains ATK +15% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 2": "Critical Rate +3.6% . When the wielder applies Vulnerability to an enemy with no Vulnerability stacks, the wielder gains ATK +18% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 3": "Critical Rate +4.2% . When the wielder applies Vulnerability to an enemy with no Vulnerability stacks, the wielder gains ATK +21% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 4": "Critical Rate +4.8% . When the wielder applies Vulnerability to an enemy with no Vulnerability stacks, the wielder gains ATK +24% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 5": "Critical Rate +5.4% . When the wielder applies Vulnerability to an enemy with no Vulnerability stacks, the wielder gains ATK +27% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 6": "Critical Rate +6% . When the wielder applies Vulnerability to an enemy with no Vulnerability stacks, the wielder gains ATK +30% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 7": "Critical Rate +6.6% . When the wielder applies Vulnerability to an enemy with no Vulnerability stacks, the wielder gains ATK +33% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 8": "Critical Rate +7.2% . When the wielder applies Vulnerability to an enemy with no Vulnerability stacks, the wielder gains ATK +36% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 9": "Critical Rate +8.4% . When the wielder applies Vulnerability to an enemy with no Vulnerability stacks, the wielder gains ATK +42% for 15.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Chimeric Justice.png"
+    }
+  },
+  {
+    "OBJ Razorhorn": {
+      "type": "Polearm",
+      "detail_page": "https://endfield.wiki.gg/wiki/OBJ_Razorhorn",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Will Boost [M]": {
+          "Rank 1": "Will +16",
+          "Rank 2": "Will +28",
+          "Rank 3": "Will +41",
+          "Rank 4": "Will +54",
+          "Rank 5": "Will +67",
+          "Rank 6": "Will +80",
+          "Rank 7": "Will +92",
+          "Rank 8": "Will +105",
+          "Rank 9": "Will +124"
+        },
+        "Physical DMG Boost [M]": {
+          "Rank 1": "Physical DMG Dealt +4.44%",
+          "Rank 2": "Physical DMG Dealt +8%",
+          "Rank 3": "Physical DMG Dealt +11.56%",
+          "Rank 4": "Physical DMG Dealt +15.11%",
+          "Rank 5": "Physical DMG Dealt +18.67%",
+          "Rank 6": "Physical DMG Dealt +22.22%",
+          "Rank 7": "Physical DMG Dealt +25.78%",
+          "Rank 8": "Physical DMG Dealt +29.33%",
+          "Rank 9": "Physical DMG Dealt +34.67%"
+        },
+        "Infliction: Conquest of Icy Peaks": {
+          "Rank 1": "To enemies with Cryo Infliction or Solidification , the wielder gains DMG Dealt +8% . After consuming Solidification , ATK +12% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 2": "To enemies with Cryo Infliction or Solidification , the wielder gains DMG Dealt +9.6% . After consuming Solidification , ATK +14.4% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 3": "To enemies with Cryo Infliction or Solidification , the wielder gains DMG Dealt +11.2% . After consuming Solidification , ATK +16.8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 4": "To enemies with Cryo Infliction or Solidification , the wielder gains DMG Dealt +12.8% . After consuming Solidification , ATK +19.2% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 5": "To enemies with Cryo Infliction or Solidification , the wielder gains DMG Dealt +14.4% . After consuming Solidification , ATK +21.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 6": "To enemies with Cryo Infliction or Solidification , the wielder gains DMG Dealt +16% . After consuming Solidification , ATK +24% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 7": "To enemies with Cryo Infliction or Solidification , the wielder gains DMG Dealt +17.6% . After consuming Solidification , ATK +26.4% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 8": "To enemies with Cryo Infliction or Solidification , the wielder gains DMG Dealt +19.2% . After consuming Solidification , ATK +28.8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 9": "To enemies with Cryo Infliction or Solidification , the wielder gains DMG Dealt +22.4% . After consuming Solidification , ATK +33.6% for 15.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/OBJ Razorhorn.png"
+    }
+  },
+  {
+    "Clannibal": {
+      "type": "Handcannon",
+      "detail_page": "https://endfield.wiki.gg/wiki/Clannibal",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "144",
+        "Level 40": "243",
+        "Level 60": "342",
+        "Level 80": "441",
+        "Level 90": "490"
+      },
+      "weapon_skills": {
+        "Main Attribute Boost [L]": {
+          "Rank 1": "Main attribute +17",
+          "Rank 2": "Main attribute +30",
+          "Rank 3": "Main attribute +44",
+          "Rank 4": "Main attribute +57",
+          "Rank 5": "Main attribute +71",
+          "Rank 6": "Main attribute +85",
+          "Rank 7": "Main attribute +98",
+          "Rank 8": "Main attribute +112",
+          "Rank 9": "Main attribute +132"
+        },
+        "Arts Boost [L]": {
+          "Rank 1": "Arts DMG Dealt +5.56%",
+          "Rank 2": "Arts DMG Dealt +10%",
+          "Rank 3": "Arts DMG Dealt +14.44%",
+          "Rank 4": "Arts DMG Dealt +18.89%",
+          "Rank 5": "Arts DMG Dealt +23.33%",
+          "Rank 6": "Arts DMG Dealt +27.78%",
+          "Rank 7": "Arts DMG Dealt +32.22%",
+          "Rank 8": "Arts DMG Dealt +36.67%",
+          "Rank 9": "Arts DMG Dealt +43.33%"
+        },
+        "Infliction: Vicious Purge": {
+          "Rank 1": "Arts DMG +12% . After the wielder consumes an Arts Reaction , target enemy suffers Arts DMG Taken +10% (for the specified element) for 15.00s. Each effect applies separately and does not stack with itself. Effect only triggers once every 25.00s.",
+          "Rank 2": "Arts DMG +14.4% . After the wielder consumes an Arts Reaction , target enemy suffers Arts DMG Taken +12% (for the specified element) for 15.00s. Each effect applies separately and does not stack with itself. Effect only triggers once every 25.00s.",
+          "Rank 3": "Arts DMG +16.8% . After the wielder consumes an Arts Reaction , target enemy suffers Arts DMG Taken +14% (for the specified element) for 15.00s. Each effect applies separately and does not stack with itself. Effect only triggers once every 25.00s.",
+          "Rank 4": "Arts DMG +19.2% . After the wielder consumes an Arts Reaction , target enemy suffers Arts DMG Taken +16% (for the specified element) for 15.00s. Each effect applies separately and does not stack with itself. Effect only triggers once every 25.00s.",
+          "Rank 5": "Arts DMG +21.6% . After the wielder consumes an Arts Reaction , target enemy suffers Arts DMG Taken +18% (for the specified element) for 15.00s. Each effect applies separately and does not stack with itself. Effect only triggers once every 25.00s.",
+          "Rank 6": "Arts DMG +24% . After the wielder consumes an Arts Reaction , target enemy suffers Arts DMG Taken +20% (for the specified element) for 15.00s. Each effect applies separately and does not stack with itself. Effect only triggers once every 25.00s.",
+          "Rank 7": "Arts DMG +26.4% . After the wielder consumes an Arts Reaction , target enemy suffers Arts DMG Taken +22% (for the specified element) for 15.00s. Each effect applies separately and does not stack with itself. Effect only triggers once every 25.00s.",
+          "Rank 8": "Arts DMG +28.8% . After the wielder consumes an Arts Reaction , target enemy suffers Arts DMG Taken +24% (for the specified element) for 15.00s. Each effect applies separately and does not stack with itself. Effect only triggers once every 25.00s.",
+          "Rank 9": "Arts DMG +33.6% . After the wielder consumes an Arts Reaction , target enemy suffers Arts DMG Taken +28% (for the specified element) for 15.00s. Each effect applies separately and does not stack with itself. Effect only triggers once every 25.00s."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Clannibal.png"
+    }
+  },
+  {
+    "Wedge": {
+      "type": "Handcannon",
+      "detail_page": "https://endfield.wiki.gg/wiki/Wedge",
+      "stats": {
+        "Level 1": "51",
+        "Level 20": "146",
+        "Level 40": "247",
+        "Level 60": "348",
+        "Level 80": "449",
+        "Level 90": "500"
+      },
+      "weapon_skills": {
+        "Main Attribute Boost [L]": {
+          "Rank 1": "Main attribute +17",
+          "Rank 2": "Main attribute +30",
+          "Rank 3": "Main attribute +44",
+          "Rank 4": "Main attribute +57",
+          "Rank 5": "Main attribute +71",
+          "Rank 6": "Main attribute +85",
+          "Rank 7": "Main attribute +98",
+          "Rank 8": "Main attribute +112",
+          "Rank 9": "Main attribute +132"
+        },
+        "Critical Rate Boost [L]": {
+          "Rank 1": "Critical Rate +2.5%",
+          "Rank 2": "Critical Rate +4.5%",
+          "Rank 3": "Critical Rate +6.5%",
+          "Rank 4": "Critical Rate +8.5%",
+          "Rank 5": "Critical Rate +10.5%",
+          "Rank 6": "Critical Rate +12.5%",
+          "Rank 7": "Critical Rate +14.5%",
+          "Rank 8": "Critical Rate +16.5%",
+          "Rank 9": "Critical Rate +19.5%"
+        },
+        "Infliction: Wedge of Civilization": {
+          "Rank 1": "Arts DMG Dealt +12% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +8% for 15.00s. When the wielder's battle skill applies an Arts Reaction , the wielder gains Arts DMG Dealt +16% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 2": "Arts DMG Dealt +14.4% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +9.6% for 15.00s. When the wielder's battle skill applies an Arts Reaction , the wielder gains Arts DMG Dealt +19.2% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 3": "Arts DMG Dealt +16.8% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +11.2% for 15.00s. When the wielder's battle skill applies an Arts Reaction , the wielder gains Arts DMG Dealt +22.4% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 4": "Arts DMG Dealt +19.2% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +12.8% for 15.00s. When the wielder's battle skill applies an Arts Reaction , the wielder gains Arts DMG Dealt +25.6% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 5": "Arts DMG Dealt +21.6% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +14.4% for 15.00s. When the wielder's battle skill applies an Arts Reaction , the wielder gains Arts DMG Dealt +28.8% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 6": "Arts DMG Dealt +24% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +16% for 15.00s. When the wielder's battle skill applies an Arts Reaction , the wielder gains Arts DMG Dealt +32% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 7": "Arts DMG Dealt +26.4% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +17.6% for 15.00s. When the wielder's battle skill applies an Arts Reaction , the wielder gains Arts DMG Dealt +35.2% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 8": "Arts DMG Dealt +28.8% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +19.2% for 15.00s. When the wielder's battle skill applies an Arts Reaction , the wielder gains Arts DMG Dealt +38.4% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 9": "Arts DMG Dealt +33.6% . When the wielder casts a battle skill, the wielder gains Arts DMG Dealt +22.4% for 15.00s. When the wielder's battle skill applies an Arts Reaction , the wielder gains Arts DMG Dealt +44.8% for 15.00s. The two effects apply separately and do not stack with themselves."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Wedge.png"
+    }
+  },
+  {
+    "Navigator": {
+      "type": "Handcannon",
+      "detail_page": "https://endfield.wiki.gg/wiki/Navigator",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "144",
+        "Level 40": "243",
+        "Level 60": "342",
+        "Level 80": "441",
+        "Level 90": "490"
+      },
+      "weapon_skills": {
+        "Intellect Boost [L]": {
+          "Rank 1": "Intellect +20",
+          "Rank 2": "Intellect +36",
+          "Rank 3": "Intellect +52",
+          "Rank 4": "Intellect +68",
+          "Rank 5": "Intellect +84",
+          "Rank 6": "Intellect +100",
+          "Rank 7": "Intellect +116",
+          "Rank 8": "Intellect +132",
+          "Rank 9": "Intellect +156"
+        },
+        "Cryo DMG Boost [L]": {
+          "Rank 1": "Cryo DMG Dealt +5.56%",
+          "Rank 2": "Cryo DMG Dealt +10%",
+          "Rank 3": "Cryo DMG Dealt +14.44%",
+          "Rank 4": "Cryo DMG Dealt +18.89%",
+          "Rank 5": "Cryo DMG Dealt +23.33%",
+          "Rank 6": "Cryo DMG Dealt +27.78%",
+          "Rank 7": "Cryo DMG Dealt +32.22%",
+          "Rank 8": "Cryo DMG Dealt +36.67%",
+          "Rank 9": "Cryo DMG Dealt +43.33%"
+        },
+        "Infliction: Lone and Distant Sail": {
+          "Rank 1": "Critical Rate +3.5% . When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG Dealt and Nature DMG Dealt +3.5% , and Critical Rate +2% for 15.00s. If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.",
+          "Rank 2": "Critical Rate +4.2% . When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG Dealt and Nature DMG Dealt +4.2% , and Critical Rate +2.4% for 15.00s. If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.",
+          "Rank 3": "Critical Rate +4.9% . When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG Dealt and Nature DMG Dealt +4.9% , and Critical Rate +2.8% for 15.00s. If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.",
+          "Rank 4": "Critical Rate +5.6% . When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG Dealt and Nature DMG Dealt +5.6% , and Critical Rate +3.2% for 15.00s. If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.",
+          "Rank 5": "Critical Rate +6.3% . When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG Dealt and Nature DMG Dealt +6.3% , and Critical Rate +3.6% for 15.00s. If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.",
+          "Rank 6": "Critical Rate +7% . When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG Dealt and Nature DMG Dealt +7% , and Critical Rate +4% for 15.00s. If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.",
+          "Rank 7": "Critical Rate +7.7% . When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG Dealt and Nature DMG Dealt +7.7% , and Critical Rate +4.4% for 15.00s. If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.",
+          "Rank 8": "Critical Rate +8.4% . When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG Dealt and Nature DMG Dealt +8.4% , and Critical Rate +4.8% for 15.00s. If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack.",
+          "Rank 9": "Critical Rate +9.8% . When Solidification or Corrosion is applied to enemies, the wielder gains Cryo DMG Dealt and Nature DMG Dealt +9.8% , and Critical Rate +5.6% for 15.00s. If this effect is triggered by the wielder, double the increase gained. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Navigator.png"
+    }
+  },
+  {
+    "Artzy Tyrannical": {
+      "type": "Handcannon",
+      "detail_page": "https://endfield.wiki.gg/wiki/Artzy_Tyrannical",
+      "stats": {
+        "Level 1": "51",
+        "Level 20": "148",
+        "Level 40": "250",
+        "Level 60": "352",
+        "Level 80": "454",
+        "Level 90": "505"
+      },
+      "weapon_skills": {
+        "Intellect Boost [L]": {
+          "Rank 1": "Intellect +20",
+          "Rank 2": "Intellect +36",
+          "Rank 3": "Intellect +52",
+          "Rank 4": "Intellect +68",
+          "Rank 5": "Intellect +84",
+          "Rank 6": "Intellect +100",
+          "Rank 7": "Intellect +116",
+          "Rank 8": "Intellect +132",
+          "Rank 9": "Intellect +156"
+        },
+        "Critical Rate Boost [L]": {
+          "Rank 1": "Critical Rate +2.5%",
+          "Rank 2": "Critical Rate +4.5%",
+          "Rank 3": "Critical Rate +6.5%",
+          "Rank 4": "Critical Rate +8.5%",
+          "Rank 5": "Critical Rate +10.5%",
+          "Rank 6": "Critical Rate +12.5%",
+          "Rank 7": "Critical Rate +14.5%",
+          "Rank 8": "Critical Rate +16.5%",
+          "Rank 9": "Critical Rate +19.5%"
+        },
+        "Fracture: Artzy Exaggeration": {
+          "Rank 1": "Cryo DMG Dealt +16% . After the wielder scores a critical hit with a battle skill or combo skill, the wielder gains Cryo DMG Dealt +14% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 2": "Cryo DMG Dealt +19.2% . After the wielder scores a critical hit with a battle skill or combo skill, the wielder gains Cryo DMG Dealt +16.8% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 3": "Cryo DMG Dealt +22.4% . After the wielder scores a critical hit with a battle skill or combo skill, the wielder gains Cryo DMG Dealt +19.6% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 4": "Cryo DMG Dealt +25.6% . After the wielder scores a critical hit with a battle skill or combo skill, the wielder gains Cryo DMG Dealt +22.4% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 5": "Cryo DMG Dealt +28.8% . After the wielder scores a critical hit with a battle skill or combo skill, the wielder gains Cryo DMG Dealt +25.2% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 6": "Cryo DMG Dealt +32% . After the wielder scores a critical hit with a battle skill or combo skill, the wielder gains Cryo DMG Dealt +28% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 7": "Cryo DMG Dealt +35.2% . After the wielder scores a critical hit with a battle skill or combo skill, the wielder gains Cryo DMG Dealt +30.8% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 8": "Cryo DMG Dealt +38.4% . After the wielder scores a critical hit with a battle skill or combo skill, the wielder gains Cryo DMG Dealt +33.6% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 9": "Cryo DMG Dealt +44.8% . After the wielder scores a critical hit with a battle skill or combo skill, the wielder gains Cryo DMG Dealt +39.2% for 30.00s. Max stacks for effects of the same name: 3.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Artzy Tyrannical.png"
+    }
+  },
+  {
+    "Rational Farewell": {
+      "type": "Handcannon",
+      "detail_page": "https://endfield.wiki.gg/wiki/Rational_Farewell",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Strength Boost [M]": {
+          "Rank 1": "Strength +16",
+          "Rank 2": "Strength +28",
+          "Rank 3": "Strength +41",
+          "Rank 4": "Strength +54",
+          "Rank 5": "Strength +67",
+          "Rank 6": "Strength +80",
+          "Rank 7": "Strength +92",
+          "Rank 8": "Strength +105",
+          "Rank 9": "Strength +124"
+        },
+        "Heat DMG Boost [M]": {
+          "Rank 1": "Heat DMG Dealt +4.44%",
+          "Rank 2": "Heat DMG Dealt +8%",
+          "Rank 3": "Heat DMG Dealt +11.56%",
+          "Rank 4": "Heat DMG Dealt +15.11%",
+          "Rank 5": "Heat DMG Dealt +18.67%",
+          "Rank 6": "Heat DMG Dealt +22.22%",
+          "Rank 7": "Heat DMG Dealt +25.78%",
+          "Rank 8": "Heat DMG Dealt +29.33%",
+          "Rank 9": "Heat DMG Dealt +34.67%"
+        },
+        "Pursuit: Aid from the Past": {
+          "Rank 1": "Battle Skill DMG +10% . When the wielder's combo skill applies Arts Burst or Combusted , the wielder gains ATK +16% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 2": "Battle Skill DMG +12% . When the wielder's combo skill applies Arts Burst or Combusted , the wielder gains ATK +19.2% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 3": "Battle Skill DMG +14% . When the wielder's combo skill applies Arts Burst or Combusted , the wielder gains ATK +22.4% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 4": "Battle Skill DMG +16% . When the wielder's combo skill applies Arts Burst or Combusted , the wielder gains ATK +25.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 5": "Battle Skill DMG +18% . When the wielder's combo skill applies Arts Burst or Combusted , the wielder gains ATK +28.8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 6": "Battle Skill DMG +20% . When the wielder's combo skill applies Arts Burst or Combusted , the wielder gains ATK +32% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 7": "Battle Skill DMG +22% . When the wielder's combo skill applies Arts Burst or Combusted , the wielder gains ATK +35.2% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 8": "Battle Skill DMG +24% . When the wielder's combo skill applies Arts Burst or Combusted , the wielder gains ATK +38.4% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 9": "Battle Skill DMG +28% . When the wielder's combo skill applies Arts Burst or Combusted , the wielder gains ATK +44.8% for 15.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Rational Farewell.png"
+    }
+  },
+  {
+    "Opus: The Living": {
+      "type": "Handcannon",
+      "detail_page": "https://endfield.wiki.gg/wiki/Opus:_The_Living",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Agility Boost [M]": {
+          "Rank 1": "Agility +16",
+          "Rank 2": "Agility +28",
+          "Rank 3": "Agility +41",
+          "Rank 4": "Agility +54",
+          "Rank 5": "Agility +67",
+          "Rank 6": "Agility +80",
+          "Rank 7": "Agility +92",
+          "Rank 8": "Agility +105",
+          "Rank 9": "Agility +124"
+        },
+        "Arts Boost [M]": {
+          "Rank 1": "Arts DMG Dealt +4.44%",
+          "Rank 2": "Arts DMG Dealt +8%",
+          "Rank 3": "Arts DMG Dealt +11.56%",
+          "Rank 4": "Arts DMG Dealt +15.11%",
+          "Rank 5": "Arts DMG Dealt +18.67%",
+          "Rank 6": "Arts DMG Dealt +22.22%",
+          "Rank 7": "Arts DMG Dealt +25.78%",
+          "Rank 8": "Arts DMG Dealt +29.33%",
+          "Rank 9": "Arts DMG Dealt +34.67%"
+        },
+        "Infliction: Road Home for All Life": {
+          "Rank 1": "Critical Rate +3% . When the wielder applies an Arts Reaction , the wielder gains ATK +7.5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 2": "Critical Rate +3.6% . When the wielder applies an Arts Reaction , the wielder gains ATK +9% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 3": "Critical Rate +4.2% . When the wielder applies an Arts Reaction , the wielder gains ATK +10.5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 4": "Critical Rate +4.8% . When the wielder applies an Arts Reaction , the wielder gains ATK +12% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 5": "Critical Rate +5.4% . When the wielder applies an Arts Reaction , the wielder gains ATK +13.5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 6": "Critical Rate +6% . When the wielder applies an Arts Reaction , the wielder gains ATK +15% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 7": "Critical Rate +6.6% . When the wielder applies an Arts Reaction , the wielder gains ATK +16.5% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 8": "Critical Rate +7.2% . When the wielder applies an Arts Reaction , the wielder gains ATK +18% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s.",
+          "Rank 9": "Critical Rate +8.4% . When the wielder applies an Arts Reaction , the wielder gains ATK +21% for 20.00s. Max stacks for effects of the same name: 2.00. Duration of each stack is counted separately. Effect only triggers once every 0.1s."
+        }
+      },
+      "image_path": null
+    }
+  },
+  {
+    "OBJ Velocitous": {
+      "type": "Handcannon",
+      "detail_page": "https://endfield.wiki.gg/wiki/OBJ_Velocitous",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Agility Boost [M]": {
+          "Rank 1": "Agility +16",
+          "Rank 2": "Agility +28",
+          "Rank 3": "Agility +41",
+          "Rank 4": "Agility +54",
+          "Rank 5": "Agility +67",
+          "Rank 6": "Agility +80",
+          "Rank 7": "Agility +92",
+          "Rank 8": "Agility +105",
+          "Rank 9": "Agility +124"
+        },
+        "Ultimate Gain Efficiency Boost [M]": {
+          "Rank 1": "Ultimate Gain Efficiency +4.76%",
+          "Rank 2": "Ultimate Gain Efficiency +8.57%",
+          "Rank 3": "Ultimate Gain Efficiency +12.38%",
+          "Rank 4": "Ultimate Gain Efficiency +16.19%",
+          "Rank 5": "Ultimate Gain Efficiency +20%",
+          "Rank 6": "Ultimate Gain Efficiency +23.81%",
+          "Rank 7": "Ultimate Gain Efficiency +27.62%",
+          "Rank 8": "Ultimate Gain Efficiency +31.43%",
+          "Rank 9": "Ultimate Gain Efficiency +37.14%"
+        },
+        "Detonate: Rapid Strike": {
+          "Rank 1": "ATK +5% . After the wielder consumes an Arts Infliction , the wielder gains Nature DMG Dealt +[5%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 2": "ATK +6% . After the wielder consumes an Arts Infliction , the wielder gains Nature DMG Dealt +[6%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 3": "ATK +7% . After the wielder consumes an Arts Infliction , the wielder gains Nature DMG Dealt +[7%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 4": "ATK +8% . After the wielder consumes an Arts Infliction , the wielder gains Nature DMG Dealt +[8%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 5": "ATK +9% . After the wielder consumes an Arts Infliction , the wielder gains Nature DMG Dealt +[9%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 6": "ATK +10% . After the wielder consumes an Arts Infliction , the wielder gains Nature DMG Dealt +[10%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 7": "ATK +11% . After the wielder consumes an Arts Infliction , the wielder gains Nature DMG Dealt +[11%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 8": "ATK +12% . After the wielder consumes an Arts Infliction , the wielder gains Nature DMG Dealt +[12%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack.",
+          "Rank 9": "ATK +14% . After the wielder consumes an Arts Infliction , the wielder gains Nature DMG Dealt +[14%×Stacks Consumed] for 20.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/OBJ Velocitous.png"
+    }
+  },
+  {
+    "Chivalric Virtues": {
+      "type": "Arts Unit",
+      "detail_page": "https://endfield.wiki.gg/wiki/Chivalric_Virtues",
+      "stats": {
+        "Level 1": "49",
+        "Level 20": "142",
+        "Level 40": "240",
+        "Level 60": "338",
+        "Level 80": "436",
+        "Level 90": "485"
+      },
+      "weapon_skills": {
+        "Will Boost [L]": {
+          "Rank 1": "Will +20",
+          "Rank 2": "Will +36",
+          "Rank 3": "Will +52",
+          "Rank 4": "Will +68",
+          "Rank 5": "Will +84",
+          "Rank 6": "Will +100",
+          "Rank 7": "Will +116",
+          "Rank 8": "Will +132",
+          "Rank 9": "Will +156"
+        },
+        "HP Boost [L]": {
+          "Rank 1": "Max HP +10%",
+          "Rank 2": "Max HP +18%",
+          "Rank 3": "Max HP +26%",
+          "Rank 4": "Max HP +34%",
+          "Rank 5": "Max HP +42%",
+          "Rank 6": "Max HP +50%",
+          "Rank 7": "Max HP +58%",
+          "Rank 8": "Max HP +66%",
+          "Rank 9": "Max HP +78%"
+        },
+        "Medicant: Blight Fervor": {
+          "Rank 1": "Treatment Efficiency +10% . After the wielder's skill provides HP treatment, the entire team gains ATK +9% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 2": "Treatment Efficiency +12% . After the wielder's skill provides HP treatment, the entire team gains ATK +10.8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 3": "Treatment Efficiency +14% . After the wielder's skill provides HP treatment, the entire team gains ATK +12.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 4": "Treatment Efficiency +16% . After the wielder's skill provides HP treatment, the entire team gains ATK +14.4% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 5": "Treatment Efficiency +18% . After the wielder's skill provides HP treatment, the entire team gains ATK +16.2% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 6": "Treatment Efficiency +20% . After the wielder's skill provides HP treatment, the entire team gains ATK +18% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 7": "Treatment Efficiency +22% . After the wielder's skill provides HP treatment, the entire team gains ATK +19.8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 8": "Treatment Efficiency +24% . After the wielder's skill provides HP treatment, the entire team gains ATK +21.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 9": "Treatment Efficiency +28% . After the wielder's skill provides HP treatment, the entire team gains ATK +25.2% for 15.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Chivalric Virtues.png"
+    }
+  },
+  {
+    "Detonation Unit": {
+      "type": "Arts Unit",
+      "detail_page": "https://endfield.wiki.gg/wiki/Detonation_Unit",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "144",
+        "Level 40": "243",
+        "Level 60": "342",
+        "Level 80": "441",
+        "Level 90": "490"
+      },
+      "weapon_skills": {
+        "Main Attribute Boost [L]": {
+          "Rank 1": "Main attribute +17",
+          "Rank 2": "Main attribute +30",
+          "Rank 3": "Main attribute +44",
+          "Rank 4": "Main attribute +57",
+          "Rank 5": "Main attribute +71",
+          "Rank 6": "Main attribute +85",
+          "Rank 7": "Main attribute +98",
+          "Rank 8": "Main attribute +112",
+          "Rank 9": "Main attribute +132"
+        },
+        "Arts Intensity Boost [L]": {
+          "Rank 1": "Arts Intensity +10",
+          "Rank 2": "Arts Intensity +18",
+          "Rank 3": "Arts Intensity +26",
+          "Rank 4": "Arts Intensity +34",
+          "Rank 5": "Arts Intensity +42",
+          "Rank 6": "Arts Intensity +50",
+          "Rank 7": "Arts Intensity +58",
+          "Rank 8": "Arts Intensity +66",
+          "Rank 9": "Arts Intensity +78"
+        },
+        "Detonate: Imposing Champion": {
+          "Rank 1": "Secondary Attribute +10% . When the wielder applies an Arts Burst , target enemy suffers Arts DMG Taken +9% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 2": "Secondary Attribute +12% . When the wielder applies an Arts Burst , target enemy suffers Arts DMG Taken +10.8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 3": "Secondary Attribute +14% . When the wielder applies an Arts Burst , target enemy suffers Arts DMG Taken +12.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 4": "Secondary Attribute +16% . When the wielder applies an Arts Burst , target enemy suffers Arts DMG Taken +14.4% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 5": "Secondary Attribute +18% . When the wielder applies an Arts Burst , target enemy suffers Arts DMG Taken +16.2% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 6": "Secondary Attribute +20% . When the wielder applies an Arts Burst , target enemy suffers Arts DMG Taken +18% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 7": "Secondary Attribute +22% . When the wielder applies an Arts Burst , target enemy suffers Arts DMG Taken +19.8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 8": "Secondary Attribute +24% . When the wielder applies an Arts Burst , target enemy suffers Arts DMG Taken +21.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 9": "Secondary Attribute +28% . When the wielder applies an Arts Burst , target enemy suffers Arts DMG Taken +25.2% for 15.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Detonation Unit.png"
+    }
+  },
+  {
+    "Oblivion": {
+      "type": "Arts Unit",
+      "detail_page": "https://endfield.wiki.gg/wiki/Oblivion",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "145",
+        "Level 40": "245",
+        "Level 60": "345",
+        "Level 80": "445",
+        "Level 90": "495"
+      },
+      "weapon_skills": {
+        "Intellect Boost [L]": {
+          "Rank 1": "Intellect +20",
+          "Rank 2": "Intellect +36",
+          "Rank 3": "Intellect +52",
+          "Rank 4": "Intellect +68",
+          "Rank 5": "Intellect +84",
+          "Rank 6": "Intellect +100",
+          "Rank 7": "Intellect +116",
+          "Rank 8": "Intellect +132",
+          "Rank 9": "Intellect +156"
+        },
+        "Arts Boost [L]": {
+          "Rank 1": "Arts DMG Dealt +5.56%",
+          "Rank 2": "Arts DMG Dealt +10%",
+          "Rank 3": "Arts DMG Dealt +14.44%",
+          "Rank 4": "Arts DMG Dealt +18.89%",
+          "Rank 5": "Arts DMG Dealt +23.33%",
+          "Rank 6": "Arts DMG Dealt +27.78%",
+          "Rank 7": "Arts DMG Dealt +32.22%",
+          "Rank 8": "Arts DMG Dealt +36.67%",
+          "Rank 9": "Arts DMG Dealt +43.33%"
+        },
+        "Twilight: Humiliation": {
+          "Rank 1": "Critical Rate +5% . When the wielder casts an ultimate, the wielder gains Arts DMG Dealt +24% for 15.00s. When the wielder casts a combo skill, the wielder gains Arts DMG Dealt +12% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 2": "Critical Rate +6% . When the wielder casts an ultimate, the wielder gains Arts DMG Dealt +28.8% for 15.00s. When the wielder casts a combo skill, the wielder gains Arts DMG Dealt +14.4% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 3": "Critical Rate +7% . When the wielder casts an ultimate, the wielder gains Arts DMG Dealt +33.6% for 15.00s. When the wielder casts a combo skill, the wielder gains Arts DMG Dealt +16.8% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 4": "Critical Rate +8% . When the wielder casts an ultimate, the wielder gains Arts DMG Dealt +38.4% for 15.00s. When the wielder casts a combo skill, the wielder gains Arts DMG Dealt +19.2% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 5": "Critical Rate +9% . When the wielder casts an ultimate, the wielder gains Arts DMG Dealt +43.2% for 15.00s. When the wielder casts a combo skill, the wielder gains Arts DMG Dealt +21.6% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 6": "Critical Rate +10% . When the wielder casts an ultimate, the wielder gains Arts DMG Dealt +48% for 15.00s. When the wielder casts a combo skill, the wielder gains Arts DMG Dealt +24% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 7": "Critical Rate +11% . When the wielder casts an ultimate, the wielder gains Arts DMG Dealt +52.8% for 15.00s. When the wielder casts a combo skill, the wielder gains Arts DMG Dealt +26.4% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 8": "Critical Rate +12% . When the wielder casts an ultimate, the wielder gains Arts DMG Dealt +57.6% for 15.00s. When the wielder casts a combo skill, the wielder gains Arts DMG Dealt +28.8% for 15.00s. The two effects apply separately and do not stack with themselves.",
+          "Rank 9": "Critical Rate +14% . When the wielder casts an ultimate, the wielder gains Arts DMG Dealt +67.2% for 15.00s. When the wielder casts a combo skill, the wielder gains Arts DMG Dealt +33.6% for 15.00s. The two effects apply separately and do not stack with themselves."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Oblivion.png"
+    }
+  },
+  {
+    "Opus: Etch Figure": {
+      "type": "Arts Unit",
+      "detail_page": "https://endfield.wiki.gg/wiki/Opus:_Etch_Figure",
+      "stats": {
+        "Level 1": "49",
+        "Level 20": "142",
+        "Level 40": "240",
+        "Level 60": "338",
+        "Level 80": "436",
+        "Level 90": "485"
+      },
+      "weapon_skills": {
+        "Will Boost [L]": {
+          "Rank 1": "Will +20",
+          "Rank 2": "Will +36",
+          "Rank 3": "Will +52",
+          "Rank 4": "Will +68",
+          "Rank 5": "Will +84",
+          "Rank 6": "Will +100",
+          "Rank 7": "Will +116",
+          "Rank 8": "Will +132",
+          "Rank 9": "Will +156"
+        },
+        "Nature DMG Boost [L]": {
+          "Rank 1": "Nature DMG Dealt +5.56%",
+          "Rank 2": "Nature DMG Dealt +10%",
+          "Rank 3": "Nature DMG Dealt +14.44%",
+          "Rank 4": "Nature DMG Dealt +18.89%",
+          "Rank 5": "Nature DMG Dealt +23.33%",
+          "Rank 6": "Nature DMG Dealt +27.78%",
+          "Rank 7": "Nature DMG Dealt +32.22%",
+          "Rank 8": "Nature DMG Dealt +36.67%",
+          "Rank 9": "Nature DMG Dealt +43.33%"
+        },
+        "Suppression: Tillite Etchings": {
+          "Rank 1": "ATK +7% . When the wielder's battle skill applies Nature Infliction , other operators in the team gain Arts DMG Dealt +5% for 15.00s. For every enemy suffering from Nature Infliction applied by the said battle skill, other operators in the team gain bonus Arts DMG Dealt +2% , up to a max of +6% . Effects of the same name cannot stack.",
+          "Rank 2": "ATK +8.4% . When the wielder's battle skill applies Nature Infliction , other operators in the team gain Arts DMG Dealt +6% for 15.00s. For every enemy suffering from Nature Infliction applied by the said battle skill, other operators in the team gain bonus Arts DMG Dealt +2.4% , up to a max of +7.2% . Effects of the same name cannot stack.",
+          "Rank 3": "ATK +9.8% . When the wielder's battle skill applies Nature Infliction , other operators in the team gain Arts DMG Dealt +7% for 15.00s. For every enemy suffering from Nature Infliction applied by the said battle skill, other operators in the team gain bonus Arts DMG Dealt +2.8% , up to a max of +8.4% . Effects of the same name cannot stack.",
+          "Rank 4": "ATK +11.2% . When the wielder's battle skill applies Nature Infliction , other operators in the team gain Arts DMG Dealt +8% for 15.00s. For every enemy suffering from Nature Infliction applied by the said battle skill, other operators in the team gain bonus Arts DMG Dealt +3.2% , up to a max of +9.6% . Effects of the same name cannot stack.",
+          "Rank 5": "ATK +12.6% . When the wielder's battle skill applies Nature Infliction , other operators in the team gain Arts DMG Dealt +9% for 15.00s. For every enemy suffering from Nature Infliction applied by the said battle skill, other operators in the team gain bonus Arts DMG Dealt +3.6% , up to a max of +10.8% . Effects of the same name cannot stack.",
+          "Rank 6": "ATK +14% . When the wielder's battle skill applies Nature Infliction , other operators in the team gain Arts DMG Dealt +10% for 15.00s. For every enemy suffering from Nature Infliction applied by the said battle skill, other operators in the team gain bonus Arts DMG Dealt +4% , up to a max of +12% . Effects of the same name cannot stack.",
+          "Rank 7": "ATK +15.4% . When the wielder's battle skill applies Nature Infliction , other operators in the team gain Arts DMG Dealt +11% for 15.00s. For every enemy suffering from Nature Infliction applied by the said battle skill, other operators in the team gain bonus Arts DMG Dealt +4.4% , up to a max of +13.2% . Effects of the same name cannot stack.",
+          "Rank 8": "ATK +16.8% . When the wielder's battle skill applies Nature Infliction , other operators in the team gain Arts DMG Dealt +12% for 15.00s. For every enemy suffering from Nature Infliction applied by the said battle skill, other operators in the team gain bonus Arts DMG Dealt +4.8% , up to a max of +14.4% . Effects of the same name cannot stack.",
+          "Rank 9": "ATK +19.6% . When the wielder's battle skill applies Nature Infliction , other operators in the team gain Arts DMG Dealt +14% for 15.00s. For every enemy suffering from Nature Infliction applied by the said battle skill, other operators in the team gain bonus Arts DMG Dealt +5.6% , up to a max of +16.8% . Effects of the same name cannot stack."
+        }
+      },
+      "image_path": null
+    }
+  },
+  {
+    "Dreams of the Starry Beach": {
+      "type": "Arts Unit",
+      "detail_page": "https://endfield.wiki.gg/wiki/Dreams_of_the_Starry_Beach",
+      "stats": {
+        "Level 1": "50",
+        "Level 20": "145",
+        "Level 40": "245",
+        "Level 60": "345",
+        "Level 80": "445",
+        "Level 90": "495"
+      },
+      "weapon_skills": {
+        "Intellect Boost [L]": {
+          "Rank 1": "Intellect +20",
+          "Rank 2": "Intellect +36",
+          "Rank 3": "Intellect +52",
+          "Rank 4": "Intellect +68",
+          "Rank 5": "Intellect +84",
+          "Rank 6": "Intellect +100",
+          "Rank 7": "Intellect +116",
+          "Rank 8": "Intellect +132",
+          "Rank 9": "Intellect +156"
+        },
+        "Treatment Efficiency Boost [L]": {
+          "Rank 1": "Treatment Efficiency +5.95% .",
+          "Rank 2": "Treatment Efficiency +10.71% .",
+          "Rank 3": "Treatment Efficiency +15.48% .",
+          "Rank 4": "Treatment Efficiency +20.24% .",
+          "Rank 5": "Treatment Efficiency +25% .",
+          "Rank 6": "Treatment Efficiency +29.76% .",
+          "Rank 7": "Treatment Efficiency +34.52% .",
+          "Rank 8": "Treatment Efficiency +39.29% .",
+          "Rank 9": "Treatment Efficiency +46.43% ."
+        },
+        "Infliction: Tidal Murmurs": {
+          "Rank 1": "Secondary attribute +16% . After the wielder consumes Corrosion , target enemy suffers Arts DMG Taken +10% for 25.00s. Effects of the same name cannot stack.",
+          "Rank 2": "Secondary attribute +19.2% . After the wielder consumes Corrosion , target enemy suffers Arts DMG Taken +12% for 25.00s. Effects of the same name cannot stack.",
+          "Rank 3": "Secondary attribute +22.4% . After the wielder consumes Corrosion , target enemy suffers Arts DMG Taken +14% for 25.00s. Effects of the same name cannot stack.",
+          "Rank 4": "Secondary attribute +25.6% . After the wielder consumes Corrosion , target enemy suffers Arts DMG Taken +16% for 25.00s. Effects of the same name cannot stack.",
+          "Rank 5": "Secondary attribute +28.8% . After the wielder consumes Corrosion , target enemy suffers Arts DMG Taken +18% for 25.00s. Effects of the same name cannot stack.",
+          "Rank 6": "Secondary attribute +32% . After the wielder consumes Corrosion , target enemy suffers Arts DMG Taken +20% for 25.00s. Effects of the same name cannot stack.",
+          "Rank 7": "Secondary attribute +35.2% . After the wielder consumes Corrosion , target enemy suffers Arts DMG Taken +22% for 25.00s. Effects of the same name cannot stack.",
+          "Rank 8": "Secondary attribute +38.4% . After the wielder consumes Corrosion , target enemy suffers Arts DMG Taken +24% for 25.00s. Effects of the same name cannot stack.",
+          "Rank 9": "Secondary attribute +44.8% . After the wielder consumes Corrosion , target enemy suffers Arts DMG Taken +28% for 25.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Dreams of the Starry Beach.png"
+    }
+  },
+  {
+    "Delivery Guaranteed": {
+      "type": "Arts Unit",
+      "detail_page": "https://endfield.wiki.gg/wiki/Delivery_Guaranteed",
+      "stats": {
+        "Level 1": "51",
+        "Level 20": "146",
+        "Level 40": "247",
+        "Level 60": "348",
+        "Level 80": "449",
+        "Level 90": "500"
+      },
+      "weapon_skills": {
+        "Will Boost [L]": {
+          "Rank 1": "Will +20",
+          "Rank 2": "Will +36",
+          "Rank 3": "Will +52",
+          "Rank 4": "Will +68",
+          "Rank 5": "Will +84",
+          "Rank 6": "Will +100",
+          "Rank 7": "Will +116",
+          "Rank 8": "Will +132",
+          "Rank 9": "Will +156"
+        },
+        "Ultimate Gain Efficiency Boost [L]": {
+          "Rank 1": "Ultimate Gain Efficiency +5.95%",
+          "Rank 2": "Ultimate Gain Efficiency +10.71%",
+          "Rank 3": "Ultimate Gain Efficiency +15.48%",
+          "Rank 4": "Ultimate Gain Efficiency +20.24%",
+          "Rank 5": "Ultimate Gain Efficiency +25%",
+          "Rank 6": "Ultimate Gain Efficiency +29.76%",
+          "Rank 7": "Ultimate Gain Efficiency +34.52%",
+          "Rank 8": "Ultimate Gain Efficiency +39.29%",
+          "Rank 9": "Ultimate Gain Efficiency +46.43%"
+        },
+        "Pursuit: Duty Fulfilled": {
+          "Rank 1": "Nature DMG Dealt +16% . After the wielder's combo skill applies Lifted , the team gains Arts DMG Dealt +12% for 15.00s. For every enemy Lifted , the team gains bonus Arts DMG Dealt +3.5% , up to a max of +10.5% . Effects of the same name cannot stack.",
+          "Rank 2": "Nature DMG Dealt +19.2% . After the wielder's combo skill applies Lifted , the team gains Arts DMG Dealt +14.4% for 15.00s. For every enemy Lifted , the team gains bonus Arts DMG Dealt +4.2% , up to a max of +12.6% . Effects of the same name cannot stack.",
+          "Rank 3": "Nature DMG Dealt +22.4% . After the wielder's combo skill applies Lifted , the team gains Arts DMG Dealt +16.8% for 15.00s. For every enemy Lifted , the team gains bonus Arts DMG Dealt +4.9% , up to a max of +14.7% . Effects of the same name cannot stack.",
+          "Rank 4": "Nature DMG Dealt +25.6% . After the wielder's combo skill applies Lifted , the team gains Arts DMG Dealt +19.2% for 15.00s. For every enemy Lifted , the team gains bonus Arts DMG Dealt +5.6% , up to a max of +16.8% . Effects of the same name cannot stack.",
+          "Rank 5": "Nature DMG Dealt +28.8% . After the wielder's combo skill applies Lifted , the team gains Arts DMG Dealt +21.6% for 15.00s. For every enemy Lifted , the team gains bonus Arts DMG Dealt +6.3% , up to a max of +18.9% . Effects of the same name cannot stack.",
+          "Rank 6": "Nature DMG Dealt +32% . After the wielder's combo skill applies Lifted , the team gains Arts DMG Dealt +24% for 15.00s. For every enemy Lifted , the team gains bonus Arts DMG Dealt +7% , up to a max of +21% . Effects of the same name cannot stack.",
+          "Rank 7": "Nature DMG Dealt +35.2% . After the wielder's combo skill applies Lifted , the team gains Arts DMG Dealt +26.4% for 15.00s. For every enemy Lifted , the team gains bonus Arts DMG Dealt +7.7% , up to a max of +23.1% . Effects of the same name cannot stack.",
+          "Rank 8": "Nature DMG Dealt +38.4% . After the wielder's combo skill applies Lifted , the team gains Arts DMG Dealt +28.8% for 15.00s. For every enemy Lifted , the team gains bonus Arts DMG Dealt +8.4% , up to a max of +25.2% . Effects of the same name cannot stack.",
+          "Rank 9": "Nature DMG Dealt +44.8% . After the wielder's combo skill applies Lifted , the team gains Arts DMG Dealt +33.6% for 15.00s. For every enemy Lifted , the team gains bonus Arts DMG Dealt +9.8% , up to a max of +29.4% . Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Delivery Guaranteed.png"
+    }
+  },
+  {
+    "OBJ Arts Identifier": {
+      "type": "Arts Unit",
+      "detail_page": "https://endfield.wiki.gg/wiki/OBJ_Arts_Identifier",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Intellect Boost [M]": {
+          "Rank 1": "Intellect +16",
+          "Rank 2": "Intellect +28",
+          "Rank 3": "Intellect +41",
+          "Rank 4": "Intellect +54",
+          "Rank 5": "Intellect +67",
+          "Rank 6": "Intellect +80",
+          "Rank 7": "Intellect +92",
+          "Rank 8": "Intellect +105",
+          "Rank 9": "Intellect +124"
+        },
+        "Arts Intensity Boost [M]": {
+          "Rank 1": "Arts Intensity +8",
+          "Rank 2": "Arts Intensity +14",
+          "Rank 3": "Arts Intensity +20",
+          "Rank 4": "Arts Intensity +27",
+          "Rank 5": "Arts Intensity +33",
+          "Rank 6": "Arts Intensity +40",
+          "Rank 7": "Arts Intensity +46",
+          "Rank 8": "Arts Intensity +52",
+          "Rank 9": "Arts Intensity +62"
+        },
+        "Pursuit: Transcendent Arts": {
+          "Rank 1": "Max HP +10% . When the wielder's combo skill applies Arts Burst or Physical Status , the entire team gains Heat DMG Dealt and Electric DMG Dealt +8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 2": "Max HP +12% . When the wielder's combo skill applies Arts Burst or Physical Status , the entire team gains Heat DMG Dealt and Electric DMG Dealt +9.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 3": "Max HP +14% . When the wielder's combo skill applies Arts Burst or Physical Status , the entire team gains Heat DMG Dealt and Electric DMG Dealt +11.2% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 4": "Max HP +16% . When the wielder's combo skill applies Arts Burst or Physical Status , the entire team gains Heat DMG Dealt and Electric DMG Dealt +12.8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 5": "Max HP +18% . When the wielder's combo skill applies Arts Burst or Physical Status , the entire team gains Heat DMG Dealt and Electric DMG Dealt +14.4% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 6": "Max HP +20% . When the wielder's combo skill applies Arts Burst or Physical Status , the entire team gains Heat DMG Dealt and Electric DMG Dealt +16% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 7": "Max HP +22% . When the wielder's combo skill applies Arts Burst or Physical Status , the entire team gains Heat DMG Dealt and Electric DMG Dealt +17.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 8": "Max HP +24% . When the wielder's combo skill applies Arts Burst or Physical Status , the entire team gains Heat DMG Dealt and Electric DMG Dealt +19.2% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 9": "Max HP +28% . When the wielder's combo skill applies Arts Burst or Physical Status , the entire team gains Heat DMG Dealt and Electric DMG Dealt +22.4% for 15.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/OBJ Arts Identifier.png"
+    }
+  },
+  {
+    "Freedom to Proselytize": {
+      "type": "Arts Unit",
+      "detail_page": "https://endfield.wiki.gg/wiki/Freedom_to_Proselytize",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Will Boost [M]": {
+          "Rank 1": "Will +16",
+          "Rank 2": "Will +28",
+          "Rank 3": "Will +41",
+          "Rank 4": "Will +54",
+          "Rank 5": "Will +67",
+          "Rank 6": "Will +80",
+          "Rank 7": "Will +92",
+          "Rank 8": "Will +105",
+          "Rank 9": "Will +124"
+        },
+        "Treatment Efficiency Boost [M]": {
+          "Rank 1": "Treatment Efficiency +4.76% .",
+          "Rank 2": "Treatment Efficiency +8.57% .",
+          "Rank 3": "Treatment Efficiency +12.38% .",
+          "Rank 4": "Treatment Efficiency +16.19% .",
+          "Rank 5": "Treatment Efficiency +20% .",
+          "Rank 6": "Treatment Efficiency +23.81% .",
+          "Rank 7": "Treatment Efficiency +27.62% .",
+          "Rank 8": "Treatment Efficiency +31.43% .",
+          "Rank 9": "Treatment Efficiency +37.14% ."
+        },
+        "Medicant: Redemption of Faith": {
+          "Rank 1": "Main Attribute +5% . When the wielder's battle skill provides HP treatment, the controlled operator is restored for another [60 + Will×0.5] HP. Effect only triggers once every 15.00s.",
+          "Rank 2": "Main Attribute +6% . When the wielder's battle skill provides HP treatment, the controlled operator is restored for another [72 + Will×0.6] HP. Effect only triggers once every 15.00s.",
+          "Rank 3": "Main Attribute +7% . When the wielder's battle skill provides HP treatment, the controlled operator is restored for another [84 + Will×0.7] HP. Effect only triggers once every 15.00s.",
+          "Rank 4": "Main Attribute +8% . When the wielder's battle skill provides HP treatment, the controlled operator is restored for another [96 + Will×0.8] HP. Effect only triggers once every 15.00s.",
+          "Rank 5": "Main Attribute +9% . When the wielder's battle skill provides HP treatment, the controlled operator is restored for another [108 + Will×0.9] HP. Effect only triggers once every 15.00s.",
+          "Rank 6": "Main Attribute +10% . When the wielder's battle skill provides HP treatment, the controlled operator is restored for another [120 + Will×1] HP. Effect only triggers once every 15.00s.",
+          "Rank 7": "Main Attribute +11% . When the wielder's battle skill provides HP treatment, the controlled operator is restored for another [132 + Will×1.1] HP. Effect only triggers once every 15.00s.",
+          "Rank 8": "Main Attribute +12% . When the wielder's battle skill provides HP treatment, the controlled operator is restored for another [144 + Will×1.2] HP. Effect only triggers once every 15.00s.",
+          "Rank 9": "Main Attribute +14% . When the wielder's battle skill provides HP treatment, the controlled operator is restored for another [168 + Will×1.4] HP. Effect only triggers once every 15.00s."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Freedom to Proselytize.png"
+    }
+  },
+  {
+    "Wild Wanderer": {
+      "type": "Arts Unit",
+      "detail_page": "https://endfield.wiki.gg/wiki/Wild_Wanderer",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Intellect Boost [M]": {
+          "Rank 1": "Intellect +16",
+          "Rank 2": "Intellect +28",
+          "Rank 3": "Intellect +41",
+          "Rank 4": "Intellect +54",
+          "Rank 5": "Intellect +67",
+          "Rank 6": "Intellect +80",
+          "Rank 7": "Intellect +92",
+          "Rank 8": "Intellect +105",
+          "Rank 9": "Intellect +124"
+        },
+        "Electric DMG Boost [M]": {
+          "Rank 1": "Electric DMG Dealt +4.44%",
+          "Rank 2": "Electric DMG Dealt +8%",
+          "Rank 3": "Electric DMG Dealt +11.56%",
+          "Rank 4": "Electric DMG Dealt +15.11%",
+          "Rank 5": "Electric DMG Dealt +18.67%",
+          "Rank 6": "Electric DMG Dealt +22.22%",
+          "Rank 7": "Electric DMG Dealt +25.78%",
+          "Rank 8": "Electric DMG Dealt +29.33%",
+          "Rank 9": "Electric DMG Dealt +34.67%"
+        },
+        "Infliction: Wilderness Cluster": {
+          "Rank 1": "Arts Intensity +10 . When the wielder applies Electrification , the team gains Physical DMG Dealt and Electric DMG Dealt +8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 2": "Arts Intensity +12 . When the wielder applies Electrification , the team gains Physical DMG Dealt and Electric DMG Dealt +9.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 3": "Arts Intensity +14 . When the wielder applies Electrification , the team gains Physical DMG Dealt and Electric DMG Dealt +11.2% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 4": "Arts Intensity +16 . When the wielder applies Electrification , the team gains Physical DMG Dealt and Electric DMG Dealt +12.8% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 5": "Arts Intensity +18 . When the wielder applies Electrification , the team gains Physical DMG Dealt and Electric DMG Dealt +14.4% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 6": "Arts Intensity +20 . When the wielder applies Electrification , the team gains Physical DMG Dealt and Electric DMG Dealt +16% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 7": "Arts Intensity +22 . When the wielder applies Electrification , the team gains Physical DMG Dealt and Electric DMG Dealt +17.6% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 8": "Arts Intensity +24 . When the wielder applies Electrification , the team gains Physical DMG Dealt and Electric DMG Dealt +19.2% for 15.00s. Effects of the same name cannot stack.",
+          "Rank 9": "Arts Intensity +28 . When the wielder applies Electrification , the team gains Physical DMG Dealt and Electric DMG Dealt +22.4% for 15.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Wild Wanderer.png"
+    }
+  },
+  {
+    "Monaihe": {
+      "type": "Arts Unit",
+      "detail_page": "https://endfield.wiki.gg/wiki/Monaihe",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Will Boost [M]": {
+          "Rank 1": "Will +16",
+          "Rank 2": "Will +28",
+          "Rank 3": "Will +41",
+          "Rank 4": "Will +54",
+          "Rank 5": "Will +67",
+          "Rank 6": "Will +80",
+          "Rank 7": "Will +92",
+          "Rank 8": "Will +105",
+          "Rank 9": "Will +124"
+        },
+        "Ultimate Gain Efficiency Boost [M]": {
+          "Rank 1": "Ultimate Gain Efficiency +4.76%",
+          "Rank 2": "Ultimate Gain Efficiency +8.57%",
+          "Rank 3": "Ultimate Gain Efficiency +12.38%",
+          "Rank 4": "Ultimate Gain Efficiency +16.19%",
+          "Rank 5": "Ultimate Gain Efficiency +20%",
+          "Rank 6": "Ultimate Gain Efficiency +23.81%",
+          "Rank 7": "Ultimate Gain Efficiency +27.62%",
+          "Rank 8": "Ultimate Gain Efficiency +31.43%",
+          "Rank 9": "Ultimate Gain Efficiency +37.14%"
+        },
+        "Inspiring: Mortise-and-Tenon Analysis": {
+          "Rank 1": "Main Attribute +5% . Arts Intensity +25 .",
+          "Rank 2": "Main Attribute +6% . Arts Intensity +30 .",
+          "Rank 3": "Main Attribute +7% . Arts Intensity +35 .",
+          "Rank 4": "Main Attribute +8% . Arts Intensity +40 .",
+          "Rank 5": "Main Attribute +9% . Arts Intensity +45 .",
+          "Rank 6": "Main Attribute +10% . Arts Intensity +50 .",
+          "Rank 7": "Main Attribute +11% . Arts Intensity +55 .",
+          "Rank 8": "Main Attribute +12% . Arts Intensity +60 .",
+          "Rank 9": "Main Attribute +14% . Arts Intensity +70 ."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Monaihe.png"
+    }
+  },
+  {
+    "Stanza of Memorials": {
+      "type": "Arts Unit",
+      "detail_page": "https://endfield.wiki.gg/wiki/Stanza_of_Memorials",
+      "stats": {
+        "Level 1": "42",
+        "Level 20": "120",
+        "Level 40": "203",
+        "Level 60": "286",
+        "Level 80": "369",
+        "Level 90": "411"
+      },
+      "weapon_skills": {
+        "Intellect Boost [M]": {
+          "Rank 1": "Intellect +16",
+          "Rank 2": "Intellect +28",
+          "Rank 3": "Intellect +41",
+          "Rank 4": "Intellect +54",
+          "Rank 5": "Intellect +67",
+          "Rank 6": "Intellect +80",
+          "Rank 7": "Intellect +92",
+          "Rank 8": "Intellect +105",
+          "Rank 9": "Intellect +124"
+        },
+        "ATK Boost [M]": {
+          "Rank 1": "Attack +4%",
+          "Rank 2": "Attack +7.2%",
+          "Rank 3": "Attack +10.4%",
+          "Rank 4": "Attack +13.6%",
+          "Rank 5": "Attack +16.8%",
+          "Rank 6": "Attack +20%",
+          "Rank 7": "Attack +23.2%",
+          "Rank 8": "Attack +26.4%",
+          "Rank 9": "Attack +31.2%"
+        },
+        "Twilight: Lustrous Pyre": {
+          "Rank 1": "Max HP +10% . When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +8% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 2": "Max HP +12% . When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +9.6% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 3": "Max HP +14% . When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +11.2% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 4": "Max HP +16% . When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +12.8% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 5": "Max HP +18% . When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +14.4% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 6": "Max HP +20% . When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +16% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 7": "Max HP +22% . When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +17.6% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 8": "Max HP +24% . When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +19.2% for 20.00s. Effects of the same name cannot stack.",
+          "Rank 9": "Max HP +28% . When the wielder casts an ultimate, operators whose elements differ from the wielder gain ATK +22.4% for 20.00s. Effects of the same name cannot stack."
+        }
+      },
+      "image_path": "../Data/Images/Weapons/Stanza of Memorials.png"
+    }
+  }
+]

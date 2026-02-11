@@ -1,0 +1,78 @@
+[
+  {
+    "set": "AIC Heavy",
+    "effect": "Wearer's HP +500, After the wearer defeats an enemy, the wearer restores 100 HP. Effect trigger cooldown: 5s."
+  },
+  {
+    "set": "AIC Light",
+    "effect": "Wearer's HP +500, After the wearer defeats an enemy, the wearer gains ATK +20 for 5s."
+  },
+  {
+    "set": "Armored MSGR",
+    "effect": "Wearer's Strength +50, When the wearer's HP is below 50%, the wearer gains 30% DMG Reduction against all types of damage."
+  },
+  {
+    "set": "Roving MSGR",
+    "effect": "Wearer's Agility +50, When the wearer's HP is above 80%, Physical DMG +20%."
+  },
+  {
+    "set": "Mordvolt Insulation",
+    "effect": "Wearer's Intellect +50, When the wearer's HP is above 80%, Arts DMG +20%."
+  },
+  {
+    "set": "Mordvolt Resistant",
+    "effect": "Wearer's Will +50, When the wearer's HP is below 50%, Treatment Effect +30%."
+  },
+  {
+    "set": "Aburrey's Legacy",
+    "effect": "Wearer's Skill DMG +24%, When the wearer casts a battle skill, combo skill, or ultimate, the wearer gains ATK +5% for 15s. The buff from each of the three skill types is unique and does not stack with itself."
+  },
+  {
+    "set": "Catastrophe",
+    "effect": "Wearer's Ultimate Gain Efficiency +20%, The wearer casts a battle skill, the action returns +50 SP. This effect only triggers 1 time per battle."
+  },
+  {
+    "set": "Swordmancer",
+    "effect": "Wearer's Stagger Efficiency Bonus +20%, After the wearer applies a Physical Status, the wearer also performs 1 hit that deals +250% ATK of Physical DMG and [10 Stagger]. Effect trigger cooldown: 15s."
+  },
+  {
+    "set": "LYNX",
+    "effect": "Wearer's HP Treatment Efficiency +20%. After the wearer gives HP treatment to an allied target, that target also gains +15% DMG Reduction against all types of DMG for 10s. If the said treatment exceeds the target's Max HP, the target gains +30% DMG Reduction against all types of DMG. The aforementioned effects cannot stack."
+  },
+  {
+    "set": "Æthertech",
+    "effect": "Wearer's ATK +8%. After the wearer applies Vulnerability, the wearer gains Physical DMG +8% for 15%s. This effect can reach 4 stacks. If the target already has 4 stack(s) of Vulnerability, the wearer gains an additional Physical DMG +16% for 10s. This effect cannot stack."
+  },
+  {
+    "set": "Bonekrusha",
+    "effect": "Wearer's ATK +15%. When the wearer casts a combo skill, the wearer gains 1 stack of Bonekrushing Smash that grants the wearer's next battle skill DMG Dealt +30%. Bonekrushing Smash can stack 2 time(s)."
+  },
+  {
+    "set": "Pulser Labs",
+    "effect": "Wearer's Arts Intensity +30. After the wearer applies Electrification, the wearer gains Electric DMG +50% for 10s. After the wearer applies Solidification, the wearer gains Cryo DMG +50% for 10s. The aforementioned effects cannot stack."
+  },
+  {
+    "set": "Frontiers",
+    "effect": "Wearer's Combo Skill Cooldown Reduction +15%. After the wearer's skill recovers SP, the team gains DMG +16% for 15s. This effect cannot stack."
+  },
+  {
+    "set": "Hot Work",
+    "effect": "Wearer's Arts Intensity +30. After the wearer applies Combustion, the wearer gains Heat DMG +50% for 10s. After the wearer applies Corrosion, the wearer gains Nature DMG +50% for 10s. The aforementioned effects cannot stack."
+  },
+  {
+    "set": "MI Security",
+    "effect": "Wearer's Critical Rate +5%. After the wearer scores a critical hit, the wearer gains ATK +5% for 5s. This effect can reach 5 stacks. At max stacks, grant an additional Critical Rate +5%. This effect cannot stack."
+  },
+  {
+    "set": "Type 50 Yinglung",
+    "effect": "Wearer's ATK +15%. When any operator in the team casts a battle skill, the wearer gains 1 stack of Yinglung's Edge that gives DMG +20% to the wearer's next combo skill. Yinglung's Edge can stack 3 time(s)."
+  },
+  {
+    "set": "Tide Surge",
+    "effect": "Wearer's Skill DMG Dealt +20%. After the wearer applies 2 or more stacks of Arts Infliction on the enemy, the wearer gains Arts DMG Dealt +35% for 15s. This effect cannot stack."
+  },
+  {
+    "set": "Eternal Xiranite",
+    "effect": "Wearer's HP +1000. After the wearer applies Amp, Protected, Susceptibility, or Weakened, other teammates gain DMG Dealt +16% for 15s. This effect cannot stack."
+  }
+]

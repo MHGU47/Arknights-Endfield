@@ -1,0 +1,2230 @@
+[
+  {
+    "Akekuri": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "319",
+        "Strength": "110",
+        "Agility": "140",
+        "Intellect": "106",
+        "Will": "108",
+        "Intelligence": "106",
+        "Main Attribute": "Agility",
+        "Secondary Attribute": "Intellect"
+      },
+      "skills": [
+        {
+          "Sword of Aspiration": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "45%",
+              "BATK SEQ 2 Multiplier": "62%",
+              "BATK SEQ 3 Multiplier": "73%",
+              "BATK SEQ 4 Multiplier": "111%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Burst of Passion": {
+            "description": "A frontal slash that deals Heat DMG and applies Heat Infliction.",
+            "multipliers": {
+              "DMG Multiplier": "320%",
+              "Stagger": "10"
+            }
+          }
+        },
+        {
+          "Flash and Dash": {
+            "description": "Performs a returning dash with 2 thrust sequences, with each sequence dealing Physical DMG and recovering some SP. Trigger: When an enemy becomes Staggered or hits a Stagger Node.",
+            "multipliers": {
+              "DMG Multiplier per SEQ": "180%",
+              "Stagger per SEQ": "5",
+              "SP Recovery per SEQ": "7.5"
+            }
+          }
+        },
+        {
+          "SQUAD! ON ME!": {
+            "description": "Enters a channeling state and fires 3 Rallying Flares. Each firing recovers some SP.",
+            "multipliers": {
+              "Cooldown": "20",
+              "SP Recovery": "80"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Coffee or Tea",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 10/14%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Icebreaker",
+          "type": "Base Talent",
+          "description": "Assign to Reception Room to slow Mood Drop of all operators in it by 10/14%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Cheer of Victory",
+          "type": "Combat Talent",
+          "description": "Combo skill Flash and Dash improved: For every 10 points of Intellect, SP Recovery +1/1.5% (max: 50/75%).",
+          "multipliers": {}
+        },
+        {
+          "name": "Staying in the Zone",
+          "type": "Combat Talent",
+          "description": "Ultimate SQUAD! ON ME! improved: When ultimate is active, gains Link.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/akekuri",
+        "scraped_at": "2026-02-10T21:47:18.287600Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Alesh": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "309",
+        "Strength": "158",
+        "Agility": "95",
+        "Intellect": "125",
+        "Will": "89",
+        "Intelligence": "125",
+        "Main Attribute": "Strength",
+        "Secondary Attribute": "Intellect"
+      },
+      "skills": [
+        {
+          "Basic Rod Casting": {
+            "description": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "39%",
+              "BATK SEQ 2 Multiplier": "23%",
+              "BATK SEQ 3 Multiplier": "62%",
+              "BATK SEQ 4 Multiplier": "62%",
+              "BATK SEQ 5 Multiplier": "124%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Unconventional Lure": {
+            "description": "Hooks a block of ice and slams it to deal Physical DMG to the enemy target. When hitting a target with Cryo Infliction, Alesh consumes all of the target's Cryo Infliction stacks, forcibly applies Solidification to the target, and recovers some SP based on the number of stacks consumed. The SP recovery effect can only trigger 1 time, even if the skill hits multiple enemies.",
+            "multipliers": {
+              "DMG Multiplier": "450%",
+              "SP Recovery by Consuming 1 Infliction Stack": "15",
+              "SP Recovery by Consuming 2 Infliction Stacks": "25",
+              "SP Recovery by Consuming 3 Infliction Stacks": "35",
+              "SP Recovery by Consuming 4 Infliction Stacks": "45",
+              "Stagger": "10"
+            }
+          }
+        },
+        {
+          "Auger Angling": {
+            "description": "Opens an angling hole beneath the enemy that deals Physical DMG and recovers some SP. The skill has a chance to hook a Rare Fin that greatly increases the DMG dealt and recovers some more SP. Trigger: When the Arts Reaction or Originium Crystals of a nearby target is consumed.",
+            "multipliers": {
+              "DMG Multiplier": "300%",
+              "Chance to Catch the Rare Fin": "10%",
+              "Enhanced DMG Multiplier": "480%",
+              "SP Recovery": "15",
+              "Bonus SP Recovery": "10",
+              "Stagger": "10"
+            }
+          }
+        },
+        {
+          "One Monster Catch!": {
+            "description": "Alesh hooks a fin of unbelievable size and slams it to deal Cryo DMG and apply Cryo Infliction to enemies in a large area of effect in front of him. He recovers some SP on hit, with additional SP gained for each target defeated.",
+            "multipliers": {
+              "Cooldown": "20",
+              "Ultimate DMG Multiplier": "980%",
+              "Base SP Recovery": "25",
+              "Bonus SP Recovery per Target Defeated": "15",
+              "SP Recovery Limit": "100",
+              "Stagger": "20"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Casual Angling",
+          "type": "Base Talent",
+          "description": "Assign to Control Nexus to grant all operators’ Mood Regen +8/12%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Anglers' Intel Network",
+          "type": "Base Talent",
+          "description": "Assign to Reception Room to grant operators a small Clue 1/Clue 1 Rate-UP: UWST (activates upon assignment; effects of the same type cannot stack)",
+          "multipliers": {}
+        },
+        {
+          "name": "Flash-frozen for Freshness",
+          "type": "Combat Talent",
+          "description": "After Solidification or Originium Crystals are applied to a nearby enemy, Alesh gains 3/4 Ultimate Energy. If the Solidification is applied by Alesh, double the amount of Ultimate Energy gained. Effect can only trigger once every 3s.",
+          "multipliers": {}
+        },
+        {
+          "name": "Veteran Angler",
+          "type": "Combat Talent",
+          "description": "Combo skill Auger Angling improved: Every 10 Intellect grants Rare Fin catching chance +0.2/0.5% (max: +30%).",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/alesh",
+        "scraped_at": "2026-02-10T21:47:21.062527Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Antal": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "297",
+        "Strength": "129",
+        "Agility": "86",
+        "Intellect": "165",
+        "Will": "82",
+        "Intelligence": "165",
+        "Main Attribute": "Intellect",
+        "Secondary Attribute": "Strength"
+      },
+      "skills": [
+        {
+          "Exchange Current": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 15 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Electric DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "52%",
+              "BATK SEQ 2 Multiplier": "63%",
+              "BATK SEQ 3 Multiplier": "77%",
+              "BATK SEQ 4 Multiplier": "115%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Specified Research Subject": {
+            "description": "Applies Focus with a long duration on the enemy and deals Electric DMG. An enemy with an active Focus also suffers Electric Susceptibility and Heat Susceptibility. Focus can only be applied to 1 enemy at any given time.",
+            "multipliers": {
+              "DMG Multiplier": "200%",
+              "Duration": "60",
+              "Electric Susceptibility": "10%",
+              "Heat Susceptibility": "10%"
+            }
+          }
+        },
+        {
+          "EMP Test Site": {
+            "description": "Triggers 1 energy explosion on the enemy that deals Electric DMG and applies another stack of the same Physical Status or Arts Infliction. Trigger: When an enemy with active Focus suffers a Physical Status or Arts Infliction.",
+            "multipliers": {
+              "DMG Multiplier": "340%",
+              "Stagger": "10"
+            }
+          }
+        },
+        {
+          "Overclocked Moment": {
+            "description": "Applies temporary Electric Amp and Heat Amp to the entire team.",
+            "multipliers": {
+              "Cooldown": "20",
+              "Electric Amp": "20%",
+              "Heat Amp": "20%",
+              "Duration (s)": "12"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Experimental Arts Unit",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +10/20%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Pun-isher Studies",
+          "type": "Base Talent",
+          "description": "Assign to Growth Chamber to slow Mood Drop of all operators in it by 14/18%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Improviser",
+          "type": "Combat Talent",
+          "description": "After an Amped teammate deals Skill DMG, Antal restores the said teammate's HP by [72 + Strength×0.6]/[108 + Strength×0.9]. This HP restoring effect triggers 1 time every 30s for each operator.",
+          "multipliers": {}
+        },
+        {
+          "name": "Subconscious Act",
+          "type": "Combat Talent",
+          "description": "Gains 30% chance of Physical DMG immunity and restores HP of self by [27 + Strength×0.23]/[45 + Strength×0.38].",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/antal",
+        "scraped_at": "2026-02-10T21:47:23.847133Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Arclight": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "306",
+        "Strength": "107",
+        "Agility": "145",
+        "Intellect": "123",
+        "Will": "100",
+        "Intelligence": "123",
+        "Main Attribute": "Agility",
+        "Secondary Attribute": "Intellect"
+      },
+      "skills": [
+        {
+          "Seek and Hunt": {
+            "description": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 16 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "23%",
+              "BATK SEQ 2 Multiplier": "28%",
+              "BATK SEQ 3 Multiplier": "59%",
+              "BATK SEQ 4 Multiplier": "81%",
+              "BATK SEQ 5 Multiplier": "107%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Tempestuous Arc": {
+            "description": "Instantly blinks to the enemy's side to deal 2 slashes that deal some Physical DMG. If the enemy has active Electrification, consume the Electrification to unleash an additional attack that deals Electric DMG and recovers some SP.",
+            "multipliers": {
+              "SEQ 1 DMG Multiplier": "101%",
+              "SEQ 2 DMG Multiplier": "101%",
+              "SEQ 2 Stagger": "5",
+              "Additional ATK DMG Multiplier": "405%",
+              "Additional ATK Stagger": "5",
+              "SP Recovery": "40"
+            }
+          }
+        },
+        {
+          "Peal of Thunder": {
+            "description": "Blinks to the enemy's side to unleash a flurry of slashes that deals Physical DMG and recovers some SP. Trigger: When an enemy suffers Electrification or after an enemy's Electrification is consumed.",
+            "multipliers": {
+              "DMG Multiplier": "350%",
+              "SP Recovery": "10",
+              "Stagger": "5"
+            }
+          }
+        },
+        {
+          "Exploding Blitz": {
+            "description": "Performs a short forward dash while wreathed in arcs of electricity to deal Electric DMG and apply Electric Infliction to all enemies in the path. The lingering arcs explode after a short while, dealing another hit of Electric DMG. If the enemy has active Electric Infliction, consume the Electric Infliction and forcibly apply Electrification.",
+            "multipliers": {
+              "Cooldown": "15",
+              "SEQ 1 DMG Multiplier": "350%",
+              "SEQ 1 Stagger": "10",
+              "SEQ 2 DMG Multiplier": "550%",
+              "SEQ 2 Stagger": "10"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Blade of the Wildlands",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +10/20%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Hanna Traditions",
+          "type": "Base Talent",
+          "description": "Assign to Reception Room to grant operators a small Clue 6/Clue 6 Rate-UP: Hannabit Circuit (activates upon assignment; effects of the same type cannot stack)",
+          "multipliers": {}
+        },
+        {
+          "name": "Wildland Trekker",
+          "type": "Combat Talent",
+          "description": "Battle skill Tempestuous Arc improved: Triggering the additional effect 3 time(s) grants the team Electric DMG Dealt +0.05/0.08% for every point of Arclight's Intellect. This effect has a 15s duration and cannot stack.",
+          "multipliers": {}
+        },
+        {
+          "name": "Hannabit Wisdom",
+          "type": "Combat Talent",
+          "description": "30/50% chance to ignore an Arts Infliction applied on her.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/arclight",
+        "scraped_at": "2026-02-10T21:47:27.726180Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Ardelia": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "323",
+        "Strength": "112",
+        "Agility": "93",
+        "Intellect": "145",
+        "Will": "118",
+        "Intelligence": "145",
+        "Main Attribute": "Intellect",
+        "Secondary Attribute": "Will"
+      },
+      "skills": [
+        {
+          "Rocky Whispers": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Nature DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "68%",
+              "BATK SEQ 2 Multiplier": "90%",
+              "BATK SEQ 3 Multiplier": "118%",
+              "BATK SEQ 4 Multiplier": "124%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Dolly Rush": {
+            "description": "Hops on Mr. Dolly and rams the target to deal Nature DMG. If the target has Corrosion, then consume the Corrosion and apply Physical Susceptibility and Arts Susceptibility to the target.",
+            "multipliers": {
+              "DMG Multiplier": "320%",
+              "Stagger": "10",
+              "Susceptibility": "20%",
+              "Susceptibility Duration (s)": "30"
+            }
+          }
+        },
+        {
+          "Eruption Column": {
+            "description": "Launches a homing Volcanic Cloud at a target enemy that deals Nature DMG when close enough to the target. The Volcanic Cloud explodes after a short delay, dealing half of the Nature DMG and forcibly applying temporary Corrosion to nearby enemies. Trigger: When the controlled operator performs a Final Strike on an enemy with no stacks of Vulnerability or Arts Infliction.",
+            "multipliers": {
+              "DMG Multiplier": "100%",
+              "Explosion DMG Multiplier": "250%",
+              "Stagger": "10",
+              "Corrode Duration (s)": "7"
+            }
+          }
+        },
+        {
+          "Wooly Party": {
+            "description": "Ardelia enters a mobile channeling state and summons the aid of Mr. Dolly. Multiple copies of Mr. Dolly are thrown in random directions. Each copy deals Nature DMG. Each enemy can only take 1 damaging hit every 0.3s.",
+            "multipliers": {
+              "Cooldown": "15",
+              "DMG Multiplier": "165%",
+              "Stagger": "3",
+              "Duration (s)": "3"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Tales of the Land",
+          "type": "Base Talent",
+          "description": "Assign to Reception Room to grant operator clue collecting efficiency +20/30%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Mr. Dolly's Game",
+          "type": "Base Talent",
+          "description": "Assign to Reception Room to slow Mood Drop of all operators in it by 14/18%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Friendly Presence",
+          "type": "Combat Talent",
+          "description": "The battle skill Dolly Rush creates 3 Shadows of Mr. Dolly after hitting the enemy. The copies of Mr. Dolly scattered by the ultimate Wooly Party also has a 10% chance to create Shadows of Mr. Dolly when they fall to the ground. When the controlled operator touches a Shadow of Mr. Dolly, Ardelia restores the said operator's HP by [45 + Will×0.38]/[63 + Will×0.53]/[90 + Will×0.75]. If the controlled operator is already at max HP, then restore the HP of the teammate with lowest percentage HP. Shadows of Mr. Dolly lasts for 10s and up to 10 can exist in the battlefield.",
+          "multipliers": {}
+        },
+        {
+          "name": "Mountainpeak Surfer",
+          "type": "Combat Talent",
+          "description": "Battle skill Dolly Rush improved: Triggering the additional effect while an enemy with Corrosion is nearby immediately casts the battle skill again. This effect only triggers once per active battle skill casting.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/ardelia",
+        "scraped_at": "2026-02-10T21:47:30.316854Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Avywenna": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "312",
+        "Strength": "107",
+        "Agility": "106",
+        "Intellect": "110",
+        "Will": "148",
+        "Intelligence": "110",
+        "Main Attribute": "Will",
+        "Secondary Attribute": "Agility"
+      },
+      "skills": [
+        {
+          "THunderlance: Blitz": {
+            "description": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "37%",
+              "BATK SEQ 2 Multiplier": "48%",
+              "BATK SEQ 3 Multiplier": "46%",
+              "BATK SEQ 4 Multiplier": "68%",
+              "BATK SEQ 5 Multiplier": "113%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Thunderlance: Interdiction": {
+            "description": "Leaps into mid-air to stir up a maelstrom with her lance, dealing some Electric DMG to nearby enemies while pulling back all Thunderlances and Thunderlance EX in the battlefield towards herself. The returning Thunderlances pierce through all enemies along their paths and deal Electric DMG, while returning Thunderlances EX deal more Electric DMG and also apply Electric Infliction.",
+            "multipliers": {
+              "DMG Multiplier": "150%",
+              "Stagger": "5",
+              "Thunderlance DMG Multiplier": "168%",
+              "Thunderlance Stagger": "5",
+              "Thunderlance EX DMG Multiplier": "432%",
+              "Thunderlance EX Stagger": "10"
+            }
+          }
+        },
+        {
+          "Thunderlance: Strike": {
+            "description": "Leaps into mid-air and throws 3 Thunderlances at the target, then deals 1 hit of Electric DMG to enemies in the area of effect. Trigger: When controlled operator performs a Final Strike on a target with active Electric Infliction or Electrification.",
+            "multipliers": {
+              "DMG Multiplier": "380%",
+              "Stagger": "10",
+              "Thunderlance Duration (s)": "30"
+            }
+          }
+        },
+        {
+          "Thunderlance: Final Shock": {
+            "description": "Throws a Thunderlance EX at the target area that deals massive Electric DMG to enemies nearby.",
+            "multipliers": {
+              "Cooldown": "10",
+              "DMG Multiplier": "950%",
+              "Stagger": "20",
+              "Thunderlance EX Duration (s)": "30"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Residence Advisor",
+          "type": "Base Talent",
+          "description": "Assign to Control Nexus to grant all operators' Mood Regen +8/12%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Messenger's Secret",
+          "type": "Base Talent",
+          "description": "Assign to Reception Room to grant operators a small Clue 2/Clue 2 Rate-UP: TGCC (activates upon assignment; effects of the same type cannot stack)",
+          "multipliers": {}
+        },
+        {
+          "name": "Expedited Delivery",
+          "type": "Combat Talent",
+          "description": "After a thrown or returning Thunderlance or Thunderlance EX hits the enemy, Avywenna gains 3/4 Ultimate Energy.",
+          "multipliers": {}
+        },
+        {
+          "name": "Tactful Approach",
+          "type": "Combat Talent",
+          "description": "Ultimate Thunderlance: Final Shock improved: Also applies 6/10% Electric Susceptibility for 10s to enemies it hits.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/avywenna",
+        "scraped_at": "2026-02-10T21:47:32.998082Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Catcher": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "300",
+        "Strength": "176",
+        "Agility": "96",
+        "Intellect": "86",
+        "Will": "106",
+        "Intelligence": "86",
+        "Main Attribute": "Strength",
+        "Secondary Attribute": "Will"
+      },
+      "skills": [
+        {
+          "Basic Tactics": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 22 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "79%",
+              "BATK SEQ 2 Multiplier": "87%",
+              "BATK SEQ 3 Multiplier": "122%",
+              "BATK SEQ 4 Multiplier": "160%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Rigid Interdiction": {
+            "description": "Raises a shield that can block attacks, grants Protection to self and nearby operators, and immediately returns some SP. When attacked while the said shield is active, perform a retaliation bash that deals Physical DMG and applies 1 stack of Vulnerability to the attacking enemy.",
+            "multipliers": {
+              "DMG Multiplier": "400%",
+              "Stagger": "20",
+              "Protection": "90%",
+              "SP Return": "30"
+            }
+          }
+        },
+        {
+          "Timely Suppression": {
+            "description": "A powerful downward punch that deals Physical DMG to the enemy, while granting shields to self and another teammate (controlled operator prioritized). DEF can further increase Shield points. Trigger: When an enemy starts charging up a skill, or when the controlled operator is attacked and falls below 40% HP.",
+            "multipliers": {
+              "SEQ 1 DMG Multiplier": "55%",
+              "SEQ 2 DMG Multiplier": "225%",
+              "Stagger": "10",
+              "Base Shield": "810",
+              "Shield Increase per Defense": "5.06",
+              "Shield Duration (s)": "10"
+            }
+          }
+        },
+        {
+          "Textbook Assault": {
+            "description": "Swings the greatsword to perform 2 consecutive slashes to deal Physical DMG and apply Weaken, followed by a powerful downward slam that deals massive Physical DMG and applies Knock Down to all enemies within the area of effect.",
+            "multipliers": {
+              "Cooldown": "15",
+              "SEQ 1 DMG Multiplier": "200%",
+              "SEQ 1 Stagger": "5",
+              "SEQ 2 DMG Multiplier": "270%",
+              "SEQ 2 Stagger": "5",
+              "SEQ 3 DMG Multiplier": "400%",
+              "SEQ 3 Stagger": "10",
+              "Weakness Effect": "30%",
+              "Weakness Duration (s)": "8"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Silent Caretaker",
+          "type": "Base Talent",
+          "description": "Assign to Control Nexus to grant all operators' Mood Regen +8/12%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Grounded Approach",
+          "type": "Base Talent",
+          "description": "Assign to Growth Chamber to slow Mood Drop of all operators in it by 14/18%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Resilient Defense",
+          "type": "Combat Talent",
+          "description": "For every 10 Will, DEF +1/1.2.",
+          "multipliers": {}
+        },
+        {
+          "name": "Comprehensive Mindset",
+          "type": "Combat Talent",
+          "description": "Ultimate Textbook Assault improved: Final hit creates 2/3 shockwave(s), each dealing 30/45% ATK of Physical DMG.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/catcher",
+        "scraped_at": "2026-02-10T21:47:35.877977Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Chen Qianyu": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "297",
+        "Strength": "106",
+        "Agility": "171",
+        "Intellect": "85",
+        "Will": "93",
+        "Intelligence": "85",
+        "Main Attribute": "Agility",
+        "Secondary Attribute": "Strength"
+      },
+      "skills": [
+        {
+          "Soaring Break": {
+            "description": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 16 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "45%",
+              "BATK SEQ 2 Multiplier": "54%",
+              "BATK SEQ 3 Multiplier": "60%",
+              "BATK SEQ 4 Multiplier": "68%",
+              "BATK SEQ 5 Multiplier": "90%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Ascending Strike": {
+            "description": "Performs an uppercut slash at the target enemy, dealing Physical DMG and Lift.",
+            "multipliers": {
+              "DMG Multiplier": "380%",
+              "Stagger": "10",
+              "Lift Duration (s)": "2.5"
+            }
+          }
+        },
+        {
+          "Soar to the Stars": {
+            "description": "A slashing dash that passes through the target enemy and deals Physical DMG and Lift to all enemies along the way. Trigger: When an enemy becomes Vulnerable.",
+            "multipliers": {
+              "DMG Multiplier": "270%"
+            }
+          }
+        },
+        {
+          "Blade Gale": {
+            "description": "A 7-sequence slash attack that deals Physical DMG with each sequence to the target enemy. The final slash sequence deals even more DMG.",
+            "multipliers": {
+              "Cooldown": "10",
+              "Slash Multiplier": "81%",
+              "First Strike Stagger": "15",
+              "Final Strike DMG Multiplier": "1023%",
+              "Final Strike Stagger": "20"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Blade Critique",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +10/20%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Jadeworking",
+          "type": "Base Talent",
+          "description": "Assign to Growth Chamber to grant rare mineral growth rate +20/30%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Slashing Edge",
+          "type": "Combat Talent",
+          "description": "After hitting an enemy with skills, Chen gains ATK +4/8% for 10s. This effect can reach 5 stacks.",
+          "multipliers": {}
+        },
+        {
+          "name": "Momentum Breaker",
+          "type": "Combat Talent",
+          "description": "Interrupting the enemy's charge up deals another 5/10 Stagger.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/chen-qianyu",
+        "scraped_at": "2026-02-10T21:47:48.238582Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Da Pan": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "303",
+        "Strength": "175",
+        "Agility": "96",
+        "Intellect": "94",
+        "Will": "102",
+        "Intelligence": "94",
+        "Main Attribute": "Strength",
+        "Secondary Attribute": "Will"
+      },
+      "skills": [
+        {
+          "ROLLING CUT!": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 20 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "63%",
+              "BATK SEQ 2 Multiplier": "75%",
+              "BATK SEQ 3 Multiplier": "113%",
+              "BATK SEQ 4 Multiplier": "136%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "FLIP DA WOK!": {
+            "description": "Takes out a wok, quickly charges it up, and performs a powerful wok flip that deals Physical DMG and Lift to the enemy.",
+            "multipliers": {
+              "DMG Multiplier": "300%",
+              "Stagger": "10",
+              "Lift Duration (s)": "1.8"
+            }
+          }
+        },
+        {
+          "MORE SPICE!": {
+            "description": "Swings the wok at the enemy to deal massive Physical DMG and Crush. This Crush also deals more DMG. Trigger: When an enemy reaches 4 stacks of Vulnerability.",
+            "multipliers": {
+              "DMG Multiplier": "650%",
+              "Stagger": "15",
+              "Crush DMG Bonus": "20%"
+            }
+          }
+        },
+        {
+          "CHOP 'N DUNK!": {
+            "description": "Da Pan slams the chopping board to forcibly Lift all enemies in the area of effect in front of him. This is followed by a 6-sequence flurry of slashes that deals Physical DMG. The final step is to bash every enemy to the ground to forcibly Knock Down and deal massive Physical DMG to them.",
+            "multipliers": {
+              "Cooldown": "15",
+              "Aerial Flurry DMG Multiplier": "50%",
+              "Ultimate DMG Multiplier": "400%"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Chef of Forage and Game",
+          "type": "Base Talent",
+          "description": "Assign to Growth Chamber to grant fungal matter growth rate +10/20%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Worldly Wisdom",
+          "type": "Base Talent",
+          "description": "Assign to Control Nexus to grant all operators' Mood Regen +12/16%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Reduce and Thicken",
+          "type": "Combat Talent",
+          "description": "After consuming 1 Vulnerability stack, Da Pan gains Physical DMG Dealt +4/6% for 10s. This effect can reach 4 stacks.",
+          "multipliers": {}
+        },
+        {
+          "name": "Salty or Mild",
+          "type": "Combat Talent",
+          "description": "Ultimate CHOP 'N DUNK! improved: For every enemy hit by the final sequence of the ultimate, gains 1 stack of Prep Ingredients for 20s (max stacks: 1/2). When Prep Ingredients is active, hitting an enemy with combo skills immediately shortens cooldown by 40% and consumes 1 stack of Prep Ingredients.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/da-pan",
+        "scraped_at": "2026-02-10T21:47:56.477284Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Ember": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "323",
+        "Strength": "176",
+        "Agility": "96",
+        "Intellect": "86",
+        "Will": "120",
+        "Intelligence": "86",
+        "Main Attribute": "Strength",
+        "Secondary Attribute": "Will"
+      },
+      "skills": [
+        {
+          "Sword Art of Assault": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 25 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "86%",
+              "BATK SEQ 2 Multiplier": "120%",
+              "BATK SEQ 3 Multiplier": "149%",
+              "BATK SEQ 4 Multiplier": "184%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Forward March": {
+            "description": "A leap followed by a heavy slam that deals Heat DMG, Knock Down and Stagger to all enemies in a fan-shaped area. If Ember takes DMG from enemies during casting, the slam deals more Stagger upon hit.",
+            "multipliers": {
+              "DMG Multiplier": "390%",
+              "Stagger": "10",
+              "Additional Stagger Dealt When Hit": "10"
+            }
+          }
+        },
+        {
+          "Frontline Support": {
+            "description": "Leaps at the target enemy and unleashes a heavy slam that deals Physical DMG and Knock Down while giving HP treatment to the controlled operator. The attribute of Will increases the amount of HP treatment. Trigger: When the controlled operator is attacked.",
+            "multipliers": {
+              "DMG Multiplier": "230%",
+              "Stagger": "10",
+              "Base Treatment": "675",
+              "Bonus per WILL": "1.58"
+            }
+          }
+        },
+        {
+          "Re-Ignited Oath": {
+            "description": "Slams the ground to deal Heat DMG to nearby enemies, while granting every teammate a Shield based on Ember's Max HP.",
+            "multipliers": {
+              "Cooldown": "20",
+              "DMG Multiplier": "650%",
+              "Stagger": "25",
+              "Shield Conversion Ratio (HP)": "25%",
+              "Shield Duration (s)": "10"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Special Northern Training",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to grant operator EXP material productivity efficiency +20/30%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Keepers of the Banner",
+          "type": "Base Talent",
+          "description": "Assign to Reception Room to grant operators a small Clue 4/Clue 4 Rate-UP: Order of Steel Oath (activates upon assignment; effects of the same type cannot stack)",
+          "multipliers": {}
+        },
+        {
+          "name": "Inflamed for the Assault",
+          "type": "Combat Talent",
+          "description": "When casting the battle skill Forward March and the combo skill Frontline Support, Ember gains of 30/50% Protection and is less likely to be interrupted.",
+          "multipliers": {}
+        },
+        {
+          "name": "Pay the Ferric Price",
+          "type": "Combat Talent",
+          "description": "When Ember receives DMG from the enemy, she gains ATK +6/9% for 7s. This effect can reach 3 stacks.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/ember",
+        "scraped_at": "2026-02-10T21:47:59.338123Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Endministrator": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "319",
+        "Strength": "123",
+        "Agility": "140",
+        "Intellect": "96",
+        "Will": "107",
+        "Intelligence": "96",
+        "Main Attribute": "Agility",
+        "Secondary Attribute": "Strength"
+      },
+      "skills": [
+        {
+          "Destructive Sequence": {
+            "description": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "51%",
+              "BATK SEQ 2 Multiplier": "61%",
+              "BATK SEQ 3 Multiplier": "68%",
+              "BATK SEQ 4 Multiplier": "78%",
+              "BATK SEQ 5 Multiplier": "90%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Constructive Sequence": {
+            "description": "A forceful burst of Originium Arts that attacks enemies within the area of effect. Deals Physical DMG and applies Crush.",
+            "multipliers": {
+              "DMG Multiplier": "350%",
+              "Stagger": "10"
+            }
+          }
+        },
+        {
+          "Sealing Sequence": {
+            "description": "Rushes to the enemy's side to deal Physical DMG and attach Originium Crystals that temporarily seals them. Applying Physical Status or Vulnerability to the sealed enemy consumes the Originium Crystals and deal additional Physical DMG. Trigger: When another operator in the team deals DMG with combo skills.",
+            "multipliers": {
+              "DMG Multiplier": "100%",
+              "Crystal Shattering DMG Multiplier": "400%",
+              "Stagger": "10",
+              "Seal Duration (s)": "5"
+            }
+          }
+        },
+        {
+          "Bombardment Sequence": {
+            "description": "Bombards the ground with Originium Arts, dealing massive Physical DMG to all enemies within a fan-shaped area. If the enemy has Originium Crystals on them, this skill consumes the Originium Crystals and deals 1 more hit of Physical DMG.",
+            "multipliers": {
+              "Cooldown": "10",
+              "DMG Multiplier": "800%",
+              "Bonus DMG Multiplier": "600%",
+              "Stagger": "25"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Essence Disintegration",
+          "type": "Combat Talent",
+          "description": "When the Originium Crystals attached to the enemy is consumed, the Endministrator gains ATK +15/30% for 15s. This effect cannot stack.",
+          "multipliers": {}
+        },
+        {
+          "name": "Realspace Stasis",
+          "type": "Combat Talent",
+          "description": "Enemies with attached Originium Crystals suffer Physical DMG Taken +20/30%.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/endministrator",
+        "scraped_at": "2026-02-10T21:48:02.209512Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Estella": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "312",
+        "Strength": "104",
+        "Agility": "97",
+        "Intellect": "110",
+        "Will": "151",
+        "Intelligence": "110",
+        "Main Attribute": "Will",
+        "Secondary Attribute": "Strength"
+      },
+      "skills": [
+        {
+          "Audio Noise": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "56%",
+              "BATK SEQ 2 Multiplier": "68%",
+              "BATK SEQ 3 Multiplier": "79%",
+              "BATK SEQ 4 Multiplier": "90%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Onomatopoeia": {
+            "description": "A lance thrust that fires a stream of freezing sound waves that deal Cryo DMG and apply Cryo Infliction to all enemies along its straight path.",
+            "multipliers": {
+              "DMG Multiplier": "350%",
+              "Stagger": "10"
+            }
+          }
+        },
+        {
+          "Distortion": {
+            "description": "Quickly moves to the enemy's side to deal Physical DMG and forcibly Lift enemies in a small area. If the skill hits a target with Solidification, the skill deals additional DMG and applies Physical Susceptibility. Trigger: When an enemy suffers Solidification.",
+            "multipliers": {
+              "DMG Multiplier Against Non-Solidified Enemies": "360%",
+              "DMG Multiplier Against Solidified Enemies": "630%",
+              "Stagger": "10",
+              "Physical Susceptibility Multiplier": "15%",
+              "Physical Susceptibility Duration": "6"
+            }
+          }
+        },
+        {
+          "Tremolo": {
+            "description": "Estella expends all her strength to unleash a powerful slam of the spear shaft, dealing Physical DMG to all enemies in a circular area around self. To enemies with Physical Susceptibility, the skill forcibly applies Lift to them.",
+            "multipliers": {
+              "Cooldown": "10",
+              "DMG Multiplier": "1100%",
+              "Stagger": "20"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Fragmented Rest",
+          "type": "Base Talent",
+          "description": "Assign to Control Nexus to grant all operators' Mood Regen +8/12%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Frequency Monitoring",
+          "type": "Base Talent",
+          "description": "Assign to Reception Room to grant operator clue collecting efficiency +20/30%",
+          "multipliers": {}
+        },
+        {
+          "name": "Commiseration",
+          "type": "Combat Talent",
+          "description": "When triggering Shatter, the next battle skill Onomatopoeia cast returns 7.5/15 SP. This effect cannot stack.",
+          "multipliers": {}
+        },
+        {
+          "name": "Laziness Pays Off Now",
+          "type": "Combat Talent",
+          "description": "Ignores Cryo Infliction and receives Cryo DMG -10/20%.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/estella",
+        "scraped_at": "2026-02-10T21:48:04.906821Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Fluorite": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "303",
+        "Strength": "90",
+        "Agility": "168",
+        "Intellect": "114",
+        "Will": "91",
+        "Intelligence": "114",
+        "Main Attribute": "Agility",
+        "Secondary Attribute": "Intellect"
+      },
+      "skills": [
+        {
+          "Signature Gun Kata": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 15 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Nature DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "56%",
+              "BATK SEQ 2 Multiplier": "73%",
+              "BATK SEQ 3 Multiplier": "57%",
+              "BATK SEQ 4 Multiplier": "135%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Tiny Surprise": {
+            "description": "Kicks an Improvised Explosive that sticks to the target, applying Slow and exploding after a short duration. The explosion deals Nature DMG and Nature Infliction to enemies in the area of effect. Defeating the target also sets off the Improvised Explosive immediately. Only 1 Improvised Explosive can be present in the battlefield.",
+            "multipliers": {
+              "DMG Multiplier": "420%",
+              "Stagger": "10",
+              "DMG Slow Effect": "30%"
+            }
+          }
+        },
+        {
+          "Free Giveaway": {
+            "description": "Shoots the target enemy to trigger a special explosion that deals Nature DMG and applies another Arts Infliction of the element already on the enemy. Trigger: When an enemy has 2 or more stacks of Cryo Infliction or Nature Infliction.",
+            "multipliers": {
+              "DMG Multiplier": "380%",
+              "Stagger": "10"
+            }
+          }
+        },
+        {
+          "Apex Prankster": {
+            "description": "Fluorite quickly moves in an arc and rapidly fires at the target within the arc to deal 4 sequences of Nature DMG. If an Improvised Explosive has been stuck to the target, the skill detonates it immediately and increases the DMG and size of the explosion. If the final DMG sequence hits a target with at least 2 stacks of Cryo Infliction or Nature Infliction, then apply the same Arts Infliction again.",
+            "multipliers": {
+              "Cooldown": "10",
+              "SEQ 1 DMG Multiplier": "250%",
+              "SEQ 2 DMG Multiplier": "250%",
+              "SEQ 3 DMG Multiplier": "250%",
+              "SEQ 4 DMG Multiplier": "250%",
+              "Battle Skill AOE Boost": "30%",
+              "Battle Skill DMG Boost": "30%",
+              "Stagger": "20"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Wildlands Trekker",
+          "type": "Base Talent",
+          "description": "Assign to Growth Chamber to grant rare mineral growth rate +10/20%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Reader of Emotions",
+          "type": "Base Talent",
+          "description": "Assign to Control Nexus to grant all operators' Mood Regen +12/16%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Love the Stab and Twist",
+          "type": "Combat Talent",
+          "description": "Fluorite gains DMG Dealt +10/20% against Slowed targets.",
+          "multipliers": {}
+        },
+        {
+          "name": "Unpredictable",
+          "type": "Combat Talent",
+          "description": "Grants 20% chance of Arts DMG immunity and grants Fluorite ATK +10/20% for 10s. This effect cannot stack.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/fluorite",
+        "scraped_at": "2026-02-10T21:48:09.941568Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Gilberta": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "329",
+        "Strength": "89",
+        "Agility": "92",
+        "Intellect": "127",
+        "Will": "171",
+        "Intelligence": "127",
+        "Main Attribute": "Will",
+        "Secondary Attribute": "Intellect"
+      },
+      "skills": [
+        {
+          "Arcane Staff: Beam Cohesion Arts": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Nature DMG. As the controlled operator, Final Strike also deals 16 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Nature DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Nature DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "68%",
+              "BATK SEQ 2 Multiplier": "81%",
+              "BATK SEQ 3 Multiplier": "91%",
+              "BATK SEQ 4 Multiplier": "112%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Arcane Staff: Gravity Mode": {
+            "description": "Initiates Arts channeling that creates a gravity well. The gravity well pulls in nearby enemies and deals Nature DMG to them. When channeling ends, the gravity well implodes to deal Nature DMG and Nature Infliction to enemies in the area of effect.",
+            "multipliers": {
+              "Gravity Pull DMG Multiplier": "219%",
+              "Explosion DMG Multiplier": "130%",
+              "Explosion Stagger": "10"
+            }
+          }
+        },
+        {
+          "Arcane Staff: Matrix Displacement": {
+            "description": "A quick casting of the Arts that generates a gravity pull, which then deals Nature DMG and forcibly Lifts the target and nearby enemies. Trigger: When an Arts Reaction is applied to an enemy.",
+            "multipliers": {
+              "DMG Multiplier": "315%",
+              "Stagger": "5"
+            }
+          }
+        },
+        {
+          "Arcane Staff: Gravity Field": {
+            "description": "Creates an Anomalous Gravity Field that instantly deals 1 hit of Nature DMG and applies Nature Infliction to enemies caught in the field. Targets in the Anomalous Gravity Field also suffer from Slow and Arts Susceptibility. The effect of Arts Susceptibility is further increased based on the number of active Vulnerability stacks on the target. If a target in the field is Lifted, the Lifted status will persist until the field wears off.",
+            "multipliers": {
+              "Cooldown": "10",
+              "DMG Multiplier": "750%",
+              "Stagger": "20",
+              "Field Duration (s)": "5",
+              "Slow Effect": "80%",
+              "Base Arts Susceptibility": "30%",
+              "Arts Susceptibility Increase per Vulnerability Stack": "3%"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Messengerial Processing",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14/18%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Messengerial Arms Mastery",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency 20/30%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Messenger’s Song",
+          "type": "Combat Talent",
+          "description": "When fighting in the battlefield, all allied guards, casters, and supporters gain Ultimate Gain Efficiency +4/7%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Late Reply",
+          "type": "Combat Talent",
+          "description": "Battle skill Arcane Staff: Gravity Mode and combo skill Arcane Staff: Matrix Displacement improved: Hitting at least 2 enemies with either the combo skill or the last sequence of the battle skill restores [72 + Intellect×0.60]/[108 + Intellect×0.90] HP to the controlled operator. If the controlled operator is already at max HP, then restore the HP of the teammate with the lowest percentage HP.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/gilberta",
+        "scraped_at": "2026-02-10T21:48:15.129517Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Laevatain": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "318",
+        "Strength": "121",
+        "Agility": "99",
+        "Intellect": "177",
+        "Will": "89",
+        "Intelligence": "177",
+        "Main Attribute": "Intellect",
+        "Secondary Attribute": "Strength"
+      },
+      "skills": [
+        {
+          "Flaming Cinders": {
+            "description": "BASIC ATTACK: An attack with up to 5 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Heat DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "36%",
+              "BATK SEQ 2 Multiplier": "54%",
+              "BATK SEQ 3 Multiplier": "56%",
+              "BATK SEQ 4 Multiplier": "88%",
+              "BATK SEQ 5 Multiplier": "119%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Smouldering Fire": {
+            "description": "Summons a Magma Fragment to continuously attack enemies and deal Heat DMG. Hitting the enemy grants 1 stack of Melting Flame. If Laevatain already has 4 stack(s) of Melting Flame when casting the skill, then consume all the stacks and perform 1 additional attack that deals Heat DMG and forcibly trigger temporary Combustion to all enemies in a large area. When the additional attack hits the enemy, restore additional Ultimate Energy. Battle skill effects are enhanced while Laevatain's ultimate is active.",
+            "multipliers": {
+              "Base Explosion DMG Multiplier": "140%",
+              "Base Explosion Stagger": "10",
+              "DMG Over Time Multiplier per SEQ": "14%",
+              "Additional ATK DMG Multiplier": "770%",
+              "Additional ATK Stagger": "10",
+              "Combustion Duration (s)": "5",
+              "Additional ATK Ultimate Energy Gain": "100",
+              "During Ultimate: BATK SEQ 1 Multiplier": "330%",
+              "During Ultimate: BATK SEQ 1 Stagger": "10",
+              "During Ultimate: BATK SEQ 2 Multiplier": "370%",
+              "During Ultimate: BATK SEQ 2 Stagger": "10",
+              "During Ultimate: Additional ATK Multiplier": "900%",
+              "During Ultimate: Additional ATK Stagger": "10",
+              "During Ultimate: Combustion Duration (s)": "5"
+            }
+          }
+        },
+        {
+          "Seethe": {
+            "description": "Fire erupts beneath the feet of any enemy with Combustion or Corrosion, dealing Heat DMG to them. If the skill hits the enemy, Laevatain gains 1 stack of Melting Flame and further gains Ultimate Energy per enemy hit. Trigger: When an enemy suffers Combustion or Corrosion.",
+            "multipliers": {
+              "DMG Multiplier": "540%",
+              "Stagger": "10",
+              "Ultimate Energy Gain when Hitting 1 Enemy": "25",
+              "Ultimate Energy Gain when Hitting 2 Enemies": "30",
+              "Ultimate Energy Gain when Hitting 3 Enemies": "35"
+            }
+          }
+        },
+        {
+          "Twilight": {
+            "description": "Laevatain summons her Sviga Lævi and becomes the controlled operator. For a certain duration, her basic attacks (BATK) are enhanced and the Sviga Lævi strikes together with Laevatain, with each attack dealing Heat DMG. BATK sequence 3 also applies Heat Infliction.",
+            "multipliers": {
+              "Cooldown": "10",
+              "Duration (s)": "15",
+              "Enhanced BATK SEQ 1 Multiplier": "146%",
+              "Enhanced BATK SEQ 2 Multiplier": "182%",
+              "Enhanced BATK SEQ 3 Multiplier": "260%",
+              "Enhanced BATK SEQ 4 Multiplier": "456%"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Memory Crucible",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +20/30%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Undying Flames",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14/18%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Scorching Heart",
+          "type": "Combat Talent",
+          "description": "When the controlled operator's Final Strike or Finisher hits the enemy, Laevatain absorbs Heat Infliction from nearby enemies. Every stack of Heat Infliction absorbed gives Laevatain 1 stack of Melting Flame (max stacks: 4). At 4 stacks, DMG dealt by Laevatain ignores 10/15/20 Heat Resistance of the enemy for 20s. Laevatain also absorbs Heat Infliction from enemies defeated nearby.",
+          "multipliers": {}
+        },
+        {
+          "name": "Re-Ignition",
+          "type": "Combat Talent",
+          "description": "When HP drops below 40%, gain 90% Protection and restore 5% Max HP per second for 4/8s. This effect triggers once every 120s.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/laevatain",
+        "scraped_at": "2026-02-10T21:48:19.993071Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Last Rite": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "332",
+        "Strength": "155",
+        "Agility": "104",
+        "Intellect": "93",
+        "Will": "109",
+        "Intelligence": "93",
+        "Main Attribute": "Strength",
+        "Secondary Attribute": "Will"
+      },
+      "skills": [
+        {
+          "Dance of Rime": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 25 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Cryo DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "68%",
+              "BATK SEQ 2 Multiplier": "124%",
+              "BATK SEQ 3 Multiplier": "153%",
+              "BATK SEQ 4 Multiplier": "203%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Esoteric Legacy of Seš'qa": {
+            "description": "Performs a Hypothermic Perfusion on the controlled operator's weapon and returns some SP. The next Final Strike performed by the currently controlled operator within a certain duration creates Last Rite's Mirage that unleashes a pursuit attack at the target. This attack deals Cryo DMG and applies Cryo Infliction. When the controlled operator is Last Rite herself, casting this battle skill does not reset her basic attack sequence.",
+            "multipliers": {
+              "Mirage Pursuit ATK DMG Multiplier": "320%",
+              "SP Return": "30",
+              "Duration (s)": "15",
+              "Ultimate Energy Acquired": "16"
+            }
+          }
+        },
+        {
+          "Winter's Devourer": {
+            "description": "Encases the target enemy in icicles and shatters them to consume all Cryo Infliction stacks of the said enemy. The number of Cryo Infliction stacks consumed determines the amount of Cryo DMG dealt to the enemy and Ultimate Energy gained by the caster. Trigger: When an enemy has 3 or more Cryo Infliction stacks.",
+            "multipliers": {
+              "Ice Shard DMG Multiplier": "160%",
+              "Slash Base DMG Multiplier": "160%",
+              "Slash Stagger": "15",
+              "Bonus DMG Multiplier per Infliction Stack": "240%",
+              "Base Ultimate Energy Gain": "40",
+              "Ultimate Energy Gain per Infliction Stack": "15"
+            }
+          }
+        },
+        {
+          "Vigil Services": {
+            "description": "Last Rite encases herself in frost armor and creates an ice scythe to perform 3 slashes, and gains immunity to all damages while this state is active. Each slash deals massive Cryo DMG. Last Rite can only gain Ultimate Energy from her own battle skill and combo skill.",
+            "multipliers": {
+              "Cooldown": "20",
+              "SEQ 1 DMG Multiplier": "400%",
+              "SEQ 1 Stagger": "5",
+              "SEQ 2 DMG Multiplier": "400%",
+              "SEQ 2 Stagger": "5",
+              "SEQ 3 DMG Multiplier": "800%",
+              "SEQ 3 Stagger": "10"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Cemetery Gardening",
+          "type": "Base Talent",
+          "description": "Assign to Growth Chamber to grant vitrified plant growth rate +20/30%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Fame of the Royal Courts",
+          "type": "Base Talent",
+          "description": "Assign to Reception Room to grant operators a small Clue 7/Clue 7 Rate-UP: Seš'qa (activates upon assignment; effects of the same type cannot stack)",
+          "multipliers": {}
+        },
+        {
+          "name": "Hypothermia",
+          "type": "Combat Talent",
+          "description": "When Last Rite consumes any Arts Infliction, apply Cryo Susceptibility to the target with the effect of [Number of Arts Infliction stacks consumed × 2/4%] for 15s. This effect cannot stack.",
+          "multipliers": {}
+        },
+        {
+          "name": "Cryogenic Embrittlement",
+          "type": "Combat Talent",
+          "description": "Ultimate Vigil Services improved: When the ultimate deals DMG to an enemy with Cryo Susceptibility, the effect of that Cryo Susceptibility is 1.2/1.5 times the original.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/last-rite",
+        "scraped_at": "2026-02-10T21:48:32.830974Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Lifeng": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "312",
+        "Strength": "123",
+        "Agility": "132",
+        "Intellect": "115",
+        "Will": "117",
+        "Intelligence": "115",
+        "Main Attribute": "Agility",
+        "Secondary Attribute": "Strength"
+      },
+      "skills": [
+        {
+          "Ruination": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 19 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "55%",
+              "BATK SEQ 2 Multiplier": "65%",
+              "BATK SEQ 3 Multiplier": "79%",
+              "BATK SEQ 4 Multiplier": "152%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Turbid Avatar": {
+            "description": "Swings the polearm multiple times to deal 2 hits of Physical DMG, then slams the ground to deal Physical DMG and Knock Down to all enemies in the area of effect. If the enemy struck by the last hit of this skill has no Vulnerability stacks, apply Physical Susceptibility to the said enemy instead.",
+            "multipliers": {
+              "SEQ 1 DMG Multiplier": "86%",
+              "SEQ 2 DMG Multiplier": "86%",
+              "SEQ 3 DMG Multiplier": "268%",
+              "SEQ 3 Stagger": "10",
+              "Physical Susceptibility": "12%",
+              "Physical Susceptibility Duration (s)": "12"
+            }
+          }
+        },
+        {
+          "Aspect of Wrath": {
+            "description": "Unleashes an aspect that performs a spear thrust to deal Physical DMG and grants Link. Trigger: When the controlled operator performs a Final Strike on an enemy with Physical Susceptibility or Breach.",
+            "multipliers": {
+              "SEQ 1 DMG Multiplier": "105%",
+              "SEQ 2 DMG Multiplier": "375%",
+              "SEQ 2 Stagger": "10",
+              "Combo Duration (s)": "20"
+            }
+          }
+        },
+        {
+          "Heart of the Unmoving": {
+            "description": "Unleashes an aspect that slams an Immovable Vajra to deal Physical DMG and Knock Down to all enemies in a large area of effect, then enemies are drawn toward the center of the area. After a while, enemies still within the vajra slam area of effect will suffer another massive Physical DMG and Knock Down. If the skill consumes a Link, it deals additional massive Physical DMG.",
+            "multipliers": {
+              "Cooldown": "15",
+              "SEQ 1 DMG Multiplier": "400%",
+              "SEQ 1 Stagger": "5",
+              "SEQ 2 DMG Multiplier": "400%",
+              "SEQ 2 Stagger": "5",
+              "Additional ATK DMG Multiplier": "600%",
+              "Additional ATK Stagger": "5"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Youthful Ambition",
+          "type": "Base Talent",
+          "description": "Assign to Control Nexus to grant all operators' Mood Regen +12/16%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Laddie Reliable",
+          "type": "Base Talent",
+          "description": "Assign to Reception Room to grant operators a small Clue 3/Clue 3 Rate-UP: HAS (activates upon assignment; effects of the same type cannot stack)",
+          "multipliers": {}
+        },
+        {
+          "name": "Illumination",
+          "type": "Combat Talent",
+          "description": "Every point of Intellect and Will further grants ATK +0.10/0.15%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Subduer of Evil",
+          "type": "Combat Talent",
+          "description": "Applying Knock Down also deals 50/100% ATK of Physical DMG.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/lifeng",
+        "scraped_at": "2026-02-10T21:48:35.714872Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Perlica": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "303",
+        "Strength": "91",
+        "Agility": "93",
+        "Intellect": "161",
+        "Will": "113",
+        "Intelligence": "161",
+        "Main Attribute": "Intellect",
+        "Secondary Attribute": "Will"
+      },
+      "skills": [
+        {
+          "Protocol α: Breach": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 15 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Electric DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "57%",
+              "BATK SEQ 2 Multiplier": "68%",
+              "BATK SEQ 3 Multiplier": "84%",
+              "BATK SEQ 4 Multiplier": "127%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Protocol ω: Strike": {
+            "description": "Unleashes a bolt of electro-magnetic energy that deals Electric DMG and Electric Infliction to enemies in a small area.",
+            "multipliers": {
+              "DMG Multiplier": "400%",
+              "Stagger": "10"
+            }
+          }
+        },
+        {
+          "Instant Protocol: Chain": {
+            "description": "Unleashes stored electro-magnetic energy to bombard the target, dealing Electric DMG and forcibly inflicting temporary Electrification. Trigger: When controlled operator performs a Final Strike on any enemy.",
+            "multipliers": {
+              "DMG Multiplier": "180%",
+              "Stagger": "10",
+              "Electrify Duration (s)": "5"
+            }
+          }
+        },
+        {
+          "Protocol ε: 70.41K": {
+            "description": "Tele-protocols a massive piece of orbital debris into the battlefield with devastating impact. All enemies in the area of effect suffer massive Electric DMG.",
+            "multipliers": {
+              "Cooldown": "10",
+              "DMG Multiplier": "1000%",
+              "Stagger": "20"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Supervisor",
+          "type": "Base Talent",
+          "description": "Assign to Control Nexus to grant all operators' Mood Regen +8/12%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Protocol Redistribution",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +20/30%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Obliteration Protocol",
+          "type": "Combat Talent",
+          "description": "DMG Dealt +20/30% to Staggered enemies.",
+          "multipliers": {}
+        },
+        {
+          "name": "Cycle Protocol",
+          "type": "Combat Talent",
+          "description": "Combo skill Instant Protocol: Chain improved: When hitting a Vulnerable enemy, the hit chains 1 more time.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/perlica",
+        "scraped_at": "2026-02-10T21:48:40.758635Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Pogranichnik": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "321",
+        "Strength": "101",
+        "Agility": "110",
+        "Intellect": "97",
+        "Will": "173",
+        "Intelligence": "97",
+        "Main Attribute": "Will",
+        "Secondary Attribute": "Agility"
+      },
+      "skills": [
+        {
+          "All-Out Offensive": {
+            "description": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "52%",
+              "BATK SEQ 2 Multiplier": "63%",
+              "BATK SEQ 3 Multiplier": "74%",
+              "BATK SEQ 4 Multiplier": "86%",
+              "BATK SEQ 5 Multiplier": "97%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "The Pulverizing Front": {
+            "description": "Pogranichnik performs 2 slashes at enemies in front of him, dealing Physical DMG, applying Breach, and recovering SP based on the number of Vulnerability stacks consumed. The SP recovery effect can only trigger 1 time, even if the skill hits multiple targets.",
+            "multipliers": {
+              "SEQ 1 DMG Multiplier": "192%",
+              "SEQ 1 Stagger": "5",
+              "SEQ 2 DMG Multiplier": "238%",
+              "SEQ 2 Stagger": "5",
+              "SP Recovery by Consuming 1 Vulnerability Stack": "5",
+              "SP Recovery by Consuming 2 Vulnerability Stacsk": "15",
+              "SP Recovery by Consuming 3 Vulnerability Stacks": "25",
+              "SP Recovery by Consuming 4 Vulnerability Stacks": "35"
+            }
+          }
+        },
+        {
+          "Full Moon Slash": {
+            "description": "Performs a number of slashes (up to 3) based on the max number of Vulnerability stacks consumed, dealing Physical DMG and recovering some SP. Each slash deals more DMG and gives better SP recovery. Consuming 4 stacks of Vulnerability enhances the 3rd slash. Trigger: When Crush or Breach consumes the enemy's Vulnerability stack(s).",
+            "multipliers": {
+              "SEQ 1 DMG Multiplier": "95%",
+              "SEQ 1 Stagger": "3",
+              "SEQ 1 SP Recovery": "5",
+              "SEQ 2 DMG Multiplier": "122%",
+              "SEQ 2 Stagger": "3",
+              "SEQ 2 SP Recovery": "7",
+              "SEQ 3 DMG Multiplier": "149%",
+              "SEQ 3 Stagger": "4",
+              "SEQ 3 SP Recovery": "13",
+              "Enhanced SEQ 3 DMG Multiplier": "297%",
+              "Enhanced SEQ 3 Stagger": "9",
+              "Enhanced SEQ 3 SP Recovery": "23"
+            }
+          }
+        },
+        {
+          "Shieldguard Banner, Forward": {
+            "description": "Summons 4 Shieldguards to advance and push all enemies along the way towards the target, dealing Physical DMG while generating 5 points of Steel Oath. After an enemy suffers a Physical Status or takes DMG from Pogranichnik's combo skill, consume 1 point of Steel Oath and summon 1 Shieldguard to harass the said enemy, dealing Physical DMG and recovering some SP. When the last Steel Oath point is consumed, all 4 Shieldguards will initiate a Decisive Assault that deals massive Physical DMG to the target while recovering plenty of SP.",
+            "multipliers": {
+              "Cooldown": "10",
+              "Steel Oath Duration": "30",
+              "Advance DMG Multiplier": "300%",
+              "Advance Stagger": "10",
+              "Harass DMG Multiplier": "100%",
+              "Harass SP Recovery": "10",
+              "Decisive Assault DMG Multiplier": "450%",
+              "Decisive Assault Stagger": "15",
+              "Decisive Assault SP Recovery": "40"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Hone the Weapons",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to grant weapon EXP material production efficiency +20/30%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Morale Boost",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 14/18%.",
+          "multipliers": {}
+        },
+        {
+          "name": "The Living Banner",
+          "type": "Combat Talent",
+          "description": "During battle, recovering 80 SP with his own skills grants Fervent Morale for 20s. Fervent Morale effects: ATK +4/8% and Arts Intensity +4/8. This effect can reach 3 stacks. Duration of each stack is counted separately.",
+          "multipliers": {}
+        },
+        {
+          "name": "Tactical Instruction",
+          "type": "Combat Talent",
+          "description": "Ultimate Shieldguard Banner, Forward improved: Any operator triggering the ultimate's subsequent effects also gains Fervent Morale for 5/10s. Requires activation of talent: The Living Banner.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/pogranichnik",
+        "scraped_at": "2026-02-10T21:48:46.732953Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Snowshine": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "297",
+        "Strength": "154",
+        "Agility": "104",
+        "Intellect": "93",
+        "Will": "108",
+        "Intelligence": "93",
+        "Main Attribute": "Strength",
+        "Secondary Attribute": "Will"
+      },
+      "skills": [
+        {
+          "Hypothermic Assault": {
+            "description": "BASIC ATTACK: An attack with up to 3 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 23 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "124%",
+              "BATK SEQ 2 Multiplier": "132%",
+              "BATK SEQ 3 Multiplier": "225%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Saturated Defense": {
+            "description": "Raises a shield that can block attacks, grants Protection to self and nearby operators, and immediately returns some SP. When attacked while the said shield is active, perform a retaliation bash that deals Cryo DMG and applies Cryo Infliction on the attacker.",
+            "multipliers": {
+              "DMG Multiplier": "450%",
+              "Stagger": "20",
+              "Protection": "90%",
+              "SP Return": "30"
+            }
+          }
+        },
+        {
+          "Polar Rescue": {
+            "description": "Snowshine throws a Snowfield SAR Assistant at the controlled operator. Upon target contact, the Assistant gives massive instant HP Treatment to nearby operators as well as continuous HP Treatment to operators in the area of effect. The attribute of Will increases the amount of HP treatment. Trigger: When controlled operator gets attacked and is below 60% HP.",
+            "multipliers": {
+              "Initial Base Treatment": "216",
+              "Initial Treatment Increase per Will": "0.5",
+              "Base Treatment Over Time": "54",
+              "Treatment Over Time Increase per Will": "0.13",
+              "Treatment Over Time Interval (s)": "0.5",
+              "Duration (s)": "3"
+            }
+          }
+        },
+        {
+          "Frigid Snowfield": {
+            "description": "Leaps into mid-air with a jetpack before slamming down with her shield to deal massive Cryo DMG to enemies in the area of effect. Also generates a Snow Zone (lasting several seconds) that deals Cryo DMG over time to enemies. The Snow Zone forcibly applies Solidification to enemies caught within it for a certain duration.",
+            "multipliers": {
+              "Cooldown": "20",
+              "Explosion DMG Multiplier": "450%",
+              "Stagger": "20",
+              "DMG Over Time Multiplier": "65%",
+              "DMG Overtime Interval (s)": "0.5",
+              "Duration (s)": "5"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Rescuer's Perseverance",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to slow Mood Drop of all operators in it by 10/14%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Happy-Go-Lucky",
+          "type": "Base Talent",
+          "description": "Assign to Control Nexus to grant all operators' Mood Regen +12/16%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Polar Survival",
+          "type": "Combat Talent",
+          "description": "Treatment Effect +15/25% for targets of 45/55% HP or below.",
+          "multipliers": {}
+        },
+        {
+          "name": "SAR Professional",
+          "type": "Combat Talent",
+          "description": "Battle skill Saturated Defense improved: Successful retaliating an enemy attack gives another 6/10 Ultimate Energy.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/snowshine",
+        "scraped_at": "2026-02-10T21:48:49.995834Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Wulfgard": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "294",
+        "Strength": "161",
+        "Agility": "95",
+        "Intellect": "92",
+        "Will": "111",
+        "Intelligence": "92",
+        "Main Attribute": "Strength",
+        "Secondary Attribute": "Agility"
+      },
+      "skills": [
+        {
+          "Rapid Fire Akimbo": {
+            "description": "BASIC ATTACK: An attack with up to 4 sequences that deals Heat DMG. As the controlled operator, Final Strike also deals 18 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Heat DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Heat DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "68%",
+              "BATK SEQ 2 Multiplier": "79%",
+              "BATK SEQ 3 Multiplier": "125%",
+              "BATK SEQ 4 Multiplier": "152%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Thermite Tracers": {
+            "description": "Fires multiple shots at the target that deal some Heat DMG. The final shot also applies Heat Infliction. If the target has active Combustion or Electrification, do not apply Heat Infliction but instead consume the Arts Reaction to fire an additional shot that deals massive Heat DMG.",
+            "multipliers": {
+              "DMG Multiplier": "230%",
+              "Stagger": "5",
+              "Additional ATK DMG Multiplier": "850%",
+              "Additional ATK Stagger": "5"
+            }
+          }
+        },
+        {
+          "Frag Grenade·β": {
+            "description": "Throws a frag grenade at the target's location that explodes upon hitting the ground, dealing Heat DMG and Heat Infliction to nearby enemies. Trigger: When an Arts Infliction is applied to an enemy",
+            "multipliers": {
+              "DMG Multiplier": "135%",
+              "Stagger": "10"
+            }
+          }
+        },
+        {
+          "Wolven Fury": {
+            "description": "Fire a rapid barrage of shots and unleashes the Wolven Fury to attack nearby enemies, dealing 5 hits of Heat DMG and forcibly applying Combustion.",
+            "multipliers": {
+              "Cooldown": "10",
+              "DMG Multiplier per SEQ": "72%",
+              "Stagger": "15"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Pack Techniques",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +10/20%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Knack for the Wildlands",
+          "type": "Base Talent",
+          "description": "Assign to Growth Chamber to grant rare mineral growth rate +20/30%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Scorching Fangs",
+          "type": "Combat Talent",
+          "description": "Whenever Wulfgard applies Combustion, he gains Scorching Fangs for 10s. This effect cannot stack. Scorching Fangs: While active, Wulfgard gains Heat DMG Dealt +20/30%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Code of Restraint",
+          "type": "Combat Talent",
+          "description": "Whenever the battle skill Thermite Tracers successfully consumes an Arts Reaction, return 5/10 SP.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/wulfgard",
+        "scraped_at": "2026-02-10T21:48:55.131419Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Xaihi": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "291",
+        "Strength": "89",
+        "Agility": "91",
+        "Intellect": "127",
+        "Will": "150",
+        "Intelligence": "127",
+        "Main Attribute": "Will",
+        "Secondary Attribute": "Intellect"
+      },
+      "skills": [
+        {
+          "Cooldown": {
+            "description": "BASIC ATTACK: An attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 15 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Cryo DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "34%",
+              "BATK SEQ 2 Multiplier": "36%",
+              "BATK SEQ 3 Multiplier": "47%",
+              "BATK SEQ 4 Multiplier": "74%",
+              "BATK SEQ 5 Multiplier": "124%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Distributed DoS": {
+            "description": "Summons an Auxiliary Crystal that orbits the operator for a while. When the controlled operator performs a Final Strike on the enemy, the Auxiliary Crystal restores the said operator's HP. This effect can trigger 2 times. The attribute of Will increases the amount of HP treatment. When the controlled operator is already at Max HP when triggering the HP restoration, grant the said operator a temporary Arts Amp instead. This effect cannot stack.",
+            "multipliers": {
+              "Base Treatment": "324",
+              "Treatment Increase per Will": "0.76",
+              "Auxiliary Crystal Duration (s)": "20",
+              "Arts Amp": "15%",
+              "Arts Amp Duration (s)": "25"
+            }
+          }
+        },
+        {
+          "Stress Testing": {
+            "description": "Quickly charges up the Auxiliary Crystal and launches it at the enemy to deal Cryo DMG and Cryo Infliction. Trigger: When the Auxiliary Crystal uses up its HP treatments.",
+            "multipliers": {
+              "DMG Multiplier": "450%",
+              "Stagger": "10"
+            }
+          }
+        },
+        {
+          "Stack Overflow": {
+            "description": "Applies temporary Cryo Amp and Nature Amp to the entire team. The attribute of Intellect increases the Amp effect.",
+            "multipliers": {
+              "Cooldown": "20",
+              "Base Cryo Amp": "24%",
+              "Base Nature Amp": "24%",
+              "Amp Increase per Intellect": "0.03%",
+              "Intellect raises Amp limit": "36%",
+              "Duration (s)": "12"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Standardized Scripting",
+          "type": "Base Talent",
+          "description": "Assign to Manufacturing Cabin to grant operator EXP material production efficiency +10/20%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Murmuring Session",
+          "type": "Base Talent",
+          "description": "Assign to Reception Room to grant operators a small Clue 5/Clue 5 Rate-UP: Cabal of Tranquility (activates upon assignment; effects of the same type cannot stack)",
+          "multipliers": {}
+        },
+        {
+          "name": "Execute Process",
+          "type": "Combat Talent",
+          "description": "Combo skill Stress Testing improved: Hitting an enemy with Cryo Infliction or Solidification also causes the enemy to take Cryo DMG Dealt +7/10% for 5s. This effect cannot stack.",
+          "multipliers": {}
+        },
+        {
+          "name": "Freeze Protocol",
+          "type": "Combat Talent",
+          "description": "Ultimate Stack Overflow improved: The ultimate also dispels Cryo Infliction and Solidification from the entire team.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/xaihi",
+        "scraped_at": "2026-02-10T21:49:00.429707Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  },
+  {
+    "Yvonne": {
+      "stats": {
+        "HP": "5495",
+        "Attack": "321",
+        "Strength": "82",
+        "Agility": "128",
+        "Intellect": "176",
+        "Will": "105",
+        "Intelligence": "176",
+        "Main Attribute": "Intellect",
+        "Secondary Attribute": "Agility"
+      },
+      "skills": [
+        {
+          "Exuberant Trigger": {
+            "description": "BASIC ATTACK: An attack with up to 5 sequences that deals Cryo DMG. As the controlled operator, Final Strike also deals 17 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Cryo DMG and recovers some SP.",
+            "multipliers": {
+              "BATK SEQ 1 Multiplier": "53%",
+              "BATK SEQ 2 Multiplier": "56%",
+              "BATK SEQ 3 Multiplier": "71%",
+              "BATK SEQ 4 Multiplier": "92%",
+              "BATK SEQ 5 Multiplier": "126%",
+              "Finisher ATK Multiplier": "900%",
+              "Dive ATK Multiplier": "180%"
+            }
+          }
+        },
+        {
+          "Brr-Brr-Bomb β": {
+            "description": "Throws a freezing bomb. The bomb explodes when it hits the enemy to deal Cryo DMG. If hitting an enemy with Cryo Infliction or Nature Infliction, then consume all Arts Infliction stacks, forcibly apply Solidification, and deal Cryo DMG to the target based on the number of stacks consumed. After the battle skill successfully applies Solidification, Yvonne gains additional Ultimate Energy based on the number of stacks consumed. This Ultimate Energy Gain effect can only trigger 1 time, even if the skill hits multiple enemies.",
+            "multipliers": {
+              "Base DMG Multiplier": "250%",
+              "DMG Multiplier of Solidification Applied": "150%",
+              "Bonus DMG Multiplier per Infliction Stack": "200%",
+              "Stagger": "10",
+              "Ultimate Energy from Solidification Applied": "10",
+              "Additional Ultimate Energy Gain per Infliction Stack": "30"
+            }
+          }
+        },
+        {
+          "Flashfreezer υ37": {
+            "description": "Immediately deploys Frost-e-Bytee next to the enemy. While active, Frost-e-Bytee constantly releases energy to attack nearby enemies, deals Cryo DMG to them, and pulls them towards itself. After Frost-e-Bytee expires, it explodes to forcibly apply Solidification and deal Cryo DMG to nearby enemies. After the combo skill successfully hits the enemy, Yvonne gains additional Ultimate Energy. This Ultimate Energy Gain effect can only trigger 1 time, even if the skill hits multiple enemies. Trigger: When the controlled operator performs a Final Strike on an enemy with Solidification.",
+            "multipliers": {
+              "Duration (s)": "3",
+              "Number of Energy Releases": "4",
+              "Energy DMG Multiplier": "100%",
+              "Explosion DMG Multiplier": "200%",
+              "Explosion Stagger": "10",
+              "Additional Ultimate Energy Gain": "10"
+            }
+          }
+        },
+        {
+          "Cryoblasting Pistolier": {
+            "description": "Immediately deploys the support bot Tink-a-Bella and makes Yvonne the controlled operator. Temporarily enhances Yvonne's basic attack (BATK). Each BATK sequence performed grants a stack of Critical Rate buff. After reaching max stacks, Yvonne also gains a Critical DMG buff. When the skill is about to end, Yvonne's last BATK becomes a Final Strike that deals massive Cryo DMG. If the enemy is Solidified, Yvonne performs an additional attack that deals Cryo DMG and then consumes the enemy's Solidification.",
+            "multipliers": {
+              "Cooldown": "10",
+              "Duration (s)": "7",
+              "BATK DMG Multiplier": "20%",
+              "Powered ATK DMG Multiplier": "300%",
+              "Additional ATK DMG Multiplier": "600%",
+              "Enhanced ATK Stagger": "20",
+              "Max Stacks": "10",
+              "Critical Rate Boost per Stack": "3%",
+              "Critical DMG Boost at Max Stacks": "60%"
+            }
+          }
+        }
+      ],
+      "talents": [
+        {
+          "name": "Fungal Pigment Extraction",
+          "type": "Base Talent",
+          "description": "Assign to Growth Chamber to grant fungal matter growth rate +20/30%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Fashionista",
+          "type": "Base Talent",
+          "description": "Assign to Growth Chamber to slow Mood Drop of all operators in it by 14/18%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Barrage of Technology",
+          "type": "Combat Talent",
+          "description": "Battle skill Brr-Brr-Bomb ß improved: After applying Solidification, the next basic attack performed becomes a Final Strike. At level 2, the Final Strike has a buff of DMG Dealt +50%.",
+          "multipliers": {}
+        },
+        {
+          "name": "Freezing Point",
+          "type": "Combat Talent",
+          "description": "Against enemies with active Cryo Infliction, gains Critical DMG Dealt +10/20%. Effect is doubled against enemies with Solidification.",
+          "multipliers": {}
+        }
+      ],
+      "metadata": {
+        "source": "https://www.prydwen.gg/arknights-endfield/characters/yvonne",
+        "scraped_at": "2026-02-10T21:49:05.764178Z",
+        "game": "Arknights: Endfield",
+        "site": "prydwen.gg"
+      }
+    }
+  }
+]

@@ -1,0 +1,2902 @@
+[
+  {
+    "name": "Bonekrusha Heavy Armor",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Intellect": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Ultimate Gain Efficiency": [
+          "+12.3%",
+          "+13.6%",
+          "+14.8%",
+          "+16.0%"
+        ]
+      }
+    ],
+    "image_path": "images/Bonekrusha Heavy Armor.png"
+  },
+  {
+    "name": "Bonekrusha Heavy Armor T1",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Strength": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Combo Skill DMG Bonus": [
+          "+20.7%",
+          "+22.8%",
+          "+24.8%",
+          "+26.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Bonekrusha Heavy Armor T1.png"
+  },
+  {
+    "name": "Bonekrusha Poncho",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Strength": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Combo Skill DMG Bonus": [
+          "+20.7%",
+          "+22.8%",
+          "+24.8%",
+          "+26.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Bonekrusha Poncho.png"
+  },
+  {
+    "name": "Bonekrusha Poncho T1",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Agility": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Ultimate Gain Efficiency": [
+          "+12.3%",
+          "+13.6%",
+          "+14.8%",
+          "+16.0%"
+        ]
+      }
+    ],
+    "image_path": "images/Bonekrusha Poncho T1.png"
+  },
+  {
+    "name": "Eternal Xiranite Armor",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Intellect": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Arts Intensity": [
+          "+20.7",
+          "+22.8",
+          "+24.8",
+          "+26.9"
+        ]
+      }
+    ],
+    "image_path": "images/Eternal Xiranite Armor.png"
+  },
+  {
+    "name": "Frontiers Armor",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Intellect": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Ultimate DMG Bonus": [
+          "+25.9%",
+          "+28.5%",
+          "+31.1%",
+          "+33.6%"
+        ]
+      }
+    ],
+    "image_path": "images/Frontiers Armor.png"
+  },
+  {
+    "name": "Frontiers Armor T1",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Agility": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Battle Skill DMG Bonus": [
+          "+20.7%",
+          "+22.8%",
+          "+24.8%",
+          "+26.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Frontiers Armor T1.png"
+  },
+  {
+    "name": "Frontiers Armor T2",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Intellect": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Battle Skill DMG Bonus": [
+          "+20.7%",
+          "+22.8%",
+          "+24.8%",
+          "+26.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Frontiers Armor T2.png"
+  },
+  {
+    "name": "Frontiers Armor T3",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Intellect": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Secondary Attribute": [
+          "+10.4%",
+          "+11.4%",
+          "+12.4%",
+          "+13.5%"
+        ]
+      }
+    ],
+    "image_path": "images/Frontiers Armor T3.png"
+  },
+  {
+    "name": "Hot Work Exoskeleton",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Agility": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Heat and Nature DMG Dealt Bonus": [
+          "+11.5%",
+          "+12.7%",
+          "+13.8%",
+          "+14.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Hot Work Exoskeleton.png"
+  },
+  {
+    "name": "LYNX Cuirass",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Intellect": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Treatment Bonus": [
+          "+10.3%",
+          "+11.4%",
+          "+12.4%",
+          "+13.5%"
+        ]
+      }
+    ],
+    "image_path": "images/LYNX Cuirass.png"
+  },
+  {
+    "name": "LYNX Heavy Armor",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Will": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Treatment Bonus": [
+          "+10.3%",
+          "+11.4%",
+          "+12.4%",
+          "+13.5%"
+        ]
+      }
+    ],
+    "image_path": "images/LYNX Heavy Armor.png"
+  },
+  {
+    "name": "MI Security Armor",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Strength": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Arts Intensity": [
+          "+20.7",
+          "+22.8",
+          "+24.8",
+          "+26.9"
+        ]
+      }
+    ],
+    "image_path": "images/MI Security Armor.png"
+  },
+  {
+    "name": "MI Security Overalls",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Agility": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Basic Attack DMG Bonus": [
+          "+13.8%",
+          "+15.2%",
+          "+16.6%",
+          "+17.9%"
+        ]
+      }
+    ],
+    "image_path": "images/MI Security Overalls.png"
+  },
+  {
+    "name": "MI Security Overalls T1",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Will": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Critical Rate": [
+          "+5.2%",
+          "+5.7%",
+          "+6.2%",
+          "+6.7%"
+        ]
+      }
+    ],
+    "image_path": "images/MI Security Overalls T1.png"
+  },
+  {
+    "name": "MI Security Overalls T2",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Agility": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Battle Skill DMG Bonus": [
+          "+20.7%",
+          "+22.8%",
+          "+24.8%",
+          "+26.9%"
+        ]
+      }
+    ],
+    "image_path": "images/MI Security Overalls T2.png"
+  },
+  {
+    "name": "Pulser Labs Disruptor Suit",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Will": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Arts Intensity": [
+          "+20.7",
+          "+22.8",
+          "+24.8",
+          "+26.9"
+        ]
+      }
+    ],
+    "image_path": "images/Pulser Labs Disruptor Suit.png"
+  },
+  {
+    "name": "Swordmancer Heavy Armor",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Strength": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Arts Intensity": [
+          "+20.7",
+          "+22.8",
+          "+24.8",
+          "+26.9"
+        ]
+      }
+    ],
+    "image_path": "images/Swordmancer Heavy Armor.png"
+  },
+  {
+    "name": "Tide Fall Light Armor",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Strength": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Ultimate Gain Efficiency": [
+          "+12.3%",
+          "+13.6%",
+          "+14.8%",
+          "+16.0%"
+        ]
+      }
+    ],
+    "image_path": "images/Tide Fall Light Armor.png"
+  },
+  {
+    "name": "Type 50 Yinglung Heavy Armor",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Will": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "Physical DMG Bonus": [
+          "+11.5%",
+          "+12.7%",
+          "+13.8%",
+          "+14.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Type 50 Yinglung Heavy Armor.png"
+  },
+  {
+    "name": "Type 50 Yinglung Light Armor",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Strength": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "All Skill DMG Dealt Bonus": [
+          "+13.8%",
+          "+15.2%",
+          "+16.6%",
+          "+17.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Type 50 Yinglung Light Armor.png"
+  },
+  {
+    "name": "Æthertech Plating",
+    "type": "Armor",
+    "stats": [
+      {
+        "Defense": [
+          "+56",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+87",
+          "+95",
+          "+104",
+          "+113"
+        ]
+      },
+      {
+        "Will": [
+          "+58",
+          "+63",
+          "+69",
+          "+75"
+        ]
+      },
+      {
+        "DMG Bonus vs. Staggered": [
+          "+20.7%",
+          "+22.8%",
+          "+24.8%",
+          "+26.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Æthertech Plating.png"
+  },
+  {
+    "name": "Basic Gauntlets",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+6",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+11",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+7",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "HP": [
+          "+77.2",
+          "–",
+          "–",
+          "–"
+        ]
+      }
+    ],
+    "image_path": "images/Basic Gauntlets.png"
+  },
+  {
+    "name": "Eternal Xiranite Gloves",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Strength": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Ultimate Gain Efficiency": [
+          "+20.5%",
+          "+22.6%",
+          "+24.6%",
+          "+26.7%"
+        ]
+      }
+    ],
+    "image_path": "images/Eternal Xiranite Gloves.png"
+  },
+  {
+    "name": "Eternal Xiranite Gloves T1",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Will": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Ultimate Gain Efficiency": [
+          "+20.5%",
+          "+22.6%",
+          "+24.6%",
+          "+26.7%"
+        ]
+      }
+    ],
+    "image_path": "images/Eternal Xiranite Gloves T1.png"
+  },
+  {
+    "name": "Frontiers Blight RES Gloves",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Intellect": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Battle Skill DMG Bonus": [
+          "+34.5%",
+          "+38.0%",
+          "+41.4%",
+          "+44.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Frontiers Blight RES Gloves.png"
+  },
+  {
+    "name": "Hot Work Gauntlets",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Strength": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Heat and Nature DMG Dealt Bonus": [
+          "+19.2%",
+          "+21.1%",
+          "+23.0%",
+          "+24.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Hot Work Gauntlets.png"
+  },
+  {
+    "name": "Hot Work Gauntlets T1",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Intellect": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Heat and Nature DMG Dealt Bonus": [
+          "+19.2%",
+          "+21.1%",
+          "+23.0%",
+          "+24.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Hot Work Gauntlets T1.png"
+  },
+  {
+    "name": "LYNX Gauntlets",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Strength": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Treatment Bonus": [
+          "+17.2%",
+          "+19.0%",
+          "+20.7%",
+          "+22.4%"
+        ]
+      }
+    ],
+    "image_path": "images/LYNX Gauntlets.png"
+  },
+  {
+    "name": "LYNX Gloves",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Will": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Ultimate Gain Efficiency": [
+          "+20.5%",
+          "+22.6%",
+          "+24.6%",
+          "+26.7%"
+        ]
+      }
+    ],
+    "image_path": "images/LYNX Gloves.png"
+  },
+  {
+    "name": "MI Security Gloves",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Strength": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Battle Skill DMG Bonus": [
+          "+34.5%",
+          "+38.0%",
+          "+41.4%",
+          "+44.9%"
+        ]
+      }
+    ],
+    "image_path": "images/MI Security Gloves.png"
+  },
+  {
+    "name": "MI Security Hands PPE",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Agility": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Basic Attack DMG Bonus": [
+          "+23.0%",
+          "+25.3%",
+          "+27.6%",
+          "+29.9%"
+        ]
+      }
+    ],
+    "image_path": "images/MI Security Hands PPE.png"
+  },
+  {
+    "name": "MI Security Hands PPE T1",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Will": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Critical Rate": [
+          "+8.6%",
+          "+9.5%",
+          "+10.3%",
+          "+11.2%"
+        ]
+      }
+    ],
+    "image_path": "images/MI Security Hands PPE T1.png"
+  },
+  {
+    "name": "Pulser Labs Gloves",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Intellect": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Cryo and Electric DMG Dealt Bonus": [
+          "+19.2%",
+          "+21.1%",
+          "+23.0%",
+          "+24.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Pulser Labs Gloves.png"
+  },
+  {
+    "name": "Swordmancer TAC Fists",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Strength": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Ultimate DMG Bonus": [
+          "+43.1%",
+          "+47.4%",
+          "+51.7%",
+          "+56.1%"
+        ]
+      }
+    ],
+    "image_path": "images/Swordmancer TAC Fists.png"
+  },
+  {
+    "name": "Swordmancer TAC Gauntlets",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Will": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Physical DMG Bonus": [
+          "+19.2%",
+          "+21.1%",
+          "+23.0%",
+          "+24.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Swordmancer TAC Gauntlets.png"
+  },
+  {
+    "name": "Tide Surge Gauntlets",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Will": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Cryo and Electric DMG Dealt Bonus": [
+          "+19.2%",
+          "+21.1%",
+          "+23.0%",
+          "+24.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Tide Surge Gauntlets.png"
+  },
+  {
+    "name": "Type 50 Yinglung Gloves",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Intellect": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Combo Skill DMG Bonus": [
+          "+34.5%",
+          "+38.0%",
+          "+41.4%",
+          "+44.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Type 50 Yinglung Gloves.png"
+  },
+  {
+    "name": "Type 50 Yinglung Gloves T1",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Agility": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Combo Skill DMG Bonus": [
+          "+34.5%",
+          "+38.0%",
+          "+41.4%",
+          "+44.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Type 50 Yinglung Gloves T1.png"
+  },
+  {
+    "name": "Æthertech Gloves",
+    "type": "Gloves",
+    "stats": [
+      {
+        "Defense": [
+          "+42",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+65",
+          "+71",
+          "+78",
+          "+84"
+        ]
+      },
+      {
+        "Strength": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Arts Intensity": [
+          "+34.5",
+          "+38",
+          "+41.4",
+          "+44.9"
+        ]
+      }
+    ],
+    "image_path": "images/Æthertech Gloves.png"
+  },
+  {
+    "name": "AIC Alloy Plate",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+8.4",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+16",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Final DMG Reduction": [
+          "+7.5%",
+          "–",
+          "–",
+          "–"
+        ]
+      }
+    ],
+    "image_path": "images/AIC Alloy Plate.png"
+  },
+  {
+    "name": "Bonekrusha Figurine",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Agility": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Battle Skill DMG Bonus": [
+          "+41.4%",
+          "+45.5%",
+          "+49.7%",
+          "+53.8%"
+        ]
+      }
+    ],
+    "image_path": "images/Bonekrusha Figurine.png"
+  },
+  {
+    "name": "Bonekrusha Figurine T1",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Intellect": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Combo Skill DMG Bonus": [
+          "+41.4%",
+          "+45.5%",
+          "+49.7%",
+          "+53.8%"
+        ]
+      }
+    ],
+    "image_path": "images/Bonekrusha Figurine T1.png"
+  },
+  {
+    "name": "Bonekrusha Mask",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Strength": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "DMG Bonus vs. Staggered": [
+          "+41.4%",
+          "+45.5%",
+          "+49.7%",
+          "+53.8%"
+        ]
+      }
+    ],
+    "image_path": "images/Bonekrusha Mask.png"
+  },
+  {
+    "name": "Bonekrusha Mask T1",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Strength": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Critical Rate": [
+          "+10.3%",
+          "+11.4%",
+          "+12.4%",
+          "+13.5%"
+        ]
+      }
+    ],
+    "image_path": "images/Bonekrusha Mask T1.png"
+  },
+  {
+    "name": "Eternal Xiranite Auxiliary Arm",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Intellect": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Ultimate Gain Efficiency": [
+          "+24.6%",
+          "+27.1%",
+          "+29.6%",
+          "+32.0%"
+        ]
+      }
+    ],
+    "image_path": "images/Eternal Xiranite Auxiliary Arm.png"
+  },
+  {
+    "name": "Eternal Xiranite Power Core",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Strength": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Ultimate Gain Efficiency": [
+          "+24.6%",
+          "+27.1%",
+          "+29.6%",
+          "+32.0%"
+        ]
+      }
+    ],
+    "image_path": "images/Eternal Xiranite Power Core.png"
+  },
+  {
+    "name": "Eternal Xiranite Power Core T1",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Will": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Treatment Bonus": [
+          "+20.7%",
+          "+22.8%",
+          "+24.8%",
+          "+26.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Eternal Xiranite Power Core T1.png"
+  },
+  {
+    "name": "Frontiers Comm",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Agility": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Combo Skill DMG Bonus": [
+          "+41.4%",
+          "+45.5%",
+          "+49.7%",
+          "+53.8%"
+        ]
+      }
+    ],
+    "image_path": "images/Frontiers Comm.png"
+  },
+  {
+    "name": "Frontiers Comm T1",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Intellect": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Cryo and Electric DMG Dealt Bonus": [
+          "+23.0%",
+          "+25.3%",
+          "+27.6%",
+          "+29.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Frontiers Comm T1.png"
+  },
+  {
+    "name": "Frontiers Extra O2 Tube",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Intellect": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Secondary Attribute": [
+          "+20.7%",
+          "+22.8%",
+          "+24.8%",
+          "+26.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Frontiers Extra O2 Tube.png"
+  },
+  {
+    "name": "Hanging River O2 Tube",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Will": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Cryo and Electric DMG Dealt Bonus": [
+          "+23.0%",
+          "+25.3%",
+          "+27.6%",
+          "+29.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Hanging River O2 Tube.png"
+  },
+  {
+    "name": "Hot Work Power Bank",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Agility": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Arts Intensity": [
+          "+41.4",
+          "+45.5",
+          "+49.7",
+          "+53.8"
+        ]
+      }
+    ],
+    "image_path": "images/Hot Work Power Bank.png"
+  },
+  {
+    "name": "Hot Work Power Cartridge",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Intellect": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Arts Intensity": [
+          "+41.4",
+          "+45.5",
+          "+49.7",
+          "+53.8"
+        ]
+      }
+    ],
+    "image_path": "images/Hot Work Power Cartridge.png"
+  },
+  {
+    "name": "Hot Work Pyrometer",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+41",
+          "+45",
+          "+49",
+          "+53"
+        ]
+      },
+      {
+        "Battle Skill DMG Bonus": [
+          "+41.4%",
+          "+45.5%",
+          "+49.7%",
+          "+53.8%"
+        ]
+      }
+    ],
+    "image_path": "images/Hot Work Pyrometer.png"
+  },
+  {
+    "name": "LYNX Aegis Injector",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+41",
+          "+45",
+          "+49",
+          "+53"
+        ]
+      },
+      {
+        "Treatment Bonus": [
+          "+20.7%",
+          "+22.8%",
+          "+24.8%",
+          "+26.9%"
+        ]
+      }
+    ],
+    "image_path": "images/LYNX Aegis Injector.png"
+  },
+  {
+    "name": "LYNX Connector",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Will": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Final DMG Reduction": [
+          "+17.1%",
+          "+18.5%",
+          "+19.9%",
+          "+21.2%"
+        ]
+      }
+    ],
+    "image_path": "images/LYNX Connector.png"
+  },
+  {
+    "name": "LYNX Connector T1",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Will": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "HP": [
+          "+41.4%",
+          "+45.5%",
+          "+49.7%",
+          "+53.8%"
+        ]
+      }
+    ],
+    "image_path": "images/LYNX Connector T1.png"
+  },
+  {
+    "name": "LYNX Slab",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Intellect": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Main Attribute": [
+          "+20.7%",
+          "+22.8%",
+          "+24.8%",
+          "+26.9%"
+        ]
+      }
+    ],
+    "image_path": "images/LYNX Slab.png"
+  },
+  {
+    "name": "MI Security Armband",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Will": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Cryo and Electric DMG Dealt Bonus": [
+          "+23.0%",
+          "+25.3%",
+          "+27.6%",
+          "+29.9%"
+        ]
+      }
+    ],
+    "image_path": "images/MI Security Armband.png"
+  },
+  {
+    "name": "MI Security Push Knife",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Intellect": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Heat and Nature DMG Dealt Bonus": [
+          "+23.0%",
+          "+25.3%",
+          "+27.6%",
+          "+29.9%"
+        ]
+      }
+    ],
+    "image_path": "images/MI Security Push Knife.png"
+  },
+  {
+    "name": "MI Security Push Knife T1",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Agility": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Battle Skill DMG Bonus": [
+          "+41.4%",
+          "+45.5%",
+          "+49.7%",
+          "+53.8%"
+        ]
+      }
+    ],
+    "image_path": "images/MI Security Push Knife T1.png"
+  },
+  {
+    "name": "MI Security Scope",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Strength": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Battle Skill DMG Bonus": [
+          "+41.4%",
+          "+45.5%",
+          "+49.7%",
+          "+53.8%"
+        ]
+      }
+    ],
+    "image_path": "images/MI Security Scope.png"
+  },
+  {
+    "name": "MI Security Toolkit",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Agility": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Critical Rate": [
+          "+10.3%",
+          "+11.4%",
+          "+12.4%",
+          "+13.5%"
+        ]
+      }
+    ],
+    "image_path": "images/MI Security Toolkit.png"
+  },
+  {
+    "name": "Pulser Labs Calibrator",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+41",
+          "+45",
+          "+49",
+          "+53"
+        ]
+      },
+      {
+        "Arts Intensity": [
+          "+41.4",
+          "+45.5",
+          "+49.7",
+          "+53.8"
+        ]
+      }
+    ],
+    "image_path": "images/Pulser Labs Calibrator.png"
+  },
+  {
+    "name": "Redeemer Seal",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Ultimate Gain Efficiency": [
+          "+25.7%",
+          "+28.3%",
+          "+30.9%",
+          "+33.4%"
+        ]
+      }
+    ],
+    "image_path": "images/Redeemer Seal.png"
+  },
+  {
+    "name": "Redeemer Seal T1",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Critical Rate": [
+          "+10.8%",
+          "+11.9%",
+          "+13.0%",
+          "+14.0%"
+        ]
+      }
+    ],
+    "image_path": "images/Redeemer Seal T1.png"
+  },
+  {
+    "name": "Redeemer Tag",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Final DMG Reduction": [
+          "+17.8%",
+          "+19.2%",
+          "+20.6%",
+          "+21.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Redeemer Tag.png"
+  },
+  {
+    "name": "Redeemer Tag T1",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+43",
+          "+47",
+          "+51",
+          "+55"
+        ]
+      },
+      {
+        "Combo Skill DMG Bonus": [
+          "+43.2%",
+          "+47.5%",
+          "+51.8%",
+          "+56.2%"
+        ]
+      }
+    ],
+    "image_path": "images/Redeemer Tag T1.png"
+  },
+  {
+    "name": "Swordmancer Flint",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Strength": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Physical DMG Bonus": [
+          "+23.0%",
+          "+25.3%",
+          "+27.6%",
+          "+29.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Swordmancer Flint.png"
+  },
+  {
+    "name": "Turbid Cutting Torch",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Strength": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Basic Attack DMG Bonus": [
+          "+27.6%",
+          "+30.4%",
+          "+33.1%",
+          "+35.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Turbid Cutting Torch.png"
+  },
+  {
+    "name": "Type 50 Yinglung Knife",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Will": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Agility": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Combo Skill DMG Bonus": [
+          "+41.4%",
+          "+45.5%",
+          "+49.7%",
+          "+53.8%"
+        ]
+      }
+    ],
+    "image_path": "images/Type 50 Yinglung Knife.png"
+  },
+  {
+    "name": "Type 50 Yinglung Knife T1",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Intellect": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Strength": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "All Skill DMG Dealt Bonus": [
+          "+27.6%",
+          "+30.4%",
+          "+33.1%",
+          "+35.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Type 50 Yinglung Knife T1.png"
+  },
+  {
+    "name": "Type 50 Yinglung Radar",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Will": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Physical DMG Bonus": [
+          "+23.0%",
+          "+25.3%",
+          "+27.6%",
+          "+29.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Type 50 Yinglung Radar.png"
+  },
+  {
+    "name": "Æthertech Analysis Band",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Strength": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Will": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Physical DMG Bonus": [
+          "+23.0%",
+          "+25.3%",
+          "+27.6%",
+          "+29.9%"
+        ]
+      }
+    ],
+    "image_path": "images/Æthertech Analysis Band.png"
+  },
+  {
+    "name": "Æthertech Stabilizer",
+    "type": "Kit",
+    "stats": [
+      {
+        "Defense": [
+          "+21",
+          "–",
+          "–",
+          "–"
+        ]
+      },
+      {
+        "Agility": [
+          "+32",
+          "+35",
+          "+38",
+          "+41"
+        ]
+      },
+      {
+        "Strength": [
+          "+21",
+          "+23",
+          "+25",
+          "+27"
+        ]
+      },
+      {
+        "Arts Intensity": [
+          "+41.4",
+          "+45.5",
+          "+49.7",
+          "+53.8"
+        ]
+      }
+    ],
+    "image_path": "images/Æthertech Stabilizer.png"
+  }
+]
