@@ -36,7 +36,7 @@
         ]
       }
     ],
-    "image_path": "images/Bonekrusha Heavy Armor.png"
+    "image_path": "Data/Images/Gear/Bonekrusha Heavy Armor.png"
   },
   {
     "name": "Bonekrusha Heavy Armor T1",
@@ -75,7 +75,7 @@
         ]
       }
     ],
-    "image_path": "images/Bonekrusha Heavy Armor T1.png"
+    "image_path": "Data/Images/Gear/Bonekrusha Heavy Armor T1.png"
   },
   {
     "name": "Bonekrusha Poncho",
@@ -114,7 +114,7 @@
         ]
       }
     ],
-    "image_path": "images/Bonekrusha Poncho.png"
+    "image_path": "Data/Images/Gear/Bonekrusha Poncho.png"
   },
   {
     "name": "Bonekrusha Poncho T1",
@@ -153,7 +153,7 @@
         ]
       }
     ],
-    "image_path": "images/Bonekrusha Poncho T1.png"
+    "image_path": "Data/Images/Gear/Bonekrusha Poncho T1.png"
   },
   {
     "name": "Eternal Xiranite Armor",
@@ -192,7 +192,7 @@
         ]
       }
     ],
-    "image_path": "images/Eternal Xiranite Armor.png"
+    "image_path": "Data/Images/Gear/Eternal Xiranite Armor.png"
   },
   {
     "name": "Frontiers Armor",
@@ -231,7 +231,7 @@
         ]
       }
     ],
-    "image_path": "images/Frontiers Armor.png"
+    "image_path": "Data/Images/Gear/Frontiers Armor.png"
   },
   {
     "name": "Frontiers Armor T1",
@@ -270,7 +270,7 @@
         ]
       }
     ],
-    "image_path": "images/Frontiers Armor T1.png"
+    "image_path": "Data/Images/Gear/Frontiers Armor T1.png"
   },
   {
     "name": "Frontiers Armor T2",
@@ -309,7 +309,7 @@
         ]
       }
     ],
-    "image_path": "images/Frontiers Armor T2.png"
+    "image_path": "Data/Images/Gear/Frontiers Armor T2.png"
   },
   {
     "name": "Frontiers Armor T3",
@@ -348,7 +348,7 @@
         ]
       }
     ],
-    "image_path": "images/Frontiers Armor T3.png"
+    "image_path": "Data/Images/Gear/Frontiers Armor T3.png"
   },
   {
     "name": "Hot Work Exoskeleton",
@@ -387,7 +387,7 @@
         ]
       }
     ],
-    "image_path": "images/Hot Work Exoskeleton.png"
+    "image_path": "Data/Images/Gear/Hot Work Exoskeleton.png"
   },
   {
     "name": "LYNX Cuirass",
@@ -426,7 +426,7 @@
         ]
       }
     ],
-    "image_path": "images/LYNX Cuirass.png"
+    "image_path": "Data/Images/Gear/LYNX Cuirass.png"
   },
   {
     "name": "LYNX Heavy Armor",
@@ -465,7 +465,7 @@
         ]
       }
     ],
-    "image_path": "images/LYNX Heavy Armor.png"
+    "image_path": "Data/Images/Gear/LYNX Heavy Armor.png"
   },
   {
     "name": "MI Security Armor",
@@ -504,7 +504,7 @@
         ]
       }
     ],
-    "image_path": "images/MI Security Armor.png"
+    "image_path": "Data/Images/Gear/MI Security Armor.png"
   },
   {
     "name": "MI Security Overalls",
@@ -543,7 +543,7 @@
         ]
       }
     ],
-    "image_path": "images/MI Security Overalls.png"
+    "image_path": "Data/Images/Gear/MI Security Overalls.png"
   },
   {
     "name": "MI Security Overalls T1",
@@ -582,7 +582,7 @@
         ]
       }
     ],
-    "image_path": "images/MI Security Overalls T1.png"
+    "image_path": "Data/Images/Gear/MI Security Overalls T1.png"
   },
   {
     "name": "MI Security Overalls T2",
@@ -621,7 +621,7 @@
         ]
       }
     ],
-    "image_path": "images/MI Security Overalls T2.png"
+    "image_path": "Data/Images/Gear/MI Security Overalls T2.png"
   },
   {
     "name": "Pulser Labs Disruptor Suit",
@@ -660,7 +660,7 @@
         ]
       }
     ],
-    "image_path": "images/Pulser Labs Disruptor Suit.png"
+    "image_path": "Data/Images/Gear/Pulser Labs Disruptor Suit.png"
   },
   {
     "name": "Swordmancer Heavy Armor",
@@ -699,7 +699,7 @@
         ]
       }
     ],
-    "image_path": "images/Swordmancer Heavy Armor.png"
+    "image_path": "Data/Images/Gear/Swordmancer Heavy Armor.png"
   },
   {
     "name": "Tide Fall Light Armor",
@@ -738,7 +738,7 @@
         ]
       }
     ],
-    "image_path": "images/Tide Fall Light Armor.png"
+    "image_path": "Data/Images/Gear/Tide Fall Light Armor.png"
   },
   {
     "name": "Type 50 Yinglung Heavy Armor",
@@ -777,7 +777,7 @@
         ]
       }
     ],
-    "image_path": "images/Type 50 Yinglung Heavy Armor.png"
+    "image_path": "Data/Images/Gear/Type 50 Yinglung Heavy Armor.png"
   },
   {
     "name": "Type 50 Yinglung Light Armor",
@@ -816,7 +816,7 @@
         ]
       }
     ],
-    "image_path": "images/Type 50 Yinglung Light Armor.png"
+    "image_path": "Data/Images/Gear/Type 50 Yinglung Light Armor.png"
   },
   {
     "name": "Æthertech Plating",
@@ -855,7 +855,7 @@
         ]
       }
     ],
-    "image_path": "images/Æthertech Plating.png"
+    "image_path": "Data/Images/Gear/Æthertech Plating.png"
   },
   {
     "name": "Basic Gauntlets",
@@ -894,7 +894,7 @@
         ]
       }
     ],
-    "image_path": "images/Basic Gauntlets.png"
+    "image_path": "Data/Images/Gear/Basic Gauntlets.png"
   },
   {
     "name": "Eternal Xiranite Gloves",
@@ -933,7 +933,7 @@
         ]
       }
     ],
-    "image_path": "images/Eternal Xiranite Gloves.png"
+    "image_path": "Data/Images/Gear/Eternal Xiranite Gloves.png"
   },
   {
     "name": "Eternal Xiranite Gloves T1",
@@ -972,7 +972,7 @@
         ]
       }
     ],
-    "image_path": "images/Eternal Xiranite Gloves T1.png"
+    "image_path": "Data/Images/Gear/Eternal Xiranite Gloves T1.png"
   },
   {
     "name": "Frontiers Blight RES Gloves",
@@ -1011,7 +1011,7 @@
         ]
       }
     ],
-    "image_path": "images/Frontiers Blight RES Gloves.png"
+    "image_path": "Data/Images/Gear/Frontiers Blight RES Gloves.png"
   },
   {
     "name": "Hot Work Gauntlets",
@@ -1050,7 +1050,7 @@
         ]
       }
     ],
-    "image_path": "images/Hot Work Gauntlets.png"
+    "image_path": "Data/Images/Gear/Hot Work Gauntlets.png"
   },
   {
     "name": "Hot Work Gauntlets T1",
@@ -1089,7 +1089,7 @@
         ]
       }
     ],
-    "image_path": "images/Hot Work Gauntlets T1.png"
+    "image_path": "Data/Images/Gear/Hot Work Gauntlets T1.png"
   },
   {
     "name": "LYNX Gauntlets",
@@ -1128,7 +1128,7 @@
         ]
       }
     ],
-    "image_path": "images/LYNX Gauntlets.png"
+    "image_path": "Data/Images/Gear/LYNX Gauntlets.png"
   },
   {
     "name": "LYNX Gloves",
@@ -1167,7 +1167,7 @@
         ]
       }
     ],
-    "image_path": "images/LYNX Gloves.png"
+    "image_path": "Data/Images/Gear/LYNX Gloves.png"
   },
   {
     "name": "MI Security Gloves",
@@ -1206,7 +1206,7 @@
         ]
       }
     ],
-    "image_path": "images/MI Security Gloves.png"
+    "image_path": "Data/Images/Gear/MI Security Gloves.png"
   },
   {
     "name": "MI Security Hands PPE",
@@ -1245,7 +1245,7 @@
         ]
       }
     ],
-    "image_path": "images/MI Security Hands PPE.png"
+    "image_path": "Data/Images/Gear/MI Security Hands PPE.png"
   },
   {
     "name": "MI Security Hands PPE T1",
@@ -1284,7 +1284,7 @@
         ]
       }
     ],
-    "image_path": "images/MI Security Hands PPE T1.png"
+    "image_path": "Data/Images/Gear/MI Security Hands PPE T1.png"
   },
   {
     "name": "Pulser Labs Gloves",
@@ -1323,7 +1323,7 @@
         ]
       }
     ],
-    "image_path": "images/Pulser Labs Gloves.png"
+    "image_path": "Data/Images/Gear/Pulser Labs Gloves.png"
   },
   {
     "name": "Swordmancer TAC Fists",
@@ -1362,7 +1362,7 @@
         ]
       }
     ],
-    "image_path": "images/Swordmancer TAC Fists.png"
+    "image_path": "Data/Images/Gear/Swordmancer TAC Fists.png"
   },
   {
     "name": "Swordmancer TAC Gauntlets",
@@ -1401,7 +1401,7 @@
         ]
       }
     ],
-    "image_path": "images/Swordmancer TAC Gauntlets.png"
+    "image_path": "Data/Images/Gear/Swordmancer TAC Gauntlets.png"
   },
   {
     "name": "Tide Surge Gauntlets",
@@ -1440,7 +1440,7 @@
         ]
       }
     ],
-    "image_path": "images/Tide Surge Gauntlets.png"
+    "image_path": "Data/Images/Gear/Tide Surge Gauntlets.png"
   },
   {
     "name": "Type 50 Yinglung Gloves",
@@ -1479,7 +1479,7 @@
         ]
       }
     ],
-    "image_path": "images/Type 50 Yinglung Gloves.png"
+    "image_path": "Data/Images/Gear/Type 50 Yinglung Gloves.png"
   },
   {
     "name": "Type 50 Yinglung Gloves T1",
@@ -1518,7 +1518,7 @@
         ]
       }
     ],
-    "image_path": "images/Type 50 Yinglung Gloves T1.png"
+    "image_path": "Data/Images/Gear/Type 50 Yinglung Gloves T1.png"
   },
   {
     "name": "Æthertech Gloves",
@@ -1557,7 +1557,7 @@
         ]
       }
     ],
-    "image_path": "images/Æthertech Gloves.png"
+    "image_path": "Data/Images/Gear/Æthertech Gloves.png"
   },
   {
     "name": "AIC Alloy Plate",
@@ -1588,7 +1588,7 @@
         ]
       }
     ],
-    "image_path": "images/AIC Alloy Plate.png"
+    "image_path": "Data/Images/Gear/AIC Alloy Plate.png"
   },
   {
     "name": "Bonekrusha Figurine",
@@ -1627,7 +1627,7 @@
         ]
       }
     ],
-    "image_path": "images/Bonekrusha Figurine.png"
+    "image_path": "Data/Images/Gear/Bonekrusha Figurine.png"
   },
   {
     "name": "Bonekrusha Figurine T1",
@@ -1666,7 +1666,7 @@
         ]
       }
     ],
-    "image_path": "images/Bonekrusha Figurine T1.png"
+    "image_path": "Data/Images/Gear/Bonekrusha Figurine T1.png"
   },
   {
     "name": "Bonekrusha Mask",
@@ -1705,7 +1705,7 @@
         ]
       }
     ],
-    "image_path": "images/Bonekrusha Mask.png"
+    "image_path": "Data/Images/Gear/Bonekrusha Mask.png"
   },
   {
     "name": "Bonekrusha Mask T1",
@@ -1744,7 +1744,7 @@
         ]
       }
     ],
-    "image_path": "images/Bonekrusha Mask T1.png"
+    "image_path": "Data/Images/Gear/Bonekrusha Mask T1.png"
   },
   {
     "name": "Eternal Xiranite Auxiliary Arm",
@@ -1783,7 +1783,7 @@
         ]
       }
     ],
-    "image_path": "images/Eternal Xiranite Auxiliary Arm.png"
+    "image_path": "Data/Images/Gear/Eternal Xiranite Auxiliary Arm.png"
   },
   {
     "name": "Eternal Xiranite Power Core",
@@ -1822,7 +1822,7 @@
         ]
       }
     ],
-    "image_path": "images/Eternal Xiranite Power Core.png"
+    "image_path": "Data/Images/Gear/Eternal Xiranite Power Core.png"
   },
   {
     "name": "Eternal Xiranite Power Core T1",
@@ -1861,7 +1861,7 @@
         ]
       }
     ],
-    "image_path": "images/Eternal Xiranite Power Core T1.png"
+    "image_path": "Data/Images/Gear/Eternal Xiranite Power Core T1.png"
   },
   {
     "name": "Frontiers Comm",
@@ -1900,7 +1900,7 @@
         ]
       }
     ],
-    "image_path": "images/Frontiers Comm.png"
+    "image_path": "Data/Images/Gear/Frontiers Comm.png"
   },
   {
     "name": "Frontiers Comm T1",
@@ -1939,7 +1939,7 @@
         ]
       }
     ],
-    "image_path": "images/Frontiers Comm T1.png"
+    "image_path": "Data/Images/Gear/Frontiers Comm T1.png"
   },
   {
     "name": "Frontiers Extra O2 Tube",
@@ -1978,7 +1978,7 @@
         ]
       }
     ],
-    "image_path": "images/Frontiers Extra O2 Tube.png"
+    "image_path": "Data/Images/Gear/Frontiers Extra O2 Tube.png"
   },
   {
     "name": "Hanging River O2 Tube",
@@ -2017,7 +2017,7 @@
         ]
       }
     ],
-    "image_path": "images/Hanging River O2 Tube.png"
+    "image_path": "Data/Images/Gear/Hanging River O2 Tube.png"
   },
   {
     "name": "Hot Work Power Bank",
@@ -2056,7 +2056,7 @@
         ]
       }
     ],
-    "image_path": "images/Hot Work Power Bank.png"
+    "image_path": "Data/Images/Gear/Hot Work Power Bank.png"
   },
   {
     "name": "Hot Work Power Cartridge",
@@ -2095,7 +2095,7 @@
         ]
       }
     ],
-    "image_path": "images/Hot Work Power Cartridge.png"
+    "image_path": "Data/Images/Gear/Hot Work Power Cartridge.png"
   },
   {
     "name": "Hot Work Pyrometer",
@@ -2126,7 +2126,7 @@
         ]
       }
     ],
-    "image_path": "images/Hot Work Pyrometer.png"
+    "image_path": "Data/Images/Gear/Hot Work Pyrometer.png"
   },
   {
     "name": "LYNX Aegis Injector",
@@ -2157,7 +2157,7 @@
         ]
       }
     ],
-    "image_path": "images/LYNX Aegis Injector.png"
+    "image_path": "Data/Images/Gear/LYNX Aegis Injector.png"
   },
   {
     "name": "LYNX Connector",
@@ -2196,7 +2196,7 @@
         ]
       }
     ],
-    "image_path": "images/LYNX Connector.png"
+    "image_path": "Data/Images/Gear/LYNX Connector.png"
   },
   {
     "name": "LYNX Connector T1",
@@ -2235,7 +2235,7 @@
         ]
       }
     ],
-    "image_path": "images/LYNX Connector T1.png"
+    "image_path": "Data/Images/Gear/LYNX Connector T1.png"
   },
   {
     "name": "LYNX Slab",
@@ -2274,7 +2274,7 @@
         ]
       }
     ],
-    "image_path": "images/LYNX Slab.png"
+    "image_path": "Data/Images/Gear/LYNX Slab.png"
   },
   {
     "name": "MI Security Armband",
@@ -2313,7 +2313,7 @@
         ]
       }
     ],
-    "image_path": "images/MI Security Armband.png"
+    "image_path": "Data/Images/Gear/MI Security Armband.png"
   },
   {
     "name": "MI Security Push Knife",
@@ -2352,7 +2352,7 @@
         ]
       }
     ],
-    "image_path": "images/MI Security Push Knife.png"
+    "image_path": "Data/Images/Gear/MI Security Push Knife.png"
   },
   {
     "name": "MI Security Push Knife T1",
@@ -2391,7 +2391,7 @@
         ]
       }
     ],
-    "image_path": "images/MI Security Push Knife T1.png"
+    "image_path": "Data/Images/Gear/MI Security Push Knife T1.png"
   },
   {
     "name": "MI Security Scope",
@@ -2430,7 +2430,7 @@
         ]
       }
     ],
-    "image_path": "images/MI Security Scope.png"
+    "image_path": "Data/Images/Gear/MI Security Scope.png"
   },
   {
     "name": "MI Security Toolkit",
@@ -2469,7 +2469,7 @@
         ]
       }
     ],
-    "image_path": "images/MI Security Toolkit.png"
+    "image_path": "Data/Images/Gear/MI Security Toolkit.png"
   },
   {
     "name": "Pulser Labs Calibrator",
@@ -2500,7 +2500,7 @@
         ]
       }
     ],
-    "image_path": "images/Pulser Labs Calibrator.png"
+    "image_path": "Data/Images/Gear/Pulser Labs Calibrator.png"
   },
   {
     "name": "Redeemer Seal",
@@ -2531,7 +2531,7 @@
         ]
       }
     ],
-    "image_path": "images/Redeemer Seal.png"
+    "image_path": "Data/Images/Gear/Redeemer Seal.png"
   },
   {
     "name": "Redeemer Seal T1",
@@ -2562,7 +2562,7 @@
         ]
       }
     ],
-    "image_path": "images/Redeemer Seal T1.png"
+    "image_path": "Data/Images/Gear/Redeemer Seal T1.png"
   },
   {
     "name": "Redeemer Tag",
@@ -2593,7 +2593,7 @@
         ]
       }
     ],
-    "image_path": "images/Redeemer Tag.png"
+    "image_path": "Data/Images/Gear/Redeemer Tag.png"
   },
   {
     "name": "Redeemer Tag T1",
@@ -2624,7 +2624,7 @@
         ]
       }
     ],
-    "image_path": "images/Redeemer Tag T1.png"
+    "image_path": "Data/Images/Gear/Redeemer Tag T1.png"
   },
   {
     "name": "Swordmancer Flint",
@@ -2663,7 +2663,7 @@
         ]
       }
     ],
-    "image_path": "images/Swordmancer Flint.png"
+    "image_path": "Data/Images/Gear/Swordmancer Flint.png"
   },
   {
     "name": "Turbid Cutting Torch",
@@ -2702,7 +2702,7 @@
         ]
       }
     ],
-    "image_path": "images/Turbid Cutting Torch.png"
+    "image_path": "Data/Images/Gear/Turbid Cutting Torch.png"
   },
   {
     "name": "Type 50 Yinglung Knife",
@@ -2741,7 +2741,7 @@
         ]
       }
     ],
-    "image_path": "images/Type 50 Yinglung Knife.png"
+    "image_path": "Data/Images/Gear/Type 50 Yinglung Knife.png"
   },
   {
     "name": "Type 50 Yinglung Knife T1",
@@ -2780,7 +2780,7 @@
         ]
       }
     ],
-    "image_path": "images/Type 50 Yinglung Knife T1.png"
+    "image_path": "Data/Images/Gear/Type 50 Yinglung Knife T1.png"
   },
   {
     "name": "Type 50 Yinglung Radar",
@@ -2819,7 +2819,7 @@
         ]
       }
     ],
-    "image_path": "images/Type 50 Yinglung Radar.png"
+    "image_path": "Data/Images/Gear/Type 50 Yinglung Radar.png"
   },
   {
     "name": "Æthertech Analysis Band",
@@ -2858,7 +2858,7 @@
         ]
       }
     ],
-    "image_path": "images/Æthertech Analysis Band.png"
+    "image_path": "Data/Images/Gear/Æthertech Analysis Band.png"
   },
   {
     "name": "Æthertech Stabilizer",
@@ -2897,6 +2897,6 @@
         ]
       }
     ],
-    "image_path": "images/Æthertech Stabilizer.png"
+    "image_path": "Data/Images/Gear/Æthertech Stabilizer.png"
   }
 ]

@@ -3,15 +3,16 @@ import os
 
 class Calc():
   def __init__(self, operator):
+    os.chdir(os.path.dirname(os.path.abspath(__file__)) or '.')
     self.allOperators ={}
     self.operator = {}
     self.load_data()
     self.get_character(operator)
 
   def load_data(self):
-    os.chdir(os.path.dirname(os.path.abspath(__file__)) or '.')
+    filePath = f"Data/Stats/all_characters.json"
 
-    with open("all_characters.json", "r", encoding="utf-8") as f:
+    with open(filePath, "r", encoding="utf-8") as f:
       self.allOperators = json.load(f)
 
   def get_character(self, operator):

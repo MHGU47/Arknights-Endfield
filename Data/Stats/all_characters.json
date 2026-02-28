@@ -1,6 +1,11 @@
 [
   {
     "Akekuri": {
+      "type": {
+        "Weapon Type" : "Sword",
+        "Class": "Vanguard",
+        "Element": "Heat"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "319",
@@ -8,7 +13,6 @@
         "Agility": "140",
         "Intellect": "106",
         "Will": "108",
-        "Intelligence": "106",
         "Main Attribute": "Agility",
         "Secondary Attribute": "Intellect"
       },
@@ -39,9 +43,11 @@
           "Flash and Dash": {
             "description": "Performs a returning dash with 2 thrust sequences, with each sequence dealing Physical DMG and recovering some SP. Trigger: When an enemy becomes Staggered or hits a Stagger Node.",
             "multipliers": {
-              "DMG Multiplier per SEQ": "180%",
-              "Stagger per SEQ": "5",
-              "SP Recovery per SEQ": "7.5"
+              "DMG Multiplier per hit": "180%",
+              "Stagger per hit": "5",
+              "SP Recovery per hit": "7.5",
+              "Number of hits": 2,
+              "Trigger": "Stagger"
             }
           }
         },
@@ -50,7 +56,8 @@
             "description": "Enters a channeling state and fires 3 Rallying Flares. Each firing recovers some SP.",
             "multipliers": {
               "Cooldown": "20",
-              "SP Recovery": "80"
+              "SP Recovery": "80",
+              "Number of hits": 3
             }
           }
         }
@@ -91,6 +98,11 @@
   },
   {
     "Alesh": {
+      "type": {
+        "Weapon Type": "Sword",
+        "Class": "Vanguard",
+        "Element": "Cryo"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "309",
@@ -98,7 +110,6 @@
         "Agility": "95",
         "Intellect": "125",
         "Will": "89",
-        "Intelligence": "125",
         "Main Attribute": "Strength",
         "Secondary Attribute": "Intellect"
       },
@@ -193,6 +204,11 @@
   },
   {
     "Antal": {
+      "type": {
+        "Weapon Type": "Arts Unit",
+        "Class": "Supporter",
+        "Element": "Electric"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "297",
@@ -200,7 +216,6 @@
         "Agility": "86",
         "Intellect": "165",
         "Will": "82",
-        "Intelligence": "165",
         "Main Attribute": "Intellect",
         "Secondary Attribute": "Strength"
       },
@@ -286,6 +301,11 @@
   },
   {
     "Arclight": {
+      "type": {
+        "Weapon Type": "Sword",
+        "Class": "Vanguard",
+        "Element": "Electric"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "306",
@@ -293,7 +313,6 @@
         "Agility": "145",
         "Intellect": "123",
         "Will": "100",
-        "Intelligence": "123",
         "Main Attribute": "Agility",
         "Secondary Attribute": "Intellect"
       },
@@ -384,6 +403,11 @@
   },
   {
     "Ardelia": {
+      "type": {
+        "Weapon Type": "Arts Unit",
+        "Class": "Supporter",
+        "Element": "Nature"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "323",
@@ -391,7 +415,6 @@
         "Agility": "93",
         "Intellect": "145",
         "Will": "118",
-        "Intelligence": "145",
         "Main Attribute": "Intellect",
         "Secondary Attribute": "Will"
       },
@@ -479,6 +502,11 @@
   },
   {
     "Avywenna": {
+      "type": {
+        "Weapon Type": "Polearm",
+        "Class": "Striker",
+        "Element": "Electric"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "312",
@@ -486,13 +514,12 @@
         "Agility": "106",
         "Intellect": "110",
         "Will": "148",
-        "Intelligence": "110",
         "Main Attribute": "Will",
         "Secondary Attribute": "Agility"
       },
       "skills": [
         {
-          "THunderlance: Blitz": {
+          "Thunderlance: Blitz": {
             "description": "BASIC ATTACK: An attack with up to 5 sequences that deals Physical DMG. As the controlled operator, Final Strike also deals 17 Stagger. DIVE ATTACK: Basic attack performed in mid-air becomes a dive attack that deals Physical DMG to nearby enemies. FINISHER: Basic attack performed near a Staggered enemy becomes a finisher attack that deals massive Physical DMG and recovers some SP.",
             "multipliers": {
               "BATK SEQ 1 Multiplier": "37%",
@@ -576,6 +603,11 @@
   },
   {
     "Catcher": {
+      "type": {
+        "Weapon Type": "Great Sword",
+        "Class": "Defender",
+        "Element": "Physical"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "300",
@@ -583,7 +615,6 @@
         "Agility": "96",
         "Intellect": "86",
         "Will": "106",
-        "Intelligence": "86",
         "Main Attribute": "Strength",
         "Secondary Attribute": "Will"
       },
@@ -678,6 +709,11 @@
   },
   {
     "Chen Qianyu": {
+      "type": {
+        "Weapon Type": "Sword",
+        "Class": "Guard",
+        "Element": "Physical"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "297",
@@ -685,7 +721,6 @@
         "Agility": "171",
         "Intellect": "85",
         "Will": "93",
-        "Intelligence": "85",
         "Main Attribute": "Agility",
         "Secondary Attribute": "Strength"
       },
@@ -771,6 +806,11 @@
   },
   {
     "Da Pan": {
+      "type": {
+        "Weapon Type": "Great Sword",
+        "Class": "Striker",
+        "Element": "Physical"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "303",
@@ -778,7 +818,6 @@
         "Agility": "96",
         "Intellect": "94",
         "Will": "102",
-        "Intelligence": "94",
         "Main Attribute": "Strength",
         "Secondary Attribute": "Will"
       },
@@ -863,6 +902,11 @@
   },
   {
     "Ember": {
+      "type": {
+        "Weapon Type": "Great Sword",
+        "Class": "Defender",
+        "Element": "Heat"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "323",
@@ -870,7 +914,6 @@
         "Agility": "96",
         "Intellect": "86",
         "Will": "120",
-        "Intelligence": "86",
         "Main Attribute": "Strength",
         "Secondary Attribute": "Will"
       },
@@ -958,6 +1001,11 @@
   },
   {
     "Endministrator": {
+      "type": {
+        "Weapon Type": "Sword",
+        "Class": "Guard",
+        "Element": "Physical"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "319",
@@ -965,7 +1013,6 @@
         "Agility": "140",
         "Intellect": "96",
         "Will": "107",
-        "Intelligence": "96",
         "Main Attribute": "Agility",
         "Secondary Attribute": "Strength"
       },
@@ -1040,6 +1087,11 @@
   },
   {
     "Estella": {
+      "type": {
+        "Weapon Type": "Sword",
+        "Class": "Guard",
+        "Element": "Cryo"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "312",
@@ -1047,7 +1099,6 @@
         "Agility": "97",
         "Intellect": "110",
         "Will": "151",
-        "Intelligence": "110",
         "Main Attribute": "Will",
         "Secondary Attribute": "Strength"
       },
@@ -1133,6 +1184,11 @@
   },
   {
     "Fluorite": {
+      "type": {
+        "Weapon Type": "Handcannon",
+        "Class": "Caster",
+        "Element": "Nature"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "303",
@@ -1140,7 +1196,6 @@
         "Agility": "168",
         "Intellect": "114",
         "Will": "91",
-        "Intelligence": "114",
         "Main Attribute": "Agility",
         "Secondary Attribute": "Intellect"
       },
@@ -1229,6 +1284,11 @@
   },
   {
     "Gilberta": {
+      "type": {
+        "Weapon Type": "Arts Unit",
+        "Class": "Supporter",
+        "Element": "Nature"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "329",
@@ -1236,7 +1296,6 @@
         "Agility": "92",
         "Intellect": "127",
         "Will": "171",
-        "Intelligence": "127",
         "Main Attribute": "Will",
         "Secondary Attribute": "Intellect"
       },
@@ -1324,6 +1383,11 @@
   },
   {
     "Laevatain": {
+      "type": {
+        "Weapon Type": "Sword",
+        "Class": "Striker",
+        "Element": "Heat"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "318",
@@ -1331,7 +1395,6 @@
         "Agility": "99",
         "Intellect": "177",
         "Will": "89",
-        "Intelligence": "177",
         "Main Attribute": "Intellect",
         "Secondary Attribute": "Strength"
       },
@@ -1433,6 +1496,11 @@
   },
   {
     "Last Rite": {
+      "type": {
+        "Weapon Type": "Great Sword",
+        "Class": "Striker",
+        "Element": "Cryo"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "332",
@@ -1440,7 +1508,6 @@
         "Agility": "104",
         "Intellect": "93",
         "Will": "109",
-        "Intelligence": "93",
         "Main Attribute": "Strength",
         "Secondary Attribute": "Will"
       },
@@ -1533,6 +1600,11 @@
   },
   {
     "Lifeng": {
+      "type": {
+        "Weapon Type": "Polearm",
+        "Class": "Guard",
+        "Element": "Physical"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "312",
@@ -1540,7 +1612,6 @@
         "Agility": "132",
         "Intellect": "115",
         "Will": "117",
-        "Intelligence": "115",
         "Main Attribute": "Agility",
         "Secondary Attribute": "Strength"
       },
@@ -1633,6 +1704,11 @@
   },
   {
     "Perlica": {
+      "type": {
+        "Weapon Type": "Arts Unit",
+        "Class": "Caster",
+        "Element": "Electric"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "303",
@@ -1640,7 +1716,6 @@
         "Agility": "93",
         "Intellect": "161",
         "Will": "113",
-        "Intelligence": "161",
         "Main Attribute": "Intellect",
         "Secondary Attribute": "Will"
       },
@@ -1724,6 +1799,11 @@
   },
   {
     "Pogranichnik": {
+      "type": {
+        "Weapon Type": "Sword",
+        "Class": "Vanguard",
+        "Element": "Physical"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "321",
@@ -1731,7 +1811,6 @@
         "Agility": "110",
         "Intellect": "97",
         "Will": "173",
-        "Intelligence": "97",
         "Main Attribute": "Will",
         "Secondary Attribute": "Agility"
       },
@@ -1837,6 +1916,11 @@
   },
   {
     "Snowshine": {
+      "type": {
+        "Weapon Type": "Great Sword",
+        "Class": "Defender",
+        "Element": "Cryo"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "297",
@@ -1844,7 +1928,6 @@
         "Agility": "104",
         "Intellect": "93",
         "Will": "108",
-        "Intelligence": "93",
         "Main Attribute": "Strength",
         "Secondary Attribute": "Will"
       },
@@ -1935,6 +2018,11 @@
   },
   {
     "Wulfgard": {
+      "type": {
+        "Weapon Type": "Handcannon",
+        "Class": "Caster",
+        "Element": "Heat"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "294",
@@ -1942,7 +2030,6 @@
         "Agility": "95",
         "Intellect": "92",
         "Will": "111",
-        "Intelligence": "92",
         "Main Attribute": "Strength",
         "Secondary Attribute": "Agility"
       },
@@ -2027,6 +2114,11 @@
   },
   {
     "Xaihi": {
+      "type": {
+        "Weapon Type": "Arts Unit",
+        "Class": "Supporter",
+        "Element": "Cryo"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "291",
@@ -2034,7 +2126,6 @@
         "Agility": "91",
         "Intellect": "127",
         "Will": "150",
-        "Intelligence": "127",
         "Main Attribute": "Will",
         "Secondary Attribute": "Intellect"
       },
@@ -2124,6 +2215,11 @@
   },
   {
     "Yvonne": {
+      "type": {
+        "Weapon Type": "Handcannon",
+        "Class": "Striker",
+        "Element": "Cryo"
+      },
       "stats": {
         "HP": "5495",
         "Attack": "321",
@@ -2131,7 +2227,6 @@
         "Agility": "128",
         "Intellect": "176",
         "Will": "105",
-        "Intelligence": "176",
         "Main Attribute": "Intellect",
         "Secondary Attribute": "Agility"
       },

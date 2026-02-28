@@ -1,0 +1,63 @@
+11/02/2026
+-Generated basic layout for UI
+
+17/02/26
+-Added classes to handle Operator functions; Operator and Skill classes have been created in order to
+ allow them to be handled easily thoughout the project
+-Altered "all_characters.json"; started altering the file to make the data better for calculations e.g. triggers,
+ number of hits etc.
+
+ 19/02/26
+ -Moved calculations to seperate .py file
+ -Fixed several update displays; small errors and inconsistencies
+ -Implemented weapon image loading and weapon level selection; stats still need to reflect level
+ -Implemented gear image loading; stats need to reflect level, and level select needs to be copied from weapon
+
+20/02/26
+-Added new function to 'OperatorLoadout' class; update_level(str, int) was added to make updating gear levels
+ easier and cleaner
+-Changing gear/weapon level now updates stats displayed
+
+22/02/26
+-Added 'Weapon' and 'Gear' classes to operator_.py; this is to make manipulation of the respective data easier
+
+23/02/26
+-Moved 'OperatorLoadout' class to 'operator_py'; this makes more sense with how it is used with the other Operator
+ based classes
+
+24/02/26
+-Added 'Calculations' class to 'calculations.py'; this is to properly allow the handling of calculations.
+ 'calculations' function has been renamed to 'calculate' to facilitate this change.
+-Added 'update(loadouts)' and '_calculateCriticalMultipler(self, loadout)' to the 'Calculations' class;
+ these will be used to update changes to the loadouts.
+-Added 'parseSkill' and 'parseWeaponSkill' to 'utils.py'; this is to allow the parsing of skills so
+ they can be calculated properly.
+-Started changing all reference to 'weapon skills' to 'weapon stats'; this needs to be reflected
+ in function and class names as well
+-Added 'parseWeapon' and '_parsePassiveAttribute' to 'utils.py'; the former is used to specifically parse
+ weapon stats and the latter is called by 'parseWeapon' for passive attributes on weapons, depending on what
+ parameter was passed into 'parseWeapon'. '_parseWeaponStat' was also created to parse non-passive attribute
+ stats for weapons.
+-Reworked how stats (formerly skills) for weapons are handled. This needs testing throughout
+
+25/02/26
+-Altered how gear is saved in 'Loadout'; each piece of gear is a dict that contains a 'Weapon' or 'Gear' object
+ and an int for it's level. Consider rewriting this to be another class instead
+-Created new class 'Stat' in 'operator_.py'; this makes handling gear stat a lot easier
+
+27/02/26
+-Added '_filter(operator, dict)' to 'calculations.py'; this is just to filter the flat and percent stats for
+ calculations
+
+
+NEXT -> Implement dropdowns for Weapons, work on parsing skills from weapons and gear to factor in to final
+        attack stat
+
+Look through TODOs
+
+CONSIDER CHANGING CLASSES TO MAKE STATS/RANKS SHARE THE SAME ATTRIBUTE TO REDUCE NEED FOR IF STATEMENT FILTERING
+MOVE MAPPING DICTS TO OPERATORLOADOUT
+CONSIDER USING CLASSES INSTEAD OF DICTS FOR MORE THINGS
+IMPLEMENT OPERATOR CLASS INTO OPERATORLOADOUT CLASS
+IMPLEMENT SKILLS FOR OPERATORS
+ALTER SCRAPER TO GET IMAGES FOR OPERATORS
