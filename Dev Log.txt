@@ -49,9 +49,64 @@
 -Added '_filter(operator, dict)' to 'calculations.py'; this is just to filter the flat and percent stats for
  calculations
 
+04/03/26
+-Started implementing spinboxes for weapon stat ranks
 
-NEXT -> Implement dropdowns for Weapons, work on parsing skills from weapons and gear to factor in to final
-        attack stat
+05/03/26
+-Spinboxes for weapons now updates the stat displayed and in the calculations. They also work the same way for
+ gear as well.
+-Dropdowns removed from gear and only applies to weapon. The dropdown now affects stat calculations and reflects
+ in the final result.
+-Added 'getUpdatedStats()' to 'calculations.py'; this is to update the operator display with stats after gear
+ has been applied.
+
+06/03/26
+-Added 'checkGearsets(loadout)' to 'calculations.py'; this is to to check gear for gear set bonuses and return
+ them if applicable.
+
+10/03/26
+-Cross referenced calculated stats with in-game numbers to check accuracy; solo Laevatain (P0, Lv90)
+ + SIG (No dupes, 7/7/4 Essence) with Tide Fall Light Armour, Hot Work Gauntlets, Hot Work Pyrometer x2
+ (base, no artificing) against Rhodagn. Basic Attack 1 was used, with a hardcoded value due to not
+ having Lv10 values at the time of testing, and the result was 960. The calculated value was rounded
+ to the nearest integer instead of rounding down to accurately reflect the number in-game. Both the value
+ in-game and the calculated value were 960.
+-Yvonne tested (Lv90, 50% Trust, Mi Security 4/4 Max Artifice Stat 1 and 3, Wedge No Dupe, (7,6,3), Lv80).
+Damage calculated was within 0.99% of what in-game display was (1179.3919199999998 vs 1180).
+-Further Yvonne testing showed that the MI Security Stack system applies attack buff *AFTER*
+attack crits. For example, if an attack crits, that attack does *NOT* benefit from the attack
+buff stack but the next attacks do. (Basic Attack 1 will benefit from 2 stacks, but the crit
+will proc a third stack, which the basic attack will not have benefitted from).
+
+11/03/26
+-Compiled new JSON file for operators using a new webscraper. This file contains more detailed info for
+ operators from 'warfarin.wiki'. Rewriting 'Operator' class to accomodate for this new JSON structure
+-Rewrote 'parseSkill' in 'utils.py' to accomodate for the new JSON/Operator class structure
+-Added dropdown for operator levels
+
+12/03/26
+-Added images to Operator selection display
+-Added images and tooltips to gear, weapon and operator selection
+-Added 'enemy.py'; this is going to be used for holding enemy statuses, vulnerabilities etc.
+-Fixed operator switching; spinners for weapon and operator icon now change accordingly
+
+13/03/26
+-Tested Xaihi Battle Skill amp effect with Yvonne; calculated numbers are within <1%, just like before.
+ This is also the case when factoring in ATK stacks from MI Security gear set.
+-Started with webapp side of things, will migrate over at some point.-Generated basic layout that
+ is similar to what was made in Python in React
+
+15/03/26
+-Started calculation backend in webapp
+
+
+NEXT -> Sort out weapon passive attributes
+        Fix operator level dropdown; disappearing after operator is selected
+        Get matrix stats for operators, these haven't been obtained yet.
+        Get a list of full in-game attributes to reflect the changes due to gear etc
+        Work on updating stats on operator screen
+        Work on parsing skills from weapons and gear to factor in to final attack stat
+        Merge new stats gathered by Operator Scraper V2
 
 Look through TODOs
 

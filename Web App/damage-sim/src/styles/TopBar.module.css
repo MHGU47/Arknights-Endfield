@@ -1,0 +1,193 @@
+.topbar {
+  flex: 0 0 auto;
+  background: var(--color-background-secondary);
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+  display: flex;
+  flex-direction: column;
+}
+
+.equipmentRow {
+  height: 260px;
+  padding: 8px 14px 4px;
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.setEffectRow {
+  height: 40px;
+  padding: 4px 14px 6px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+.setEffectCard {
+  flex: 1;
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-md);
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.setEffectLabel {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--color-text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.setEffectDivider {
+  width: 0.5px;
+  height: 100%;
+  background: var(--color-border-tertiary);
+}
+
+.setEffectText {
+  font-size: 11px;
+  color: var(--color-text-tertiary);
+  margin: 0;
+}
+
+/* ── EquipmentBox ─────────────────────────────────────────────────────────── */
+.equipmentBox {
+  flex: 1;
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-md);
+  padding: 7px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.equipmentTitle {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--color-text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 0;
+}
+
+.equipmentImg {
+  width: 100%;
+  height: 80px;
+  flex-shrink: 0;
+  background: var(--color-background-secondary);
+  border: 0.5px dashed var(--color-border-secondary);
+  border-radius: var(--border-radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.equipmentImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ── Weapon level dropdown ────────────────────────────────────────────────── */
+.weaponDropdownToggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  padding: 3px 6px;
+  background: var(--color-background-secondary);
+  border: 0.5px solid var(--color-border-secondary);
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  flex-shrink: 0;
+  transition: border-color 0.12s;
+}
+
+.weaponDropdownToggle:hover {
+  border-color: var(--color-border-primary);
+}
+
+.weaponDropdownLabel {
+  font-size: 10px;
+  color: var(--color-text-secondary);
+  flex: 1;
+}
+
+.weaponDropdownValue {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  font-variant-numeric: tabular-nums;
+  min-width: 20px;
+  text-align: right;
+}
+
+.weaponDropdownChevron {
+  font-size: 8px;
+  color: var(--color-text-tertiary);
+  display: inline-block;
+  transition: transform 0.18s ease;
+  margin-left: 2px;
+}
+
+.weaponDropdownChevronOpen {
+  transform: rotate(180deg);
+}
+
+/* Portal menu — rendered into document.body, positioned via fixed */
+.weaponDropdownPortal {
+  position: fixed;
+  z-index: 1000;
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-secondary);
+  border-radius: var(--border-radius-md);
+  padding: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.weaponLevelGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3px;
+}
+
+.weaponLevelOption {
+  font-size: 10px;
+  text-align: center;
+  padding: 3px 0;
+  border-radius: 3px;
+  cursor: pointer;
+  color: var(--color-text-tertiary);
+  background: transparent;
+  border: 0.5px solid transparent;
+  transition: all 0.1s;
+  font-variant-numeric: tabular-nums;
+}
+
+.weaponLevelOption:hover {
+  background: var(--color-background-secondary);
+  color: var(--color-text-secondary);
+}
+
+.weaponLevelOptionActive {
+  background: var(--color-background-secondary);
+  border-color: var(--color-border-secondary);
+  color: var(--color-text-primary);
+  font-weight: 500;
+}

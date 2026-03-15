@@ -14,43 +14,44 @@ class Loadout:
     def _setAllGear(self):
         self.weapon = {
             "Item": None,
-            "Level": 0
+            "Level": 1,
+            "Stat Ranks" : [1, 1, 1]
         }
         self.armour = {
             "Item": None,
-            "Level": 0
+            "Artificing Levels": [0, 0, 0]
         }
         self.gloves = {
             "Item": None,
-            "Level": 0
+            "Artificing Levels": [0, 0, 0]
         }
         self.kit1 = {
             "Item": None,
-            "Level": 0
+            "Artificing Levels": [0, 0, 0]
         }
         self.kit2 = {
             "Item": None,
-            "Level": 0
+            "Artificing Levels": [0, 0, 0]
         }
-        self.allGear = [
-            self.weapon,
-            self.armour,
-            self.gloves,
-            self.kit1,
-            self.kit2
-        ]
+        self.allGear = {
+            "weapon" : self.weapon,
+            "armour" : self.armour,
+            "gloves" : self.gloves,
+            "kit1" : self.kit1,
+            "kit2" : self.kit2
+        }
 
-    def update_level(self, slot, value):
+    def update_levels(self, slot, value):
         if slot == "weapon":
             self.weapon["Level"] = value
         elif slot == "armour":
-            self.armour["Level"] = value
+            self.armour["Artificing Levels"] = value
         elif slot == "gloves":
-            self.gloves["Level"] = value
+            self.gloves["Artificing Levels"] = value
         elif slot == "kit1":
-            self.kit1["Level"] = value
+            self.kit1["Artificing Levels"] = value
         elif slot == "kit2":
-            self.kit2["Level"] = value
+            self.kit2["Artificing Levels"] = value
 
 class Operator:
     print("**operator.py loaded**")
@@ -58,7 +59,10 @@ class Operator:
     def __init__(self, d):
         (name, data), = d.items()
         self.name = name
-        self._setData(data)
+        self.level = "Level 1"
+        #self._setData(data)
+
+        self._setDataNew(data)
     
     def _setData(self, data):
         self.data = data
@@ -100,12 +104,25 @@ class Operator:
         self.comboSkill = Skill(self._skills[2], "Combo Skill")
         self.ultimate = Skill(self._skills[3], "Ultimate")
 
-        self.allSkills = [
-            self.basicAttack,
-            self.battleSkill,
-            self.comboSkill,
-            self.ultimate
-        ]
+        self.allSkills = {
+            "Basic Attack": self.basicAttack,
+            "Battle Skill": self.battleSkill,
+            "Combo Skill": self.comboSkill,
+            "Ultimate": self.ultimate
+        }
+
+    def _setSkillsNew(self, data):
+        self.basicAttack = Skill(data[0], "Basic Attack")
+        self.battleSkill = Skill(data[1], "Battle Skill")
+        self.comboSkill = Skill(data[2], "Combo Skill")
+        self.ultimate = Skill(data[3], "Ultimate")
+
+        self.allSkills = {
+            "Basic Attack": self.basicAttack,
+            "Battle Skill": self.battleSkill,
+            "Combo Skill": self.comboSkill,
+            "Ultimate": self.ultimate
+        }
 
     def _setTalents(self):#TODO: Consider making this it's own class to allow custom functionality
         self.talents = {
@@ -113,6 +130,38 @@ class Operator:
             for d in self._talents
             if d.get("type") == "Combat Talent"
         }
+
+    def _setDataNew(self, data):
+        overview = data.get("overview")
+        self.WPN = overview["Weapon"]
+        self.CLS = overview["Class"]
+        self.ELM = overview["Element"]
+        self.icon = data.get("images")[0]
+        
+        attributes = data.get("attributes")
+        self.levels = {level : stats for level, stats in attributes["summary"].items()}
+
+        for level, value in self.levels.items():
+            for stat, val in value.items():
+                self.levels[level][stat] = u.parser(val)
+
+        self.stats = self.levels[self.level]
+        talents = data.get("talents")
+        self.talents = {name : stats for talent in talents for name, stats in talent.items()}
+
+        skills = data.get("skills")
+        self.skills = {value["type"] : value for skill in skills for name, value in skill.items()}
+
+        self.mainAttr = overview["Main Attribute"]
+
+        self.secondaryAttr = overview["Sub Attribute"]
+
+
+        self._setSkillsNew(skills)
+
+    def setLevel(self, level):
+        self.level = level
+        self.stats = self.levels[self.level]
 
 class Skill:
     def __init__(self, data: dict, type_: str):
@@ -133,6 +182,7 @@ class Skill:
         if self.type in ["Weapon Stat", "Passive Attribute"]:
             parsed = u.parseWeapon(multipliers, self.type)
         else:
+            # parsed = u.parseSkill(multipliers, self.type)
             parsed = u.parseSkill(multipliers, self.type)
 
         # Store Skill based on type
@@ -152,6 +202,9 @@ class Skill:
             self.weaponStats = parsed
             self.attribute = parsed.get("Attribute")
             self.ranks = {rank : val for rank, val in parsed.items() if "Rank" in rank}
+            # for rank, val in parsed.items():
+            #     if "Rank" in rank:
+            #         print(f"{rank}: {val}")
             #TODO: Change 'parseWeapon' so that it returns a dict containing attribure and rank. This saves
             #      having to create the dicts here
 
@@ -176,7 +229,7 @@ class Gear:
         (name, data), = d.items()
         self.name = name
         self.type = data["type"]
-        self.imgPath = data["image_path"]
+        self.icon = data["image_path"]
         self._setStats(data)
 
     def _setStats(self, stats):
@@ -191,7 +244,7 @@ class Weapon:
         (name, data), = d.items()
         self.name = name
         self.type = data["type"]
-        self.imgPath = data["image_path"]
+        self.icon = data["image_path"]
         self._setLevels(data["levels"])
         self._setStats(data["stats"])
 

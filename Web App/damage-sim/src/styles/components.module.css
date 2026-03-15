@@ -1,0 +1,170 @@
+/*
+ * components.module.css — Shared primitive component styles
+ *
+ * Styles for small reusable UI elements used across multiple components:
+ *   - Spinner (the +/− number input)
+ *   - Checkbox
+ *   - Badge (toggleable pill)
+ *   - Modifier row inputs/buttons
+ *
+ * These are imported as `c` in components that use them:
+ *   import c from "../../styles/components.module.css"
+ *   <div className={c.spinnerWrap}>
+ *
+ * CSS Modules: every class name here is scoped to the component that imports
+ * this file. The build tool transforms `.spinnerWrap` into a unique hashed
+ * name like `.spinnerWrap_x7f2k` so it never conflicts with other files.
+ */
+
+/* ── Spinner ──────────────────────────────────────────────────────────────── */
+
+/* Outer container — groups the three parts (−, value, +) into one visual unit */
+.spinnerWrap {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid var(--color-border-secondary);
+  border-radius: 4px;
+  overflow: hidden;   /* Clips child elements to the rounded corners */
+  height: 20px;
+  flex-shrink: 0;     /* Prevents shrinking when parent is space-constrained */
+}
+
+/* − and + buttons */
+.spinnerBtn {
+  background: var(--color-background-secondary);
+  border: none;
+  border-right: 0.5px solid var(--color-border-tertiary);  /* Separator between − and value */
+  color: var(--color-text-secondary);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 0 5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: inherit;  /* Prevents button from using browser default font */
+}
+
+/* The + button has its border on the LEFT instead of right */
+.spinnerBtnRight {
+  border-right: none;
+  border-left: 0.5px solid var(--color-border-tertiary);
+}
+
+.spinnerBtn:hover {
+  background: var(--color-background-tertiary);
+}
+
+/* The numeric value displayed between − and + */
+.spinnerVal {
+  font-size: 11px;
+  color: var(--color-text-primary);
+  padding: 0 4px;
+  min-width: 36px;          /* Prevents layout shift as value changes width */
+  text-align: center;
+  font-variant-numeric: tabular-nums;  /* Uses fixed-width digits — prevents jitter */
+}
+
+/* ── Checkbox ─────────────────────────────────────────────────────────────── */
+
+/*
+ * Base styles only — border and background colour are applied via inline
+ * style props in the component because they're driven by the `color` prop.
+ */
+.checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.12s;  /* Smooth colour change on toggle */
+}
+
+/* ── Badge ────────────────────────────────────────────────────────────────── */
+
+/*
+ * Base styles — border, background, and text colour are applied via inline
+ * style props because they change per-badge based on `color` and `active` props.
+ */
+.badge {
+  font-size: 10px;
+  font-weight: 500;
+  padding: 3px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.12s;
+  user-select: none;    /* Prevents text selection on rapid clicking */
+  white-space: nowrap;  /* Keeps badge text on one line */
+}
+
+/* Wrapper for a group of badges — wraps onto multiple lines if needed */
+.badgeWrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* ── Add modifier button ──────────────────────────────────────────────────── */
+
+/* The dashed "+ Add modifier" button at the bottom of skill cards */
+.addModBtn {
+  font-size: 10px;
+  color: var(--color-text-tertiary);
+  background: none;
+  border: 0.5px dashed var(--color-border-secondary);  /* Dashed = "add/create" affordance */
+  border-radius: 4px;
+  padding: 3px 8px;
+  cursor: pointer;
+  width: 100%;      /* Stretches full width of the card */
+  margin-top: 2px;
+  transition: color 0.12s, border-color 0.12s;
+  font-family: inherit;
+}
+
+.addModBtn:hover {
+  color: var(--color-text-secondary);
+  border-color: var(--color-border-primary);
+}
+
+/* ── Remove modifier button ───────────────────────────────────────────────── */
+
+/* The × button at the right of each modifier row */
+.rmBtn {
+  font-size: 11px;
+  color: var(--color-text-tertiary);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 3px;
+  flex-shrink: 0;
+  line-height: 1;
+  transition: color 0.12s;
+  font-family: inherit;
+}
+
+/* Turns red on hover to signal "this will delete something" */
+.rmBtn:hover {
+  color: #e05050;
+}
+
+/* ── Modifier label input ─────────────────────────────────────────────────── */
+
+/* The text input inside a modifier row where the user types a label */
+.modLabelInput {
+  font-size: 11px;
+  background: transparent;
+  border: none;
+  border-bottom: 0.5px solid var(--color-border-tertiary);  /* Underline-only style */
+  color: var(--color-text-secondary);
+  padding: 1px 0;
+  flex: 1;        /* Takes up all available space in the row */
+  outline: none;  /* Removes the default browser focus ring */
+  min-width: 0;   /* Allows shrinking below content size in flex layouts */
+  font-family: inherit;
+}
+
+.modLabelInput::placeholder {
+  color: var(--color-text-tertiary);
+}

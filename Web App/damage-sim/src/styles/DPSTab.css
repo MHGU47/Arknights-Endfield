@@ -1,0 +1,179 @@
+/* ── DPS card ─────────────────────────────────────────────────────────────── */
+.dps-card {
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-md);
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* ── Section heading ──────────────────────────────────────────────────────── */
+.dps-section-head {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--color-text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin: 0 0 4px;
+}
+
+/* ── Row ──────────────────────────────────────────────────────────────────── */
+.dps-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  min-height: 22px;
+}
+
+/* ── Label ────────────────────────────────────────────────────────────────── */
+.dps-lbl {
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  flex: 1;
+}
+
+.dps-lbl--muted {
+  color: var(--color-text-tertiary);
+}
+
+.dps-lbl--locked {
+  color: var(--color-text-tertiary);
+  opacity: 0.5;
+}
+
+/* ── Divider ──────────────────────────────────────────────────────────────── */
+.dps-divider {
+  height: 0.5px;
+  background: var(--color-border-tertiary);
+  margin: 5px 0;
+}
+
+/* ── Collapsible column header ────────────────────────────────────────────── */
+.col-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 10px;
+  cursor: pointer;
+  user-select: none;
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-md);
+  transition: background 0.12s, border-color 0.12s;
+  flex-shrink: 0;
+}
+
+.col-header:hover {
+  background: var(--color-background-secondary);
+}
+
+.col-header-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.col-header-accent {
+  width: 3px;
+  height: 12px;
+  border-radius: 2px;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.col-chevron {
+  font-size: 9px;
+  color: var(--color-text-tertiary);
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.col-chevron--open {
+  transform: rotate(180deg);
+}
+
+/* ── Collapsible body ─────────────────────────────────────────────────────── */
+.col-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.25s ease, opacity 0.2s ease;
+}
+
+.col-body--open {
+  max-height: 600px;
+  opacity: 1;
+}
+
+/* ── Column wrapper ───────────────────────────────────────────────────────── */
+.col-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+  min-width: 0;
+}
+
+/* ── Skill card ───────────────────────────────────────────────────────────── */
+.skill-card {
+  flex: 1;
+  min-width: 0;
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-md);
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow-y: auto;
+}
+
+.skill-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 11px;
+  color: var(--color-text-primary);
+}
+
+.skill-accent {
+  width: 3px;
+  height: 12px;
+  border-radius: 2px;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+/* ── Active hits total ────────────────────────────────────────────────────── */
+.hits-total-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2px;
+}
+
+.hits-total-label {
+  font-size: 10px;
+  color: var(--color-text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hits-total-value {
+  font-size: 12px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}

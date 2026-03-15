@@ -13,7 +13,7 @@ def parser(val):
         return int(num)
     return num
 
-def parseSkill(skills: Dict[str, Dict[str, str]], type_: str) -> Dict[str, Dict[str, str]]:
+def parseSkillOLD(skills: Dict[str, Dict[str, str]], type_: str) -> Dict[str, Dict[str, str]]:
     """
     Gets skill values and attributes for operators
     """
@@ -39,6 +39,25 @@ def parseSkill(skills: Dict[str, Dict[str, str]], type_: str) -> Dict[str, Dict[
     #         grouped[base] = {}
     #     grouped[base][key] = parser(val)  # parse the value
     # return grouped
+
+def parseSkill(skills: Dict[str, Dict[str, str]], type_: str) -> Dict[str, Dict[str, str]]:
+    """
+    Gets skill values and attributes for operators
+    """
+    
+    data = {}
+    if type_ == "Basic Attack":
+        for level, values in skills.items():
+          names = [f"Basic Attack {i + 1}" for i, n in enumerate(values) if "BATK" in n]
+          names.extend([f"{n.split()[0]} Attack" for n in values if "BATK" not in n])
+
+          data.update({level : {names[i] : parser(val) for i, val in enumerate(values.values())}})
+        return data
+
+
+    else:
+        return {name : parser(val) for name, val in skills.items()}
+
 
 def parseWeapon(stat: Dict[str, str], type_: str):
     if type_ == "Weapon Stat":
@@ -84,7 +103,7 @@ def _parsePassiveAttribute(stat: Dict[str, str]) -> Dict[str, str]:
     }
     """
 
-    return {"Passive Attribute" : {}}
+    return {rank : s for rank, s in stat.items()}
     parsed: Dict[str, Dict[str, float]] = {}
     
     for rank, attr in stat.items():

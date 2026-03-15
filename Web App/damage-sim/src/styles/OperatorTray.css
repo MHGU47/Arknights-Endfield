@@ -1,0 +1,87 @@
+/* ── Tray toggle row ──────────────────────────────────────────────────────── */
+.op-tray-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  cursor: pointer;
+  background: var(--color-background-secondary);
+  user-select: none;
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+  transition: background 0.12s;
+}
+
+.op-tray-toggle:hover {
+  background: var(--color-background-primary);
+}
+
+.op-tray-toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--color-text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.op-tray-chevron {
+  font-size: 10px;
+  color: var(--color-text-tertiary);
+  display: inline-block;
+  transition: transform 0.22s ease;
+}
+
+.op-tray-chevron--open {
+  transform: rotate(180deg);
+}
+
+/* ── Tray body ────────────────────────────────────────────────────────────── */
+.op-tray-body {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.25s ease, opacity 0.2s ease;
+  background: var(--color-background-primary);
+}
+
+.op-tray-body--open {
+  max-height: 140px;
+  opacity: 1;
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+}
+
+.op-tray-grid {
+  padding: 10px 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+/* ── Operator icon ────────────────────────────────────────────────────────── */
+.op-icon-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.op-icon-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-background-secondary);
+  border: 0.5px solid var(--color-border-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.15s;
+}
+
+.op-icon-name {
+  font-size: 9px;
+  color: var(--color-text-tertiary);
+  margin: 0;
+}

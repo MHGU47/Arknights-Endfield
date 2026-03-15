@@ -1,0 +1,174 @@
+.header {
+  padding: 12px 12px 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+}
+
+.elementIcon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stars {
+  display: flex;
+  gap: 2px;
+  margin-top: 2px;
+}
+
+.star {
+  color: #b0b8c8;
+  font-size: 10px;
+}
+
+.tags {
+  padding: 8px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+}
+
+.tag {
+  font-size: 10px;
+  color: var(--color-text-secondary);
+  background: var(--color-background-secondary);
+  border: 0.5px solid var(--color-border-secondary);
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+
+.section {
+  padding: 8px 12px;
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+}
+
+.sectionHead {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  background: var(--color-background-secondary);
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 0 0 10px;
+}
+
+.attrGrid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.attrBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.attrLabel {
+  font-size: 10px;
+  color: var(--color-text-tertiary);
+}
+
+.attrValue {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.statRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 11px;
+  color: var(--color-text-secondary);
+}
+
+.statValue {
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.divider {
+  width: 100%;
+  height: 0.5px;
+  background: var(--color-border-tertiary);
+  margin: 10px 0 8px;
+}
+
+.skillGrid {
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.skillCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.skillCircle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--color-background-secondary);
+  border: 1.5px solid var(--color-border-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.skillRank {
+  font-size: 8px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 4px;
+}
+
+.skillDash {
+  font-size: 9px;
+  color: var(--color-text-tertiary);
+}
+
+.techniques {
+  padding: 8px 12px;
+}
+
+.techniqueRow {
+  display: flex;
+  gap: 6px;
+}
+
+.techniqueBtn {
+  flex: 1;
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-tertiary);
+  border-radius: var(--border-radius-md);
+  padding: 6px 8px;
+  font-size: 10px;
+  color: var(--color-text-secondary);
+  text-align: center;
+  font-family: inherit;
+  cursor: default;
+}

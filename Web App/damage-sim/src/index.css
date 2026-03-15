@@ -1,0 +1,123 @@
+/*
+ * index.css — Global styles
+ *
+ * This file is imported once in main.jsx and applies to the entire app.
+ * It has two jobs:
+ *
+ *   1. CSS RESET — removes browser default styles so everything starts
+ *      from a consistent baseline across all browsers.
+ *
+ *   2. CSS VARIABLES — defines the design tokens (colours, spacing, fonts)
+ *      that all components reference. Variables update automatically
+ *      in dark mode via the prefers-color-scheme media query.
+ *
+ * IMPORTANT: Do not add component-specific styles here.
+ * Component styles belong in their own .module.css files.
+ */
+
+/* ── CSS Reset ────────────────────────────────────────────────────────────── */
+
+/*
+ * box-sizing: border-box — makes width/height include padding and border,
+ * not just the content. This is almost always what you want and prevents
+ * confusing layout bugs where adding padding makes elements wider than expected.
+ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;    /* Remove default browser margins */
+  padding: 0;   /* Remove default browser padding */
+}
+
+/*
+ * Make the app fill the full viewport height.
+ * The #root div is where React mounts — it needs to be full height
+ * so the flex layout in App.jsx can fill the screen properly.
+ * overflow: hidden prevents page-level scrollbars (individual sections scroll).
+ */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  /* Smoother font rendering on macOS/iOS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── CSS Variables: Light Mode ────────────────────────────────────────────── */
+/*
+ * CSS variables (custom properties) are defined on :root so they're
+ * available everywhere in the app. They use a -- prefix.
+ *
+ * Usage in CSS: color: var(--color-text-primary);
+ * Usage in JS inline styles: style={{ color: "var(--color-text-primary)" }}
+ */
+body {
+
+  /* Background surfaces — from lightest (cards) to darkest (page bg) */
+  --color-background-primary:   #ffffff;  /* Cards, panels, main content areas */
+  --color-background-secondary: #f5f5f0;  /* Sidebar, section headers, input backgrounds */
+  --color-background-tertiary:  #ebebE6;  /* Page background behind panels */
+
+  /* Text — from most prominent to most subtle */
+  --color-text-primary:   #1a1a18;  /* Main readable content */
+  --color-text-secondary: #5a5a56;  /* Labels, secondary content */
+  --color-text-tertiary:  #9a9a94;  /* Hints, placeholders, disabled states */
+
+  /* Borders — rgba allows transparency so they work on any background */
+  --color-border-tertiary:  rgba(0, 0, 0, 0.12);  /* Subtle dividers (0.5px lines) */
+  --color-border-secondary: rgba(0, 0, 0, 0.22);  /* Input borders, hover states */
+  --color-border-primary:   rgba(0, 0, 0, 0.32);  /* Active/focus borders */
+
+  /* Border radius — use these for consistency */
+  --border-radius-md: 8px;   /* Most components */
+  --border-radius-lg: 12px;  /* Cards, larger containers */
+  --border-radius-xl: 16px;  /* Modals, overlays */
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, monospace;
+}
+
+/* ── CSS Variables: Dark Mode ─────────────────────────────────────────────── */
+/*
+ * When the user's system is in dark mode, these values override the light
+ * mode values above. The component code doesn't change — only the variable
+ * values flip. This is the power of CSS variables for theming.
+ */
+@media (prefers-color-scheme: dark) {
+  body {
+    --color-background-primary:   #1a1a18;  /* Cards become dark */
+    --color-background-secondary: #232320;  /* Sidebar becomes darker */
+    --color-background-tertiary:  #2c2c28;  /* Page background darkest */
+    --color-text-primary:   #f0f0ec;  /* Light text on dark background */
+    --color-text-secondary: #a8a8a2;
+    --color-text-tertiary:  #686862;
+    --color-border-tertiary:  rgba(255, 255, 255, 0.10);  /* White borders at low opacity */
+    --color-border-secondary: rgba(255, 255, 255, 0.20);
+    --color-border-primary:   rgba(255, 255, 255, 0.32);
+  }
+}
+
+/* ── Utility resets ───────────────────────────────────────────────────────── */
+
+/*
+ * Remove the default browser spinner arrows from number inputs.
+ * Our custom +/− buttons replace this functionality.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;  /* Firefox equivalent */
+}
+
+/* Buttons inherit font from the page rather than using browser defaults */
+button {
+  font-family: inherit;
+}

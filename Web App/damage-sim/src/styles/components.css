@@ -1,0 +1,126 @@
+/* ── Spinner ──────────────────────────────────────────────────────────────── */
+.spinner-wrap {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid var(--color-border-secondary);
+  border-radius: 4px;
+  overflow: hidden;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.spinner-btn {
+  background: var(--color-background-secondary);
+  border: none;
+  color: var(--color-text-secondary);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 0 5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+}
+
+.spinner-btn:hover {
+  background: var(--color-background-tertiary);
+}
+
+.spinner-val {
+  font-size: 11px;
+  color: var(--color-text-primary);
+  padding: 0 4px;
+  min-width: 36px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Checkbox ─────────────────────────────────────────────────────────────── */
+.cb-wrap {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid var(--color-border-secondary);
+  transition: all 0.12s;
+}
+
+/* ── Badge ────────────────────────────────────────────────────────────────── */
+.badge {
+  font-size: 10px;
+  font-weight: 500;
+  padding: 3px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0.5px solid var(--color-border-tertiary);
+  color: var(--color-text-tertiary);
+  transition: all 0.12s;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.badge-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* ── Add modifier button ──────────────────────────────────────────────────── */
+.add-mod-btn {
+  font-size: 10px;
+  color: var(--color-text-tertiary);
+  background: none;
+  border: 0.5px dashed var(--color-border-secondary);
+  border-radius: 4px;
+  padding: 3px 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 2px;
+  transition: color 0.12s, border-color 0.12s;
+  font-family: inherit;
+}
+
+.add-mod-btn:hover {
+  color: var(--color-text-secondary);
+  border-color: var(--color-border-primary);
+}
+
+/* ── Remove modifier button ───────────────────────────────────────────────── */
+.rm-btn {
+  font-size: 11px;
+  color: var(--color-text-tertiary);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 3px;
+  flex-shrink: 0;
+  line-height: 1;
+  transition: color 0.12s;
+  font-family: inherit;
+}
+
+.rm-btn:hover {
+  color: #e05050;
+}
+
+/* ── Modifier label input ─────────────────────────────────────────────────── */
+.mod-label-input {
+  font-size: 11px;
+  background: transparent;
+  border: none;
+  border-bottom: 0.5px solid var(--color-border-tertiary);
+  color: var(--color-text-secondary);
+  padding: 1px 0;
+  flex: 1;
+  outline: none;
+  min-width: 0;
+  font-family: inherit;
+}
+
+.mod-label-input::placeholder {
+  color: var(--color-text-tertiary);
+}
