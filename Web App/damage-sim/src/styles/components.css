@@ -13,7 +13,7 @@
   background: var(--color-background-secondary);
   border: none;
   color: var(--color-text-secondary);
-  font-size: 11px;
+  font-size: 22px;
   cursor: pointer;
   padding: 0 5px;
   height: 100%;
@@ -27,7 +27,7 @@
 }
 
 .spinner-val {
-  font-size: 11px;
+  font-size: 22px;
   color: var(--color-text-primary);
   padding: 0 4px;
   min-width: 36px;
@@ -51,7 +51,7 @@
 
 /* ── Badge ────────────────────────────────────────────────────────────────── */
 .badge {
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 500;
   padding: 3px 8px;
   border-radius: 4px;
@@ -71,7 +71,7 @@
 
 /* ── Add modifier button ──────────────────────────────────────────────────── */
 .add-mod-btn {
-  font-size: 10px;
+  font-size: 20px;
   color: var(--color-text-tertiary);
   background: none;
   border: 0.5px dashed var(--color-border-secondary);
@@ -91,7 +91,7 @@
 
 /* ── Remove modifier button ───────────────────────────────────────────────── */
 .rm-btn {
-  font-size: 11px;
+  font-size: 22px;
   color: var(--color-text-tertiary);
   background: none;
   border: none;
@@ -109,7 +109,7 @@
 
 /* ── Modifier label input ─────────────────────────────────────────────────── */
 .mod-label-input {
-  font-size: 11px;
+  font-size: 22px;
   background: transparent;
   border: none;
   border-bottom: 0.5px solid var(--color-border-tertiary);

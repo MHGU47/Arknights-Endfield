@@ -22,11 +22,16 @@
 
 import { useState } from "react";
 import { OPERATORS, TEAL } from "../constants";
+import { db } from "../systems/loader"
 import s from "../styles/OperatorTray.module.css";
 
 export default function OperatorTray({ activeOperator, onSelect }) {
   // Controls whether the tray grid is visible
   const [open, setOpen] = useState(false);
+
+  const loadouts = db.loadouts
+
+  //loadouts.map(o => console.log("Operator Tray: ", o.operator))
 
   return (
     // Outer wrapper — the bottom border separates the tray from the operator card
@@ -56,31 +61,31 @@ export default function OperatorTray({ activeOperator, onSelect }) {
       <div className={`${s.body} ${open ? s.bodyOpen : ""}`}>
         <div className={s.grid}>
 
-          {/* Map over all operators and render a clickable icon for each */}
-          {OPERATORS.map((op) => (
+          {/* Map over all loaduts and render a clickable icon for each operator in said loadout*/}
+          {loadouts.map((loadout, i) => (
             <div
-              key={op.id}
+              key={i}
               className={s.opCol}
               onClick={() => {
-                onSelect(op.id);   // Tell the parent which operator was picked
+                onSelect(loadout.operator, i);   // Tell the parent which operator was picked
                 setOpen(false);    // Close the tray after selection
               }}
             >
               {/* Circle icon — teal border when this operator is active */}
               <div
                 className={s.opCircle}
-                style={{ borderColor: activeOperator === op.id ? TEAL : undefined }}
+                style={{ borderColor: loadouts[i].operator === activeOperator ? TEAL : undefined }}
               >
                 {/* Generic person SVG — replace with actual portrait when available */}
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <circle
                     cx="10" cy="7" r="3.5"
-                    stroke={activeOperator === op.id ? TEAL : "var(--color-text-tertiary)"}
+                    stroke={loadouts[i].operator === activeOperator ? TEAL : "var(--color-text-tertiary)"}
                     strokeWidth="1.2"
                   />
                   <path
                     d="M3 18c0-3.866 3.134-7 7-7s7 3.134 7 7"
-                    stroke={activeOperator === op.id ? TEAL : "var(--color-text-tertiary)"}
+                    stroke={loadouts[i].operator === activeOperator ? TEAL : "var(--color-text-tertiary)"}
                     strokeWidth="1.2"
                     strokeLinecap="round"
                   />
@@ -90,9 +95,9 @@ export default function OperatorTray({ activeOperator, onSelect }) {
               {/* Operator name — teal when active */}
               <p
                 className={s.opName}
-                style={{ color: activeOperator === op.id ? TEAL : undefined }}
+                style={{ color: loadouts[i].operator === activeOperator ? TEAL : undefined }}
               >
-                {op.name}
+                {loadout.operator != null ? loadout.operator.name : "No operator"}
               </p>
             </div>
           ))}

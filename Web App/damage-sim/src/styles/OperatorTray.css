@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 11px;
+  font-size: 22px;
   font-weight: 500;
   color: var(--color-text-tertiary);
   text-transform: uppercase;
@@ -27,7 +27,7 @@
 }
 
 .op-tray-chevron {
-  font-size: 10px;
+  font-size: 20px;
   color: var(--color-text-tertiary);
   display: inline-block;
   transition: transform 0.22s ease;
@@ -81,7 +81,7 @@
 }
 
 .op-icon-name {
-  font-size: 9px;
+  font-size: 18px;
   color: var(--color-text-tertiary);
   margin: 0;
 }

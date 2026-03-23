@@ -18,7 +18,7 @@
 
 .tabBtn {
   padding: 10px 18px;
-  font-size: 12px;
+  font-size: 24px;
   font-weight: 500;
   background: none;
   border: none;
@@ -54,7 +54,7 @@
 }
 
 .placeholder p {
-  font-size: 13px;
+  font-size: 26px;
   color: var(--color-text-tertiary);
   margin: 0;
 }

@@ -1,21 +1,14 @@
 /**
- * ItemSelectModal.jsx — Equipment item selection popup
+ * OperatorSelectModal.jsx — Operator selection popup
  *
  * A full-screen backdrop + centred modal that lets the user browse and select
- * an item for a given equipment slot. Rendered via React Portal into
- * document.body so it sits above all other content regardless of parent
- * overflow constraints.
+ * an operator. Operates in the same fashion as 'ItemSelectModal'
  *
- * Items are grouped by rarity and shown in a 5-column grid. The currently
- * selected item is highlighted with a border coloured to its rarity.
- * Clicking an item calls onSelect and closes the modal.
  *
  * Props:
- *   slotName      {string}    Display name of the slot (e.g. "Weapon")
- *   slotType      {string}    Type key used to look up items ("weapon", "armour" etc.)
+ *   opName      {string}    Display name of the slot (e.g. "Weapon")
  *   accentColor   {string}    Hex colour for the title accent stripe
- *   selectedId    {string|null} ID of the currently selected item (or null)
- *   onSelect      {function}  Called with the full item object when user picks one
+ *   onSelect      {function}  Called with the full operator object when user picks one
  *   onClose       {function}  Called when the user clicks the backdrop or ×
  */
 
@@ -57,13 +50,10 @@ function Stars({ rarity }) {
 }
 
 // ── Main modal component ──────────────────────────────────────────────────────
-export default function ItemSelectModal({ slotName, slotType, accentColor, selectedId, onSelect, onClose }) {
-  // Get all items for this slot type from the database
-  slotType =  slotType == "armour" ? "armor" : slotType //Just change the spelling of Armour
+export default function OperatorSelectModal({ opName, accentColor, onSelect, onClose }) {
   
 
-  const items = db.gear.filter(g => g.type.toLowerCase() === slotType) ?? [];
-  console.log("Item Select: ", db.gear[0].type)
+  const ops = db.operators ?? [];
 
   // Group items by rarity — highest rarity first
   const rarities = Object.keys(RARITY_CONFIG)
@@ -97,7 +87,7 @@ export default function ItemSelectModal({ slotName, slotType, accentColor, selec
         <div className={s.header}>
           <p className={s.title}>
             <span className={s.titleAccent} style={{ background: accentColor }} />
-            Select {slotName.toLowerCase()}
+            Select Operator
           </p>
           <button className={s.closeBtn} onClick={onClose}>×</button>
         </div>
@@ -106,7 +96,7 @@ export default function ItemSelectModal({ slotName, slotType, accentColor, selec
         <div className={s.body}>
           {rarities.map((rarity) => {
             // Filter items to only this rarity tier
-            const tierItems = items//.filter((item) => item.rarity === rarity);
+            const tierItems = ops
             if (tierItems.length === 0) return null;  // Skip empty tiers
 
             return (
@@ -116,13 +106,11 @@ export default function ItemSelectModal({ slotName, slotType, accentColor, selec
 
                 <div className={s.grid}>
                   {tierItems.map((item) => {
-                    const isSelected = item.id === selectedId;
+                    const isSelected = item.name === opName;
                     // Border colour: rarity colour when selected, default when not
                     const borderColor = isSelected
                       ? RARITY_CONFIG[item.rarity].color
                       : undefined;
-
-                    console.log(item.image)
 
                     return (
                       <div

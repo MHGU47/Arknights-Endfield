@@ -17,8 +17,24 @@
 
 import OperatorTray from "./OperatorTray";
 import OperatorCard from "./OperatorCard";
+import { db } from "../systems/loader";
+import { useState } from "react";
 
-export default function LeftPanel({ activeOperator, onSelectOperator }) {
+export default function LeftPanel() {
+  const [activeOperator, setActiveOperator] = useState(db.loadouts[0].operator);
+  const [activeIndex, setActiveIndex] = useState(0)
+
+  const changeOperator = (op, i) => {
+    console.log(`Op at ${i} selected`)
+    setActiveIndex(i)
+    setActiveOperator(op)
+    db.loadouts.map(o => console.log(o.operator.name))
+  }
+
+  const setNewOperator = (op) => {
+    db.loadouts[activeIndex].operator = op
+  }
+
   return (
     <div style={{
       width: "20%",                                           // Fixed 20% of viewport width
@@ -33,13 +49,19 @@ export default function LeftPanel({ activeOperator, onSelectOperator }) {
       {/* Operator tray — pinned to the top, collapses on click */}
       <OperatorTray
         activeOperator={activeOperator}
-        onSelect={onSelectOperator}
+        onSelect={changeOperator}
       />
 
       {/* Operator card — takes remaining space, scrolls if content is too tall */}
       <div style={{ flex: 1, overflowY: "auto" }}>
-        <OperatorCard operatorId={activeOperator} />
+        <OperatorCard
+          operator={activeOperator}
+          index={activeIndex}
+          changeOperator={setNewOperator}/>
       </div>
+      {/* <div onClick={() => {}}>
+        Change Operator
+      </div> */}
 
     </div>
   );

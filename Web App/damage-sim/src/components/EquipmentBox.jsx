@@ -23,12 +23,13 @@
  */
 
 import { useState, useRef, useEffect } from "react";
-import { createPortal } from "react-dom";
 import Spinner from "./Spinner";
 import ItemSelectModal from "./ItemSelectModal";
 import s from "../styles/TopBar.module.css";
 import ms from "../styles/ItemSelectModal.module.css";
+import LevelDropdown from "./Dropdown";
 import { WEAPON_LEVELS, EQUIPMENT_ITEMS, RARITY_CONFIG } from "../constants";
+import {db} from "../systems/loader.js"
 
 // ── Accent colours per slot type (for the modal title stripe) ─────────────────
 const SLOT_ACCENT = {
@@ -39,64 +40,6 @@ const SLOT_ACCENT = {
 };
 
 const DEFAULT_LABELS = ["Refinement", "Quality", "Bonus"];
-
-// ── WeaponLevelDropdown ───────────────────────────────────────────────────────
-// (unchanged from previous version — see EquipmentBox comments in ARCHITECTURE.md)
-function WeaponLevelDropdown({ value, onChange }) {
-  const [open, setOpen]       = useState(false);
-  const [menuPos, setMenuPos] = useState({ top: 0, left: 0, width: 0 });
-  const toggleRef = useRef(null);
-  const menuRef   = useRef(null);
-
-  const handleToggle = () => {
-    if (!open) {
-      const rect = toggleRef.current.getBoundingClientRect();
-      setMenuPos({ top: rect.bottom + 4, left: rect.left, width: rect.width });
-    }
-    setOpen(o => !o);
-  };
-
-  useEffect(() => {
-    if (!open) return;
-    const handler = (e) => {
-      if (!toggleRef.current?.contains(e.target) && !menuRef.current?.contains(e.target)) {
-        setOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handler);
-    return () => document.removeEventListener("mousedown", handler);
-  }, [open]);
-
-  return (
-    <>
-      <div ref={toggleRef} className={s.weaponDropdownToggle} onClick={handleToggle}>
-        <span className={s.weaponDropdownLabel}>Level</span>
-        <span className={s.weaponDropdownValue}>{value}</span>
-        <span className={`${s.weaponDropdownChevron} ${open ? s.weaponDropdownChevronOpen : ""}`}>▼</span>
-      </div>
-      {open && createPortal(
-        <div
-          ref={menuRef}
-          className={s.weaponDropdownPortal}
-          style={{ top: menuPos.top, left: menuPos.left, width: menuPos.width }}
-        >
-          <div className={s.weaponLevelGrid}>
-            {WEAPON_LEVELS.map(lvl => (
-              <div
-                key={lvl}
-                className={`${s.weaponLevelOption} ${lvl === value ? s.weaponLevelOptionActive : ""}`}
-                onClick={() => { onChange(lvl); setOpen(false); }}
-              >
-                {lvl}
-              </div>
-            ))}
-          </div>
-        </div>,
-        document.body
-      )}
-    </>
-  );
-}
 
 // ── EquipmentBox ──────────────────────────────────────────────────────────────
 
@@ -162,10 +105,7 @@ export default function EquipmentBox({ name, type, image = null, labels = DEFAUL
           {selectedItem ? (
             // Show a placeholder icon in the item's accent colour when selected
             // Replace this with <img src={selectedItem.image}> when art is available
-            <svg width="32" height="32" viewBox="0 0 28 28" fill="none">
-              <rect x="2" y="2" width="24" height="24" rx="4" stroke={selectedItem.color} strokeWidth="1.4" />
-              <path d="M8 20L20 8M20 8H13M20 8v7" stroke={selectedItem.color} strokeWidth="1.4" strokeLinecap="round" />
-            </svg>
+            <img src={selectedItem.image}/>
           ) : imgHovered ? (
             // Hovered empty state — teal icon + hint text
             <>
@@ -204,7 +144,7 @@ export default function EquipmentBox({ name, type, image = null, labels = DEFAUL
 
         {/* Weapon-only level dropdown */}
         {type === "weapon" && (
-          <WeaponLevelDropdown
+          <LevelDropdown
             value={weaponLevel}
             onChange={(v) => { setWeaponLevel(v); onValuesChange?.({ Level: v }); }}
           />

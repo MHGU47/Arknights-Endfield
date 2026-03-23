@@ -20,7 +20,7 @@
 import { useState } from "react";
 import s from "../styles/components.module.css";
 
-export default function Spinner({ label, min = 0, max = 999, defaultValue = 0, onChange }) {
+export default function Spinner({ label, min = 0, max = 999, defaultValue = 0, onChange}) {
   // `value` is the current number shown in the spinner
   const [value, setValue] = useState(defaultValue);
 
@@ -41,7 +41,7 @@ export default function Spinner({ label, min = 0, max = 999, defaultValue = 0, o
     <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 6, minHeight: 22 }}>
 
       {/* Label text */}
-      <span style={{ fontSize: 10, color: "var(--color-text-secondary)", whiteSpace: "nowrap" }}>
+      <span style={{ fontSize: 20, color: "var(--color-text-secondary)", whiteSpace: "nowrap" }}>
         {label}
       </span>
 

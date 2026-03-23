@@ -115,11 +115,23 @@ export const EQUIPMENT_SLOTS = [
  * Update this array if the game adds new level caps.
  */
 export const WEAPON_LEVELS = [
-  1, 2, 3, 4, 5, 6, 7, 8, 9, 10,   // Level 1–10 (individual steps)
-  15, 20, 25, 30,                    // Level 15–30 (5-step increments)
-  35, 40, 45, 50,                    // Level 35–50 (5-step increments)
-  55, 60,                            // Level 55–60 (max range)
+  1, 20, 40, 60, 80, 90
 ];
+
+// ── Operator levels ─────────────────────────────────────────────────────────────
+/**
+ * Available weapon level values for the level dropdown in the operator slot.
+ */
+export const OPERATOR_LEVELS = [
+  1, 20, 40, 60, 80, 90
+];
+
+export const SKILL_LABELS = [
+  "Basic Attack",
+  "Battle Skill",
+  "Combo Skill",
+  "Ultimate"
+]
 
 // ── Equipment item data ───────────────────────────────────────────────────────
 /**

@@ -19,21 +19,23 @@
  *   └────────────────────────────────────────────────────┘
  */
 
-import { useState } from "react";
+import { useEffect, useState } from "react"
 import LeftPanel from "./components/LeftPanel";
 import TopBar from "./components/TopBar";
 import MainContent from "./components/MainContent/MainContent";
 import Operator from "./systems/operator.js"
 import opData from "./Data/Stats/warfarin_operators.json"
+import wpnData from "./Data/Stats/weapons.json"
+
+import { db } from "./systems/loader.js"
 
 export default function App() {
   /**
-   * activeOperator — index into the OPERATORS array in constants.js
-   * Starts at 0 (the first operator, Yvonne).
+   * activeOperator — index into the Loadouts array from the database, imported from loader.js
+   * Starts at 0 (the first operator).
    * Passed down to LeftPanel which distributes it further.
    */
-  const [activeOperator, setActiveOperator] = useState(0);
-  const op = new Operator(opData)
+  // const [activeOperator, setActiveOperator] = useState(db.loadouts[0].operator);
 
   return (
     /**
@@ -52,11 +54,11 @@ export default function App() {
     }}>
 
       {/* ── Left panel (20% width) ─────────────────────────────────────────
-          Receives the active operator index and a setter to change it.
+          Receives the active operator object and a setter to change it.
           flexShrink: 0 prevents it from squishing when the window is narrow. */}
       <LeftPanel
-        activeOperator={activeOperator}
-        onSelectOperator={setActiveOperator}
+        // activeOperator={activeOperator}
+        // onSelectOperator={setActiveOperator}
       />
 
       {/* ── Right side (remaining 80% via flex: 1) ────────────────────────

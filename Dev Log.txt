@@ -98,6 +98,33 @@ will proc a third stack, which the basic attack will not have benefitted from).
 
 15/03/26
 -Started calculation backend in webapp
+-Created Operator.js for webapp
+
+16/03/26
+-Recreated basic parsing of attributes and overview in Operator.js
+-Created Skill.js; this will be seperate from Operator.js but function the same
+-Fully recreated skill.py in js; this acts in the same way it does in the Python version. Consider moving the util functions to
+ the own class, much like the Python version
+-Created loader.js; this is just to load in the JSON files
+
+18/03/26
+-Doubled the font size of everything in components.css, components.module.css and OperatorCard.module.css
+
+19/03/26
+-Doubled the font size for everything except skills; these are inline coded, much like the some of the spinners
+-Added modal for skill level selection; SkillLevelDropdown was added to allow the selection for selecting levels for skills
+-Implemented actual gear from JSON to gear selection. Still in a rough state but can be selected
+-Implemented image display for gear
+-Added Loadout class to webapp; functions the same as it does in the Python version
+
+-22/03/26
+-Started implementing an operator selection menu; this works in the same way that the item select modal works
+-Created 'OperatorSelectModal.jsx'; this is just a modified version of 'ItemSelectModal.jsx'
+-Implemented operator switching; operators in the loadout can be toggled between
+-Further implementation added to operator swiching; can now select change operators in the loadout from
+ full operators list
+
+NEXT (WEBAPP) -> Make level dropdown change to operator level
 
 
 NEXT -> Sort out weapon passive attributes

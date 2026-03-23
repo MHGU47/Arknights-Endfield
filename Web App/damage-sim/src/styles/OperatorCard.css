@@ -18,7 +18,7 @@
 }
 
 .op-name {
-  font-size: 15px;
+  font-size: 30px;
   font-weight: 500;
   color: var(--color-text-primary);
   margin: 0;
@@ -35,7 +35,7 @@
 
 .op-star {
   color: #b0b8c8;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 /* ── Tags ─────────────────────────────────────────────────────────────────── */
@@ -48,7 +48,7 @@
 }
 
 .op-tag {
-  font-size: 10px;
+  font-size: 20px;
   color: var(--color-text-secondary);
   background: var(--color-background-secondary);
   border: 0.5px solid var(--color-border-secondary);
@@ -63,7 +63,7 @@
 }
 
 .op-section-head {
-  font-size: 11px;
+  font-size: 22px;
   font-weight: 500;
   color: var(--color-text-secondary);
   background: var(--color-background-secondary);
@@ -85,12 +85,12 @@
 }
 
 .op-attr-label {
-  font-size: 10px;
+  font-size: 20px;
   color: var(--color-text-tertiary);
 }
 
 .op-attr-value {
-  font-size: 15px;
+  font-size: 30px;
   font-weight: 500;
   color: var(--color-text-primary);
 }
@@ -99,7 +99,7 @@
   display: flex;
   align-items: center;
   gap: 14px;
-  font-size: 11px;
+  font-size: 22px;
   color: var(--color-text-secondary);
 }
 
@@ -149,14 +149,14 @@
 }
 
 .op-skill-rank {
-  font-size: 8px;
+  font-size: 16px;
   font-weight: 500;
   position: absolute;
   bottom: 4px;
 }
 
 .op-skill-dash {
-  font-size: 9px;
+  font-size: 18px;
   color: var(--color-text-tertiary);
 }
 
@@ -176,7 +176,7 @@
   border: 0.5px solid var(--color-border-tertiary);
   border-radius: var(--border-radius-md);
   padding: 6px 8px;
-  font-size: 10px;
+  font-size: 20px;
   color: var(--color-text-secondary);
   text-align: center;
   font-family: inherit;

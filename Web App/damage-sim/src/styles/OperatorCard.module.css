@@ -17,7 +17,7 @@
 }
 
 .name {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   color: var(--color-text-primary);
   margin: 0;
@@ -34,7 +34,7 @@
 
 .star {
   color: #b0b8c8;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .tags {
@@ -46,7 +46,7 @@
 }
 
 .tag {
-  font-size: 10px;
+  font-size: 20px;
   color: var(--color-text-secondary);
   background: var(--color-background-secondary);
   border: 0.5px solid var(--color-border-secondary);
@@ -60,7 +60,7 @@
 }
 
 .sectionHead {
-  font-size: 11px;
+  font-size: 22px;
   font-weight: 500;
   color: var(--color-text-secondary);
   background: var(--color-background-secondary);
@@ -82,12 +82,12 @@
 }
 
 .attrLabel {
-  font-size: 10px;
+  font-size: 15px;
   color: var(--color-text-tertiary);
 }
 
 .attrValue {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   color: var(--color-text-primary);
 }
@@ -96,7 +96,7 @@
   display: flex;
   align-items: center;
   gap: 14px;
-  font-size: 11px;
+  font-size: 20px;
   color: var(--color-text-secondary);
 }
 
@@ -140,16 +140,16 @@
 }
 
 .skillRank {
-  font-size: 8px;
+  font-size: 15px;
   font-weight: 500;
   position: absolute;
   bottom: 4px;
 }
 
 .skillDash {
-  font-size: 9px;
+  font-size: 15px;
   color: var(--color-text-tertiary);
-}
+  text-align: center;}
 
 .techniques {
   padding: 8px 12px;
@@ -166,9 +166,156 @@
   border: 0.5px solid var(--color-border-tertiary);
   border-radius: var(--border-radius-md);
   padding: 6px 8px;
-  font-size: 10px;
+  font-size: 15px;
   color: var(--color-text-secondary);
   text-align: center;
   font-family: inherit;
   cursor: default;
+}
+
+/* ── Skill level dropdown — appended, nothing above this line was changed ──── */
+
+/*
+ * Wrapper for each skill column — needs position: relative so the dropdown
+ * menu can be absolutely positioned relative to it.
+ * NOTE: This replaces the need for position: relative on skillCircle for menus.
+ */
+.skillColWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  position: relative;
+}
+
+/* Clickable skill circle — adds cursor and hover transition */
+.skillCircleClickable {
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.skillCircleClickable:hover {
+  border-color: #0fc4c4;
+  background: #0fc4c40d;
+}
+
+/* Circle border when a level is selected (teal) */
+.skillCircleActive {
+  border-color: #0fc4c4;
+}
+
+/* Circle border when mastery is selected (gold) */
+.skillCircleMastery {
+  border-color: #c8a200;
+}
+
+/*
+ * Level text shown below the skill name.
+ * Uses the same font-size as .skillDash so it fits within your existing layout.
+ * Colour is applied via inline style (teal for levels, gold for mastery).
+ */
+.skillLevel {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1;
+}
+
+/* Placeholder shown when no level has been set */
+.skillLevelEmpty {
+  font-size: 15px;
+  color: var(--color-text-tertiary);
+  text-align: center;
+}
+
+/* ── Dropdown menu ─────────────────────────────────────────────────────────── */
+
+.skillMenu {
+  position: absolute;
+  top: calc(100% + 6px);    /* Sits just below the column content */
+  left: 50%;
+  transform: translateX(-50%);   /* Horizontally centred on the column */
+  background: var(--color-background-primary);
+  border: 0.5px solid var(--color-border-secondary);
+  border-radius: var(--border-radius-md);
+  padding: 6px;
+  z-index: 200;             /* Above all other panel content */
+  min-width: 110px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  animation: skillMenuIn 0.12s ease;
+}
+
+@keyframes skillMenuIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(4px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+/* Section label inside the menu (e.g. "LEVELS", "MASTERY") */
+.menuSectionLabel {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 4px 6px 3px;
+  margin: 0;
+}
+
+/* Divider before the Mastery section */
+.menuSectionLabelMastery {
+  margin-top: 4px;
+  border-top: 0.5px solid var(--color-border-tertiary);
+  padding-top: 8px;
+}
+
+/* Individual option row */
+.menuOption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--color-text-secondary);
+  transition: background 0.1s, color 0.1s;
+  font-family: inherit;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.menuOption:hover {
+  background: var(--color-background-secondary);
+  color: var(--color-text-primary);
+}
+
+/* Selected level option */
+.menuOptionSelected {
+  color: #0fc4c4;
+}
+
+/* Mastery option hover — gold tint */
+.menuOptionMastery:hover {
+  background: #c8a20010;
+  color: #c8a200;
+}
+
+/* Selected mastery option */
+.menuOptionMasterySelected {
+  color: #c8a200;
+}
+
+/* The ✓ check shown next to the selected option */
+.menuCheck {
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.1s;
+  flex-shrink: 0;
+}
+
+.menuCheckVisible {
+  opacity: 1;
 }

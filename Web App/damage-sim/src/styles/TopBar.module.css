@@ -7,7 +7,7 @@
 }
 
 .equipmentRow {
-  height: 260px;
+  height: 300px;
   padding: 8px 14px 4px;
   display: flex;
   align-items: stretch;
@@ -36,7 +36,7 @@
 }
 
 .setEffectLabel {
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 500;
   color: var(--color-text-tertiary);
   text-transform: uppercase;
@@ -52,7 +52,7 @@
 }
 
 .setEffectText {
-  font-size: 11px;
+  font-size: 22px;
   color: var(--color-text-tertiary);
   margin: 0;
 }
@@ -72,7 +72,7 @@
 }
 
 .equipmentTitle {
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 500;
   color: var(--color-text-tertiary);
   text-transform: uppercase;
@@ -124,13 +124,13 @@
 }
 
 .weaponDropdownLabel {
-  font-size: 10px;
+  font-size: 20px;
   color: var(--color-text-secondary);
   flex: 1;
 }
 
 .weaponDropdownValue {
-  font-size: 11px;
+  font-size: 22px;
   font-weight: 500;
   color: var(--color-text-primary);
   font-variant-numeric: tabular-nums;
@@ -139,7 +139,7 @@
 }
 
 .weaponDropdownChevron {
-  font-size: 8px;
+  font-size: 16px;
   color: var(--color-text-tertiary);
   display: inline-block;
   transition: transform 0.18s ease;
@@ -163,12 +163,12 @@
 
 .weaponLevelGrid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 3px;
 }
 
 .weaponLevelOption {
-  font-size: 10px;
+  font-size: 20px;
   text-align: center;
   padding: 3px 0;
   border-radius: 3px;
