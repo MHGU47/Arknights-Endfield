@@ -11,58 +11,77 @@
  *
  * Props:
  *   activeOperator    {number}    Index of the currently selected operator
- *   onSelectOperator  {function}  Called with a new index when the user picks
+ *   onSelectOperator  {function}  Called with a new operator object when the user picks
  *                                 a different operator in the tray
  */
 
+import { useState, useEffect } from "react";
 import OperatorTray from "./OperatorTray";
 import OperatorCard from "./OperatorCard";
 import { db } from "../systems/loader";
-import { useState } from "react";
 
 export default function LeftPanel() {
-  const [activeOperator, setActiveOperator] = useState(db.loadouts[0].operator);
-  const [activeIndex, setActiveIndex] = useState(0)
+  // Keep loadouts in React state
+  const [loadouts, setLoadouts] = useState(db.loadouts);
 
-  const changeOperator = (op, i) => {
-    console.log(`Op at ${i} selected`)
-    setActiveIndex(i)
-    setActiveOperator(op)
-    db.loadouts.map(o => console.log(o.operator.name))
-  }
+  const [activeIndex, setActiveIndex] = useState(0);
 
+  // Derive active operator from state (no separate state needed)
+  const activeOperator = loadouts[activeIndex].operator;
+
+  useEffect(() => {
+    console.log(`Active Operator ${activeOperator.name}`);
+    loadouts[activeIndex].selected = true
+  }, []);
+
+  // When user selects a different slot/operator
+  const changeOperator = (i) => {
+    setActiveIndex(i);
+    loadouts.forEach((loadout) => {
+      loadout.selected = loadout.index === i
+    })
+  };
+
+  // Update operator for current index (IMMUTABLE)
   const setNewOperator = (op) => {
-    db.loadouts[activeIndex].operator = op
-  }
+    setLoadouts((prev) => {
+      const updated = prev.map((item, i) =>
+        i === activeIndex
+          ? { ...item, operator: op }
+          : item
+      );
+
+      // Sync db AFTER creating new state
+      db.loadouts = updated;
+
+      return updated;
+    });
+  };
 
   return (
-    <div style={{
-      width: "20%",                                           // Fixed 20% of viewport width
-      background: "var(--color-background-secondary)",
-      borderRight: "0.5px solid var(--color-border-tertiary)",
-      display: "flex",
-      flexDirection: "column",                               // Stack children vertically
-      overflow: "hidden",                                    // Clip anything that overflows
-      flexShrink: 0,                                         // Don't shrink when space is tight
-    }}>
-
-      {/* Operator tray — pinned to the top, collapses on click */}
+    <div
+      style={{
+        width: "20%",
+        background: "var(--color-background-secondary)",
+        borderRight: "0.5px solid var(--color-border-tertiary)",
+        display: "flex",
+        flexDirection: "column",
+        overflow: "hidden",
+        flexShrink: 0,
+      }}
+    >
       <OperatorTray
-        activeOperator={activeOperator}
-        onSelect={changeOperator}
+        activeOperator={activeOperator} // Pass in the currently selected operator to display stats
+        onSelect={changeOperator} // Pass in function for handling operator switching
       />
 
-      {/* Operator card — takes remaining space, scrolls if content is too tall */}
       <div style={{ flex: 1, overflowY: "auto" }}>
         <OperatorCard
-          operator={activeOperator}
-          index={activeIndex}
-          changeOperator={setNewOperator}/>
+          operator={activeOperator} // Pass in the currently selected operator to display stats
+          index={activeIndex} // Pass in the currently selected loadout index
+          changeOperator={setNewOperator} // Pass in function for handling operator changing
+        />
       </div>
-      {/* <div onClick={() => {}}>
-        Change Operator
-      </div> */}
-
     </div>
   );
 }

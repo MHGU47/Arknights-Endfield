@@ -20,9 +20,11 @@
 import { useState } from "react";
 import s from "../styles/components.module.css";
 
-export default function Spinner({ label, min = 0, max = 999, defaultValue = 0, onChange}) {
+export default function Spinner({ label, min = 0, max = 999, defaultValue = 0, onChange, values = null}) {
   // `value` is the current number shown in the spinner
   const [value, setValue] = useState(defaultValue);
+  const [statLabel, setStatLabel] = useState(`${label} +${values[0]}`)
+  console.log("Spinner", values)
 
   /**
    * Adjusts the value by `delta` (+1 or -1), clamping to [min, max].
@@ -32,6 +34,7 @@ export default function Spinner({ label, min = 0, max = 999, defaultValue = 0, o
    */
   const adjust = (delta) => {
     const next = Math.min(max, Math.max(min, value + delta));
+    setStatLabel(`${label} +${values[next]}`)
     setValue(next);
     onChange?.(next);  // The ?. means "only call if onChange was provided"
   };
@@ -42,7 +45,7 @@ export default function Spinner({ label, min = 0, max = 999, defaultValue = 0, o
 
       {/* Label text */}
       <span style={{ fontSize: 20, color: "var(--color-text-secondary)", whiteSpace: "nowrap" }}>
-        {label}
+        {statLabel}
       </span>
 
       {/* −/value/+ control group */}

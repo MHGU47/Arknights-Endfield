@@ -5,7 +5,7 @@
 import { TEAL, TEAL_BG, TEAL_BORDER, GOLD, SKILL_LABELS } from "../constants";
 import { useState, useEffect } from "react";
 import s from "../styles/OperatorCard.module.css";
-import { db } from "../systems/loader";
+import { db, calc } from "../systems/loader";
 import LevelDropdown from "./Dropdown";
 import SkillLevelDropdown from "./SkillLevelDropdown";
 import OperatorSelectModal from "./OperatorSelectModal";
@@ -96,6 +96,7 @@ export default function OperatorCard({ operator, changeOperator, index}) {
   useEffect(() => {
       setSelectedOp(operator);
       console.log(operator)
+      calc.update()
     },[operator]);
 
   function onLevelChange(level) {

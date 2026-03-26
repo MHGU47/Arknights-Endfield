@@ -67,7 +67,7 @@ export default function OperatorTray({ activeOperator, onSelect }) {
               key={i}
               className={s.opCol}
               onClick={() => {
-                onSelect(loadout.operator, i);   // Tell the parent which operator was picked
+                onSelect(i);   // Tell the parent which operator was picked via index
                 setOpen(false);    // Close the tray after selection
               }}
             >

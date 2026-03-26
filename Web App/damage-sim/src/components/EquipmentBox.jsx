@@ -55,7 +55,7 @@ export default function EquipmentBox({ name, type, image = null, labels = DEFAUL
 
   /**
    * Auto-select the first weapon when a weapon slot mounts.
-   * The empty dependency array [] means this only runs once on mount.
+   * The dependency array [] means this only runs once on mount.
    * Other slot types stay null until the user picks something.
    */
   useEffect(() => {
@@ -64,6 +64,20 @@ export default function EquipmentBox({ name, type, image = null, labels = DEFAUL
       if (firstWeapon) setSelectedItem(firstWeapon);
     }
   }, [type]);
+
+  function onSpinnerChange(stat, level){
+    console.log("Equipment Box: ", level)
+    console.log("Equipment Box: ", selectedItem.stats[stat])
+    onValuesChange?.({ [stat]: level })
+  }
+
+  function setLoadout(item){
+    setSelectedItem(item)
+    const selectedLoadout = db.loadouts.find(loadout => loadout.selected === true)
+
+    console.log(selectedLoadout)
+    //TODO: Create function that alters loadout for selected operator
+  }
 
   // Derive the border colour from the selected item's rarity
   const selectedBorderColor = selectedItem
@@ -134,13 +148,17 @@ export default function EquipmentBox({ name, type, image = null, labels = DEFAUL
         )}
 
         {/* Three standard spinners */}
-        {labels.map((label) => (
-          <Spinner
-            key={label}
-            label={label}
-            onChange={(v) => onValuesChange?.({ [label]: v })}
-          />
-        ))}
+        {selectedItem?.stats && (
+          Object.entries(selectedItem.stats).filter(([v, o]) => v != "Defense").map(([label, values]) => (
+            <Spinner
+              key={label}
+              label={label}
+              values={values.values}
+              max={3}
+              onChange={(v) => onSpinnerChange(label, v)}
+            />
+          ))
+        )}
 
         {/* Weapon-only level dropdown */}
         {type === "weapon" && (
@@ -160,7 +178,7 @@ export default function EquipmentBox({ name, type, image = null, labels = DEFAUL
           slotType={type}
           accentColor={SLOT_ACCENT[type] ?? "#0fc4c4"}
           selectedId={selectedItem?.id ?? null}
-          onSelect={(item) => setSelectedItem(item)}
+          onSelect={(item) => setLoadout(item)}
           onClose={() => setModalOpen(false)}
         />
       )}

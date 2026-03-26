@@ -1,10 +1,9 @@
 import Skill from './skill'
 class Operator{
-  constructor(opData, image){
+  constructor(opData){
     const [[name, data] = [index, {}]] = Object.entries(opData ?? {}); // Gets the name and the operator data and seperates them
     this.name = name
     this.level = "Level 1"
-    this.image = image
 
     this.#parseOverview(data.overview)
     this.#parseAttributes(data.attributes)

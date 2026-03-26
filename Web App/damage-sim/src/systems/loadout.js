@@ -45,6 +45,14 @@ class Loadout{
         }
       },
     }
+    this.selected = false
+  }
+
+  getLevel(type, level = 0, stat = 0){
+    if(type == "weapon"){
+      return this.gear[type].levels[`Level ${level}`]
+    }
+    return this.gear[type].levels[`Stat ${stat}`]
   }
 }
 
