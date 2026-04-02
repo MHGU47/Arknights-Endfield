@@ -40,11 +40,11 @@ export default function App() {
   //   //console.log(activeOperator);
   // },[activeLoadout]);
 
-  useEffect(() => {
-    console.log("FULL LOADOUTS:", loadouts);
-    console.log("ACTIVE INDEX:", activeIndex);
-    console.log("ACTIVE LOADOUT:", loadouts[activeIndex]);
-  },[loadouts]);
+  // useEffect(() => {
+  //   console.log("FULL LOADOUTS:", loadouts);
+  //   console.log("ACTIVE INDEX:", activeIndex);
+  //   console.log("ACTIVE LOADOUT:", loadouts[activeIndex]);
+  // },[loadouts]);
 
   // ✅ Generic updater for a specific loadout
   // Create function and assign it to a variable so it can be passed as a prompt

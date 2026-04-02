@@ -12,7 +12,7 @@ import { images } from "./imageLoader";
 
 export const db = {
   operators: operatorData.map(o => new Operator(o)),
-  weapons: weaponData.map(w => new Weapon(w, images["gear"][w.name])),
+  weapons: weaponData.map(w => new Weapon(w, images["weapons"][Object.keys(w)[0]])),
   gear: gearData.map(g => new Gear(g, images["gear"][g.name])),
   images: images,
   loadouts: Array.from({ length: 4 }, (_, i) => new Loadout(new Operator(operatorData[i]), i))

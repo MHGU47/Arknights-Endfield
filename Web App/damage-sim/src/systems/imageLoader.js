@@ -1,6 +1,7 @@
 const gear = import.meta.glob("../Data/Images/Gear/*.png", { eager: true, import: "default" });
 const operators = import.meta.glob("../Data/Images/Operators/*.png", { eager: true, import: "default" });
 const skills = import.meta.glob("../Data/Images/Skills/*.png", { eager: true, import: "default" });
+const weapons = import.meta.glob("../Data/Images/Weapons/*.png", { eager: true, import: "default" });
 
 const formatImages = (modules) =>
   Object.fromEntries(
@@ -13,5 +14,6 @@ const formatImages = (modules) =>
 export const images = {
   gear: formatImages(gear),
   operators: formatImages(operators),
-  skills: formatImages(skills)
+  skills: formatImages(skills),
+  weapons: formatImages(weapons)
 };

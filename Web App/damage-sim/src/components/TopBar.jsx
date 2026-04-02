@@ -22,7 +22,7 @@ import { db } from "../systems/loader";
 export default function TopBar({activeLoadout, loadouts, activeIndex, updateLoadout}) {
 
   useEffect(() => {
-    console.log(loadouts)
+    //console.log(loadouts)
 
   }, [loadouts])
 
