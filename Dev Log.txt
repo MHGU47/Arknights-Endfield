@@ -136,8 +136,20 @@ will proc a third stack, which the basic attack will not have benefitted from).
  altered to cater to weapons. As far as usage is concerned, they are functionally the same. Consider creating
  a new seperate class that both can use.
 
+01/04/26
+-Selecting gear using the 'EquipmentBox' components changes the loadout of the selected operator. It doesn't,
+however, reflect on to the UI.
+
+02/04/26
+-Rewrote how App, TopBar, EquipmentBox, ItemSelectModal, LeftPanel, OperatorTray and OperatorCard function;
+ the loadouts and other things that are shared between these components are all stored/handled in 'App'.
+ Functions for altering the loadouts etc. are passed down from 'App' to where they need to be. This allows
+ each component to update when needed.
+-Following the previous change, updating the operators gear and having it reflect in the UI is now possible.
+ However, there is a slight issue with weapons as they don't show images or properly reflect stats.
+ TODO: Fix this
+
 NEXT (WEBAPP) -> Make level dropdown change to operator level
-              -> Properly assign images when creating default loadouts
 
 
 NEXT -> Sort out weapon passive attributes

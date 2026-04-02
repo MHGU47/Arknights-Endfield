@@ -24,7 +24,7 @@ export default function Spinner({ label, min = 0, max = 999, defaultValue = 0, o
   // `value` is the current number shown in the spinner
   const [value, setValue] = useState(defaultValue);
   const [statLabel, setStatLabel] = useState(`${label} +${values[0]}`)
-  console.log("Spinner", values)
+
 
   /**
    * Adjusts the value by `delta` (+1 or -1), clamping to [min, max].

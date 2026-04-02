@@ -16,8 +16,16 @@
 import EquipmentBox from "./EquipmentBox";
 import { EQUIPMENT_SLOTS } from "../constants";
 import s from "../styles/TopBar.module.css";
+import { useEffect, useState } from "react";
+import { db } from "../systems/loader";
 
-export default function TopBar() {
+export default function TopBar({activeLoadout, loadouts, activeIndex, updateLoadout}) {
+
+  useEffect(() => {
+    console.log(loadouts)
+
+  }, [loadouts])
+
   return (
     <div className={s.topbar}>
 
@@ -27,7 +35,13 @@ export default function TopBar() {
           `key` must be unique — using `name` here since slot names don't repeat. */}
       <div className={s.equipmentRow}>
         {EQUIPMENT_SLOTS.map(({ name, type }) => (
-          <EquipmentBox key={name} name={name} type={type} />
+          <EquipmentBox
+          key={name}
+          index={activeLoadout.index}
+          name={name}
+          type={type}
+          loadout={activeLoadout}
+          onUpdateLoadout={updateLoadout}/>
         ))}
       </div>
 

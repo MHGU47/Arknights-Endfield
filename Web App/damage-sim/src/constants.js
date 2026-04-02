@@ -104,8 +104,8 @@ export const EQUIPMENT_SLOTS = [
   { name: "Weapon", type: "weapon" }, // Weapon — gets the level dropdown
   { name: "Armour", type: "armour" }, // Armour piece
   { name: "Gloves", type: "gloves" }, // Gloves
-  { name: "Kit 1",  type: "kit"    }, // Accessory kit slot 1
-  { name: "Kit 2",  type: "kit"    }, // Accessory kit slot 2
+  { name: "Kit 1",  type: "kit1"    }, // Accessory kit slot 1
+  { name: "Kit 2",  type: "kit2"    }, // Accessory kit slot 2
 ];
 
 // ── Weapon levels ─────────────────────────────────────────────────────────────

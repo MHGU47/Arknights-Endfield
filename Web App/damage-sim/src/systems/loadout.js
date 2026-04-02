@@ -54,6 +54,18 @@ class Loadout{
     }
     return this.gear[type].levels[`Stat ${stat}`]
   }
+
+  setGear(gear, slot){
+    console.log(slot)
+    if(!slot.toLowerCase().includes("kit")){
+      this.gear[slot.toLowerCase()].item = gear
+      console.log(`${slot} changed`)
+    }
+    else {
+      if(slot.includes("1")) this.gear.kit1.item = gear
+      else this.gear.kit2.item = gear
+    }
+  }
 }
 
 export default Loadout

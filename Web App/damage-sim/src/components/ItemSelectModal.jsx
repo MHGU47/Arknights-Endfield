@@ -57,19 +57,17 @@ function Stars({ rarity }) {
 }
 
 // ── Main modal component ──────────────────────────────────────────────────────
-export default function ItemSelectModal({ slotName, slotType, accentColor, selectedId, onSelect, onClose }) {
+export default function ItemSelectModal({ slotName, slotType, loadout, accentColor, selectedId, onSelect, onClose }) {
   // Get all items for this slot type from the database
-  slotType =  slotType == "armour" ? "armor" : slotType //Just change the spelling of Armour
-
-  let tt = db.loadouts.find(loadout => loadout.selected === true)
-  let opType = tt.operator.weapon
+  slotType = slotType == "armour" ? "armor" : slotType //Just change the spelling of Armour
+  slotType = slotType.includes("kit") ? "kit" : slotType
+  
+  let opType = loadout.operator.weapon
   
   const data = slotType == "weapon" ? db.weapons : db.gear
   const items = slotType == "weapon" ? 
                 data.filter(g => g.type === opType) ?? [] :
                 data.filter(g => g.type.toLowerCase() === slotType) ?? [];
-
-  console.log(items)
 
   // Group items by rarity — highest rarity first
   const rarities = Object.keys(RARITY_CONFIG)

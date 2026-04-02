@@ -31,8 +31,6 @@ export default function OperatorTray({ activeOperator, onSelect }) {
 
   const loadouts = db.loadouts
 
-  //loadouts.map(o => console.log("Operator Tray: ", o.operator))
-
   return (
     // Outer wrapper — the bottom border separates the tray from the operator card
     <div style={{ borderBottom: "0.5px solid var(--color-border-tertiary)" }}>

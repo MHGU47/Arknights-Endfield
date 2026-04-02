@@ -21,7 +21,7 @@ class Weapon{
       [name, new Stat(value.Attribute, value)])
     )
 
-    console.log(this.stats)
+    //console.log(this.stats)
   }
 }
 

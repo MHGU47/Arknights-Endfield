@@ -36,22 +36,38 @@ const SLOT_ACCENT = {
   weapon: "#0fc4c4",
   armour: "#9b72e8",
   gloves: "#e8a020",
-  kit:    "#60b8e0",
+  kit1:    "#60b8e0",
+  kit2:    "#60b8e0",
 };
 
 const DEFAULT_LABELS = ["Refinement", "Quality", "Bonus"];
 
 // ── EquipmentBox ──────────────────────────────────────────────────────────────
 
-export default function EquipmentBox({ name, type, image = null, labels = DEFAULT_LABELS, onValuesChange }) {
+export default function EquipmentBox({ name, type, index, loadout, onUpdateLoadout, onValuesChange }) {
   /**
    * selectedItem — the currently equipped item object, or null if empty.
    * Weapon slots auto-select the first weapon on mount via the useEffect below.
    */
-  const [selectedItem,  setSelectedItem]  = useState(null);
-  const [modalOpen,     setModalOpen]     = useState(false);
-  const [weaponLevel,   setWeaponLevel]   = useState(1);
-  const [imgHovered,    setImgHovered]    = useState(false);
+  const [modalOpen,       setModalOpen] = useState(false);
+  const [weaponLevel,   setWeaponLevel] = useState(1);
+  const [imgHovered,     setImgHovered] = useState(false);
+  const [selectedItem, setSelectedItem] = useState(() => {
+    if (loadout.gear[type]?.item && type != "weapon") {
+      if (type.includes("kit")) {
+        return type.includes("1")
+          ? loadout.gear.kit1.item
+          : loadout.gear.kit2.item;
+      }
+      return loadout.gear[type].item;
+    }
+
+    if (type === "weapon") {
+      return db.weapons.find((w) => w.type === loadout.operator.weapon);
+    }
+
+    return null;
+  });
 
   /**
    * Auto-select the first weapon when a weapon slot mounts.
@@ -59,25 +75,86 @@ export default function EquipmentBox({ name, type, image = null, labels = DEFAUL
    * Other slot types stay null until the user picks something.
    */
   useEffect(() => {
-    if (type === "weapon") {
-      const firstWeapon = EQUIPMENT_ITEMS.weapon?.[0];
-      if (firstWeapon) setSelectedItem(firstWeapon);
+    if(type === "weapon"){
+      if(!loadout.gear.weapon.item){
+        console.log("Updated EquipmentBox", selectedItem)
+        // setSelectedItem(() =>{
+        //   if (loadout.gear[type]?.item && type != "weapon") {
+        //     if (type.includes("kit")) {
+        //       return type.includes("1")
+        //         ? loadout.gear.kit1.item
+        //         : loadout.gear.kit2.item;
+        //     }
+
+        //     return loadout.gear[type].item;
+        //   }
+
+        //   if (type === "weapon") {
+        //     return db.weapons.find((w) => w.type === loadout.operator.weapon);
+        //   }
+
+        //   return null;
+        // })
+        handleSelect(db.weapons.find((w) => w.type === loadout.operator.weapon))
+      }
+      else{
+        handleSelect(loadout.gear.weapon.item)
+      }
     }
-  }, [type]);
+    else if(type.includes("kit")){
+      if(type.includes("1")) handleSelect(loadout.gear.kit1?.item ?? null)
+      else handleSelect(loadout.gear.kit2?.item ?? null)
+    }
+    else handleSelect(loadout.gear[type]?.item ?? null)
+
+  }, [index]);
+
+  // useEffect(() => {
+  //   if (loadout.gear[type]) {
+  //     setSelectedItem(loadout.gear[type].item)
+  //   }
+  // }, [type]);
+
+  // useEffect(() => {
+  //   console.log("Loadout updated:", loadout);
+  // }, [loadout]);
 
   function onSpinnerChange(stat, level){
-    console.log("Equipment Box: ", level)
-    console.log("Equipment Box: ", selectedItem.stats[stat])
     onValuesChange?.({ [stat]: level })
   }
 
-  function setLoadout(item){
-    setSelectedItem(item)
-    const selectedLoadout = db.loadouts.find(loadout => loadout.selected === true)
+  // 🔹 Handle item selection
+  function handleSelect(gear) {
+    setSelectedItem(gear);
+    const wpn = {
+      "Level" : 1,
+      "Stat 1" : 0,
+      "Stat 2" : 0,
+      "Passive" : 0
+    }
 
-    console.log(selectedLoadout)
-    //TODO: Create function that alters loadout for selected operator
+    const g = {
+      "Stat 1" : 0,
+      "Stat 2" : 0,
+      "Passive" : 0
+    }
+
+    const lvl = type === "weapon" ? wpn : g
+
+    onUpdateLoadout(index, prevLoadout => ({
+      ...prevLoadout,
+      gear: {
+        ...prevLoadout.gear,
+        [type]: {
+          item: gear,
+          levels: lvl
+        }
+      }
+    }));
   }
+
+
+
 
   // Derive the border colour from the selected item's rarity
   const selectedBorderColor = selectedItem
@@ -112,7 +189,7 @@ export default function EquipmentBox({ name, type, image = null, labels = DEFAUL
               ? "#0fc4c408"
               : undefined,
           }}
-          onClick={() => setModalOpen(true)}
+          onClick={() => {setModalOpen(true)}}
           onMouseEnter={() => setImgHovered(true)}
           onMouseLeave={() => setImgHovered(false)}
         >
@@ -178,8 +255,9 @@ export default function EquipmentBox({ name, type, image = null, labels = DEFAUL
           slotType={type}
           accentColor={SLOT_ACCENT[type] ?? "#0fc4c4"}
           selectedId={selectedItem?.id ?? null}
-          onSelect={(item) => setLoadout(item)}
+          onSelect={(item) => handleSelect(item)}
           onClose={() => setModalOpen(false)}
+          loadout={loadout}
         />
       )}
     </>

@@ -87,25 +87,20 @@ function SkillsSection({ skills }) {
 
 // ── OperatorCard ──────────────────────────────────────────────────────────────
 
-export default function OperatorCard({ operator, changeOperator, index}) {
+export default function OperatorCard({ operator, setNewOperator, index}) {
   const [opLevel, setOpLevel] = useState(1);
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedOp,  setSelectedOp]  = useState(null);
 
   
   useEffect(() => {
-      setSelectedOp(operator);
-      console.log(operator)
-      calc.update()
-    },[operator]);
+    setSelectedOp(operator);
+    calc.update()
+  },[operator]);
 
   function onLevelChange(level) {
     operator.level = level;
     operator.updateAttributes();
-  }
-
-  function onOperatorSelect(op){
-    changeOperator(op, index)
   }
 
   return (
@@ -187,7 +182,7 @@ export default function OperatorCard({ operator, changeOperator, index}) {
         <OperatorSelectModal
           opname={selectedOp.name}
           accentColor={"#0fc4c4"}
-          onSelect={(item) => onOperatorSelect(item)}
+          onSelect={(item) => setNewOperator(item, index)}
           onClose={() => setModalOpen(false)}
           />
       )}

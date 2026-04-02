@@ -30,12 +30,71 @@ import wpnData from "./Data/Stats/weapons.json"
 import { db } from "./systems/loader.js"
 
 export default function App() {
-  /**
-   * activeOperator — index into the Loadouts array from the database, imported from loader.js
-   * Starts at 0 (the first operator).
-   * Passed down to LeftPanel which distributes it further.
-   */
-  // const [activeOperator, setActiveOperator] = useState(db.loadouts[0].operator);
+
+  const [loadouts, setLoadouts] = useState(db.loadouts);
+  const [activeIndex, setActiveIndex] = useState(0)
+  const [activeLoadout, setActiveLoadout] = useState(loadouts[activeIndex])
+  const [activeOperator, setActiveOperator] = useState(activeLoadout.operator)
+
+  // useEffect(() => {
+  //   //console.log(activeOperator);
+  // },[activeLoadout]);
+
+  useEffect(() => {
+    console.log("FULL LOADOUTS:", loadouts);
+    console.log("ACTIVE INDEX:", activeIndex);
+    console.log("ACTIVE LOADOUT:", loadouts[activeIndex]);
+  },[loadouts]);
+
+  // ✅ Generic updater for a specific loadout
+  // Create function and assign it to a variable so it can be passed as a prompt
+  const updateLoadout = (index, updater) => {
+
+    // Call 'setLoadouts' (in this component)...
+    setLoadouts(prev =>
+
+      // and iterate over each loadout
+      prev.map((loadout, i) => {
+
+        // If the loadout matches the current index, use the updater function passed in
+        // to update the loadout. If not, just return the loadout
+        if (i === index) {
+          return updater(loadout);
+        }
+        return loadout;
+      })
+    );
+  };
+
+  const setNewOperator = (op) => {
+    setLoadouts(prev => {
+      const updated = prev.map((item, i) =>{
+        if(i === activeIndex){
+          setActiveOperator(op)
+          return { ...item, operator: op }
+        }
+        else 
+          return item
+        }
+      );
+
+      db.loadouts = updated;
+      return updated;
+    });
+  };
+
+  const changeOperator = (i) => {
+    setActiveIndex(i);
+    setActiveLoadout(loadouts[i])
+    setActiveOperator(loadouts[i].operator)
+
+    setLoadouts(prev =>
+      prev.map(loadout => ({
+        ...loadout,
+        selected: loadout.index === i
+      }))
+    );
+  };
 
   return (
     /**
@@ -57,7 +116,11 @@ export default function App() {
           Receives the active operator object and a setter to change it.
           flexShrink: 0 prevents it from squishing when the window is narrow. */}
       <LeftPanel
-        // activeOperator={activeOperator}
+        loadouts={activeLoadout}
+        activeIndex={activeIndex}
+        changeOperator={changeOperator}
+        activeOperator={activeOperator}
+        setNewOperator={setNewOperator}
         // onSelectOperator={setActiveOperator}
       />
 
@@ -67,7 +130,10 @@ export default function App() {
       <div style={{ flex: 1, display: "flex", flexDirection: "column", overflow: "hidden" }}>
 
         {/* Equipment slots + set effect bar */}
-        <TopBar />
+        <TopBar
+          activeLoadout={activeLoadout}
+          updateLoadout={updateLoadout}
+        />
 
         {/* Tabbed content area: DPS / Overview / Rotations */}
         <MainContent />

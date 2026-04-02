@@ -20,43 +20,21 @@ import OperatorTray from "./OperatorTray";
 import OperatorCard from "./OperatorCard";
 import { db } from "../systems/loader";
 
-export default function LeftPanel() {
+export default function LeftPanel({activeLoadouts, changeOperator, activeIndex, activeOperator, setNewOperator}) {
   // Keep loadouts in React state
-  const [loadouts, setLoadouts] = useState(db.loadouts);
+  // const [loadouts, setLoadouts] = useState(activeLoadouts);
 
-  const [activeIndex, setActiveIndex] = useState(0);
+  // //const [activeIndex, setActiveIndex] = useState(activeLoadout.index);
 
-  // Derive active operator from state (no separate state needed)
-  const activeOperator = loadouts[activeIndex].operator;
+  // //const [activeOperator, setActiveOperator] = useState(loadouts.operator)
 
-  useEffect(() => {
-    console.log(`Active Operator ${activeOperator.name}`);
-    loadouts[activeIndex].selected = true
-  }, []);
+  // // Derive active operator from state (no separate state needed)
 
-  // When user selects a different slot/operator
-  const changeOperator = (i) => {
-    setActiveIndex(i);
-    loadouts.forEach((loadout) => {
-      loadout.selected = loadout.index === i
-    })
-  };
+  // // useEffect(() => {
+  // //   setLoadout
+  // // }, [activeIndex]);
 
-  // Update operator for current index (IMMUTABLE)
-  const setNewOperator = (op) => {
-    setLoadouts((prev) => {
-      const updated = prev.map((item, i) =>
-        i === activeIndex
-          ? { ...item, operator: op }
-          : item
-      );
-
-      // Sync db AFTER creating new state
-      db.loadouts = updated;
-
-      return updated;
-    });
-  };
+  // // Update operator for current index (IMMUTABLE)
 
   return (
     <div
@@ -72,14 +50,14 @@ export default function LeftPanel() {
     >
       <OperatorTray
         activeOperator={activeOperator} // Pass in the currently selected operator to display stats
-        onSelect={changeOperator} // Pass in function for handling operator switching
+        onSelect={changeOperator} // Pass in function for handling operator/loadout switching
       />
 
       <div style={{ flex: 1, overflowY: "auto" }}>
         <OperatorCard
           operator={activeOperator} // Pass in the currently selected operator to display stats
           index={activeIndex} // Pass in the currently selected loadout index
-          changeOperator={setNewOperator} // Pass in function for handling operator changing
+          setNewOperator={setNewOperator} // Pass in function for handling operator changing
         />
       </div>
     </div>
