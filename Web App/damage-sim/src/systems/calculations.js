@@ -1,7 +1,7 @@
 class Calculations{
-  constructor(loadouts, gearsets = null){
+  constructor(gearsets = null){
     //this.enemy = e
-    this.loadouts = loadouts
+    //this.loadouts = loadouts
     this.gearsets = gearsets
     this.damage = 0
     this.atk = 0
@@ -21,30 +21,56 @@ class Calculations{
     this.atkPercent = 1
     this.atkFlat = 0
 
+    console.log(this.mainAttrBonus)
+
+  //   let attribute_names = [
+  //     "Main Attribute",
+  //     "Secondary Attribute",
+  //     "Agility",
+  //     "Strength",
+  //     "Will",
+  //     "Intellect",
+  //     "Critical Rate",
+  //     "Critical Damage",
+  //     "Attack",
+  //     "Physical DMG Bonus",
+  //     "Cryo Damage",
+  //     "Heat Damage",
+  //     "Electric Damage",
+  //     "Nature Damage",
+  //     "Basic Attack DMG Bonus",
+  //     "Combo Skill DMG Bonus",
+  //     "All Skill DMG Dealt Bonus",
+  //     "Battle Skill DMG Bonus",
+  //     "Ultimate DMG Bonus",
+  //     "Ultimate Gain Efficiency",
+  //     "Arts Intensity",
+  //     "DMG Bonus vs. Staggered",
+  // ]
     let attribute_names = [
-      "Main Attribute",
-      "Secondary Attribute",
-      "Agility",
-      "Strength",
-      "Will",
-      "Intellect",
-      "Critical Rate",
-      "Critical Damage",
-      "Attack",
-      "Physical DMG Bonus",
-      "Cryo Damage",
-      "Heat Damage",
-      "Electric Damage",
-      "Nature Damage",
-      "Basic Attack DMG Bonus",
-      "Combo Skill DMG Bonus",
-      "All Skill DMG Dealt Bonus",
-      "Battle Skill DMG Bonus",
-      "Ultimate DMG Bonus",
-      "Ultimate Gain Efficiency",
-      "Arts Intensity",
-      "DMG Bonus vs. Staggered",
-  ]
+        "Main Attribute",
+        "Secondary Attribute",
+        "Agility",
+        "Strength",
+        "Will",
+        "Intellect",
+        "Critical Rate",
+        "Critical Damage",
+        "Attack",
+        "Physical DMG",
+        "Cryo DMG",
+        "Heat DMG",
+        "Electric DMG",
+        "Nature DMG",
+        "Basic Attack DMG",
+        "Combo Skill DMG",
+        "All Skill DMG Dealt",
+        "Battle Skill DMG",
+        "Ultimate DMG Bonus",
+        "Ultimate Gain Efficiency",
+        "Arts Intensity",
+        "DMG Bonus vs. Staggered",
+    ]
     
     this.attributeMap = Object.fromEntries(
       attribute_names.map(attr =>
@@ -227,6 +253,7 @@ class Calculations{
     this.mainAttrBonus += trust// #TODO ADD IN TRUST OPTION
 
     this.mainAttrBonus *= (1 + this.attributeMap["Main Attribute"]["Percent"])
+    console.log("calc main stat", this.mainAttrBonus, op.name)
   }
 
 	#calculateSecondaryAttribute(op){
@@ -235,15 +262,30 @@ class Calculations{
 		this.secondaryAttrBonus *= (1 + this.attributeMap["Secondary Attribute"]["Percent"])
   }
 
-  update(){
+  update(loadouts){
     this.#reset()
 
-    this.loadouts.forEach(loadout => {
-      //console.log(loadout)
+    loadouts.forEach(loadout => {
+
       let allGear = loadout.gear
-      Object.entries(allGear).forEach(gear => {
+      Object.entries(allGear).forEach(([type, gear]) => {
+
         if(gear.item != null){
-          let levels = gear["levels"]
+          let levels = gear.levels
+          let stats = gear.item.stats
+          delete stats.Defense
+
+          Object.entries(stats).forEach(([attr, stat]) => {
+
+            if(stat.attribute in this.attributeMap) 
+              this.#filter(this.attributeMap[stat.attribute], stat.values[levels[attr]])
+            else{
+              if(stat.attribute in this.dualAttributes)
+                console.log(this.dualAttributes)
+            }
+          })
+
+          this.#calculateMainAttribute(loadout.operator)
         }
       })
     });
@@ -276,10 +318,26 @@ class Calculations{
 			// 			self._calculateAttack(loadout.operator)
 			// 			self.calculate(loadout, enemy)
   }
+
+  #filter(data, stat){
+			if (Number.isInteger(stat)) data["Flat"] += stat
+			else data["Percent"] += stat
+  }
+
   #reset(){
-    // for name, vals in self.attributeMap.items():
-    //   for n in vals.keys():
-    //     self.attributeMap[name][n] = 0
+    Object.values(this.attributeMap).map((vals) => Object.keys(vals).forEach(key => vals[key] = 0))
+    console.log("Reset", this.attributeMap)
+  }
+
+  test(onUpdateLoadout, index){
+    console.log("Selected Index", index)
+    onUpdateLoadout(index, prevLoadout => ({
+      ...prevLoadout,
+      calculations: {
+        ...prevLoadout.calculations,
+        "Main Stat Bonus": this.mainAttrBonus
+      }
+    }));
   }
 }
 

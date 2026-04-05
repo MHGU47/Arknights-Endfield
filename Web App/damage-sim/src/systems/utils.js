@@ -45,7 +45,14 @@ export function weaponStatParser(stats) {
           if(name.includes(":")) type = "Passive Attribute"
           else {
             type = `Stat ${i + 1}`
+
+            let temp_name = name.split('[')[0].trim().split(' ').slice(0,-1)
+            //const index = temp_name.findIndex((word) => word.toUpperCase() === "DMG")
+            //if(temp_name.includes("DMG")) temp_name.splice(index, 1, "Damage")
+            //console.log(temp_name)
+
             data["Attribute"] = capitalize(name.split('[')[0].trim())
+            data["Attribute"] = temp_name.join(" ")
           }
 
           data["Name"] = name

@@ -87,20 +87,22 @@ function SkillsSection({ skills }) {
 
 // ── OperatorCard ──────────────────────────────────────────────────────────────
 
-export default function OperatorCard({ operator, setNewOperator, index}) {
+export default function OperatorCard({ loadout, setNewOperator, index}) {
   const [opLevel, setOpLevel] = useState(1);
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedOp,  setSelectedOp]  = useState(null);
 
+  console.log(loadout)
+
   
   useEffect(() => {
-    setSelectedOp(operator);
-    calc.update()
-  },[operator]);
+    setSelectedOp(loadout.operator);
+    //calc.update()
+  },[loadout]);
 
   function onLevelChange(level) {
-    operator.level = level;
-    operator.updateAttributes();
+    loadout.operator.level = level;
+    loadout.operator.updateAttributes();
   }
 
   return (
@@ -119,9 +121,9 @@ export default function OperatorCard({ operator, setNewOperator, index}) {
 
           <div style={{ flex: 1, minWidth: 0 }}
               onClick={() => setModalOpen(true)}>
-            <p className={s.name}>{operator.name}</p>
+            <p className={s.name}>{loadout.operator.name}</p>
             <div className={s.stars}>
-              {Array.from({ length: operator.stars }).map((_, i) => (
+              {Array.from({ length: loadout.operator.stars }).map((_, i) => (
                 <span key={i} className={s.star}>◆</span>
               ))}
             </div>
@@ -142,15 +144,15 @@ export default function OperatorCard({ operator, setNewOperator, index}) {
         <div className={s.section}>
           <p className={s.sectionHead}>Attributes</p>
           <div className={s.attrGrid}>
-            {Object.entries(operator.attributes)
+            {Object.entries(loadout.operator.attributes)
               .filter(([key]) => !["HP", "Attack"].includes(key))
               .map(([key, val]) => (
                 <div key={key} className={s.attrBlock}>
                   {ATTR_ICONS[key]}
-                  <span className={s.attrLabel} style={{ color: key === operator.mainAttr ? GOLD : undefined }}>
+                  <span className={s.attrLabel} style={{ color: key === loadout.operator.mainAttr ? GOLD : undefined }}>
                     {key}
                   </span>
-                  <span className={s.attrValue} style={{ color: key === operator.mainAttr ? GOLD : undefined }}>
+                  <span className={s.attrValue} style={{ color: key === loadout.operator.mainAttr ? GOLD : undefined }}>
                     {val}
                   </span>
                 </div>
@@ -158,16 +160,16 @@ export default function OperatorCard({ operator, setNewOperator, index}) {
           </div>
           <div className={s.divider} />
           <div className={s.statRow}>
-            <span>❤ <span className={s.statValue}>{operator.hp}</span></span>
+            <span>❤ <span className={s.statValue}>{loadout.operator.hp}</span></span>
             <span style={{ color: "var(--color-border-secondary)" }}>|</span>
-            <span>⚔ <span className={s.statValue}>{operator.atk}</span></span>
+            <span>⚔ <span className={s.statValue}>{loadout.operator.atk}</span></span>
             <span style={{ color: "var(--color-border-secondary)" }}>|</span>
-            <span>🛡 <span className={s.statValue}>{operator.def}</span></span>
+            <span>🛡 <span className={s.statValue}>{loadout.operator.def}</span></span>
           </div>
         </div>
 
         {/* Skills — replaced static grid with SkillsSection + SkillLevelDropdown */}
-        <SkillsSection skills={operator.skills} />
+        <SkillsSection skills={loadout.operator.skills} />
 
         {/* <div className={s.techniques}>
           <div className={s.techniqueRow}>

@@ -9,7 +9,7 @@ class Loadout{
           "Level" : 1,
           "Stat 1" : 0,
           "Stat 2" : 0,
-          "Passive" : 0
+          "Passive Attribute" : 0
         }
       },
       body : {
@@ -44,6 +44,16 @@ class Loadout{
           "Stat 3" : 0
         }
       },
+    }
+
+    this.calculations = {
+      "Will" : 0,
+      "Intellect" : 0,
+      "Strength" : 0,
+      "Agiliy" : 0,
+      "Attack" : 0,
+      "Crit Rate" : 5, // 5% is the base rate
+      "Crit DMG" : 50, // 50% is the base value
     }
     this.selected = false
   }

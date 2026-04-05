@@ -22,7 +22,7 @@ class Operator{
   #parseAttributes(attributes){
     this.levels = Object.fromEntries(
       Object.entries(attributes["summary"]).map(([level, data]) =>
-      [level, data])
+      [level, this.#convertToInt(data)])
     )
     this.detailedLevels = Object.entries(attributes["detailed"]).map(([level, data]) =>
       {
@@ -33,6 +33,12 @@ class Operator{
       Object.entries(this.levels[this.level])
         .map(([key, value]) => [key, value])
     )
+  }
+
+  #convertToInt(data){
+    return Object.fromEntries(
+      Object.entries(data).map(([k, v]) => [k, parseInt(v)])
+    );
   }
 
   #parseSkills(skills){

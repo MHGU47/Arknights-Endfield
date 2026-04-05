@@ -18,4 +18,4 @@ export const db = {
   loadouts: Array.from({ length: 4 }, (_, i) => new Loadout(new Operator(operatorData[i]), i))
 }
 
-export const calc = new Calculations(db.loadouts)
+export const calc = new Calculations()

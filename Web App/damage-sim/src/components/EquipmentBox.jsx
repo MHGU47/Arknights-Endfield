@@ -40,6 +40,12 @@ const SLOT_ACCENT = {
   kit2:    "#60b8e0",
 };
 
+const GEAR_TYPES = [
+  "armor",
+  "gloves",
+  "kit"
+]
+
 const DEFAULT_LABELS = ["Refinement", "Quality", "Bonus"];
 
 // ── EquipmentBox ──────────────────────────────────────────────────────────────
@@ -48,6 +54,8 @@ export default function EquipmentBox({ name, type, index, loadout, onUpdateLoado
   /**
    * selectedItem — the currently equipped item object, or null if empty.
    * Weapon slots auto-select the first weapon on mount via the useEffect below.
+   * If there are already items in the loadout, load those instead of giving null
+   * empty items.
    */
   const [modalOpen,       setModalOpen] = useState(false);
   const [weaponLevel,   setWeaponLevel] = useState(1);
@@ -77,24 +85,6 @@ export default function EquipmentBox({ name, type, index, loadout, onUpdateLoado
   useEffect(() => {
     if(type === "weapon"){
       if(!loadout.gear.weapon.item){
-        console.log("Updated EquipmentBox", selectedItem)
-        // setSelectedItem(() =>{
-        //   if (loadout.gear[type]?.item && type != "weapon") {
-        //     if (type.includes("kit")) {
-        //       return type.includes("1")
-        //         ? loadout.gear.kit1.item
-        //         : loadout.gear.kit2.item;
-        //     }
-
-        //     return loadout.gear[type].item;
-        //   }
-
-        //   if (type === "weapon") {
-        //     return db.weapons.find((w) => w.type === loadout.operator.weapon);
-        //   }
-
-        //   return null;
-        // })
         handleSelect(db.weapons.find((w) => w.type === loadout.operator.weapon))
       }
       else{
@@ -109,17 +99,40 @@ export default function EquipmentBox({ name, type, index, loadout, onUpdateLoado
 
   }, [index]);
 
-  // useEffect(() => {
-  //   if (loadout.gear[type]) {
-  //     setSelectedItem(loadout.gear[type].item)
-  //   }
-  // }, [type]);
+  function updateWeaponLevel(level){
+    setWeaponLevel(level)
+    //onValuesChange?.({ Level: v })
 
-  // useEffect(() => {
-  //   console.log("Loadout updated:", loadout);
-  // }, [loadout]);
+    onUpdateLoadout(index, prevLoadout => ({
+      ...prevLoadout,
+      gear: {
+        ...prevLoadout.gear,
+        [type]: {
+          item: selectedItem,
+          levels: {
+            ...prevLoadout.gear[type].levels,
+            Level: level
+          }
+        }
+      }
+    }));
+  }
 
   function onSpinnerChange(stat, level){
+    stat = stat === "Stat 3" ? "Passive" : stat
+    onUpdateLoadout(index, prevLoadout => ({
+      ...prevLoadout,
+      gear: {
+        ...prevLoadout.gear,
+        [type]: {
+          item: selectedItem,
+          levels: {
+            ...prevLoadout.gear[type].levels,
+            [stat]: level
+          }
+        }
+      }
+    }));
     onValuesChange?.({ [stat]: level })
   }
 
@@ -130,13 +143,13 @@ export default function EquipmentBox({ name, type, index, loadout, onUpdateLoado
       "Level" : 1,
       "Stat 1" : 0,
       "Stat 2" : 0,
-      "Passive" : 0
+      "Passive Attribute" : 0
     }
 
     const g = {
       "Stat 1" : 0,
       "Stat 2" : 0,
-      "Passive" : 0
+      "Stat 3" : 0
     }
 
     const lvl = type === "weapon" ? wpn : g
@@ -226,22 +239,28 @@ export default function EquipmentBox({ name, type, index, loadout, onUpdateLoado
 
         {/* Three standard spinners */}
         {selectedItem?.stats && (
-          Object.entries(selectedItem.stats).filter(([v, o]) => v != "Defense").map(([label, values]) => (
-            <Spinner
-              key={label}
-              label={label}
-              values={values.values}
-              max={3}
-              onChange={(v) => onSpinnerChange(label, v)}
-            />
-          ))
+          Object.entries(selectedItem.stats)
+            .filter(([label]) =>
+              type === "weapon" ? true : label !== "Defense"
+            )
+            .map(([label, stat], i) => (
+              <Spinner
+                key={label}
+                //label={type === "weapon" ? stat.attribute : label}
+                label={stat.attribute}
+                values={stat.values}
+                max={stat.values.length}
+                // onChange={(v) => onSpinnerChange(type === "weapon" ? stat.attribute : label, v)}
+                onChange={(v) => onSpinnerChange(`Stat ${i + 1}`, v)}
+              />
+            ))
         )}
 
         {/* Weapon-only level dropdown */}
         {type === "weapon" && (
           <LevelDropdown
             value={weaponLevel}
-            onChange={(v) => { setWeaponLevel(v); onValuesChange?.({ Level: v }); }}
+            onChange={(v) => updateWeaponLevel(v)}
           />
         )}
       </div>

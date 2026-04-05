@@ -9,11 +9,12 @@ class Gear{
 
 
     this.stats = Object.fromEntries(
-      Object.entries(Object.assign({}, ...gearData.stats)).map(([key, value]) => [
-        key,
-        new Stat(key, value)
-      ])
-    );
+      Object.entries(Object.assign({}, ...gearData.stats)).map(([key, value], i) => {
+        
+        if(key.includes("Defense")) return [key, new Stat(key, value)]
+        else return [`Stat ${i}`, new Stat(key, value)]
+      }
+    ));
   }
 
   #parseStats(data){

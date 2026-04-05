@@ -19,7 +19,7 @@
  *   └────────────────────────────────────────────────────┘
  */
 
-import { useEffect, useState } from "react"
+import { act, useEffect, useState } from "react"
 import LeftPanel from "./components/LeftPanel";
 import TopBar from "./components/TopBar";
 import MainContent from "./components/MainContent/MainContent";
@@ -27,7 +27,7 @@ import Operator from "./systems/operator.js"
 import opData from "./Data/Stats/warfarin_operators.json"
 import wpnData from "./Data/Stats/weapons.json"
 
-import { db } from "./systems/loader.js"
+import { db, calc } from "./systems/loader.js"
 
 export default function App() {
 
@@ -36,17 +36,13 @@ export default function App() {
   const [activeLoadout, setActiveLoadout] = useState(loadouts[activeIndex])
   const [activeOperator, setActiveOperator] = useState(activeLoadout.operator)
 
-  // useEffect(() => {
-  //   //console.log(activeOperator);
-  // },[activeLoadout]);
+  console.log(activeLoadout)
 
   // useEffect(() => {
-  //   console.log("FULL LOADOUTS:", loadouts);
-  //   console.log("ACTIVE INDEX:", activeIndex);
-  //   console.log("ACTIVE LOADOUT:", loadouts[activeIndex]);
-  // },[loadouts]);
+  //   calc.update(loadouts)
+  //   calc.test(updateLoadout, activeIndex)
+  // }, [activeIndex])
 
-  // ✅ Generic updater for a specific loadout
   // Create function and assign it to a variable so it can be passed as a prompt
   const updateLoadout = (index, updater) => {
 
@@ -59,7 +55,9 @@ export default function App() {
         // If the loadout matches the current index, use the updater function passed in
         // to update the loadout. If not, just return the loadout
         if (i === index) {
-          return updater(loadout);
+          const l = updater(loadout);
+          setActiveLoadout(l)
+          return l
         }
         return loadout;
       })
@@ -84,6 +82,10 @@ export default function App() {
   };
 
   const changeOperator = (i) => {
+    
+    calc.update(loadouts)
+    calc.test(updateLoadout, activeIndex)
+
     setActiveIndex(i);
     setActiveLoadout(loadouts[i])
     setActiveOperator(loadouts[i].operator)
@@ -116,11 +118,12 @@ export default function App() {
           Receives the active operator object and a setter to change it.
           flexShrink: 0 prevents it from squishing when the window is narrow. */}
       <LeftPanel
-        loadouts={activeLoadout}
+        activeLoadout={activeLoadout}
         activeIndex={activeIndex}
         changeOperator={changeOperator}
         activeOperator={activeOperator}
         setNewOperator={setNewOperator}
+        
         // onSelectOperator={setActiveOperator}
       />
 

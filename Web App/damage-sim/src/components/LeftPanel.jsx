@@ -20,7 +20,7 @@ import OperatorTray from "./OperatorTray";
 import OperatorCard from "./OperatorCard";
 import { db } from "../systems/loader";
 
-export default function LeftPanel({activeLoadouts, changeOperator, activeIndex, activeOperator, setNewOperator}) {
+export default function LeftPanel({activeLoadout, changeOperator, activeIndex, activeOperator, setNewOperator}) {
   // Keep loadouts in React state
   // const [loadouts, setLoadouts] = useState(activeLoadouts);
 
@@ -55,7 +55,7 @@ export default function LeftPanel({activeLoadouts, changeOperator, activeIndex, 
 
       <div style={{ flex: 1, overflowY: "auto" }}>
         <OperatorCard
-          operator={activeOperator} // Pass in the currently selected operator to display stats
+          loadout={activeLoadout} // Pass in the currently selected loadout to display stats
           index={activeIndex} // Pass in the currently selected loadout index
           setNewOperator={setNewOperator} // Pass in function for handling operator changing
         />

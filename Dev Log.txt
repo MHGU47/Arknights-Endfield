@@ -138,7 +138,7 @@ will proc a third stack, which the basic attack will not have benefitted from).
 
 01/04/26
 -Selecting gear using the 'EquipmentBox' components changes the loadout of the selected operator. It doesn't,
-however, reflect on to the UI.
+ however, reflect on to the UI.
 
 02/04/26
 -Rewrote how App, TopBar, EquipmentBox, ItemSelectModal, LeftPanel, OperatorTray and OperatorCard function;
@@ -148,8 +148,24 @@ however, reflect on to the UI.
 -Following the previous change, updating the operators gear and having it reflect in the UI is now possible.
  However, there is a slight issue with weapons as they don't show images or properly reflect stats.
 -Images for weapons have been fixed
+-Fixed spinners for weapons; these spinners didn't rerender when a weapon was selected, despite the value being
+ in the component. This has been fixed by forcing a setter to be used whenever the label is changed. This error
+ only affected weapons and the cause for this is not known.
+-Added 'updateWeaponLevel()' to 'EquipmentBox.jsx'; this is to update the loadout so it reflects the changes to
+ the weapons level. 'onSpinnerChange()' has also been updated to follow a similar pattern, updating the stats
+ of weapons/gear based on the what the spinner has been changed to.
 
-NEXT (WEBAPP) -> Make level dropdown change to operator level
+03/04/26
+-Started implementing 'update' from Python codebase into Webapp; functions in the same fashion
+
+05/04/26
+-Further implementation of calculations has led to each loadout holding the calculated stats of each operator.
+ This is so the method of triggering a rerender whenever a loadout is altered can also be used to update the
+ displayed stats of the operators. It also keeps the calculated stats linked to each operator, which is easily
+ to manage whilst allowing the rerendering to work in an easy way.
+
+NEXT (WEBAPP) -> Add update function to EquipmentBox so that it updates the levels for spinners for gear. use
+                 the already existing one for handling item selection as a blueprint
 
 
 NEXT -> Sort out weapon passive attributes
